@@ -40,7 +40,7 @@ Untuk mempermudah menggunakan R, kamu bisa menggunakan antarmuka (*interface*) R
   *	Jika sudah selesai, klik RStudio *shortcut* yang muncul di start menu atau desktop sesuai pilihan instalasi yang kamu buat sebelumnya.
 
 # Memasukkan data ke dalam R
-Sebelum melakukan regresi, tentu saja data harus diinputkan dulu agar bisa dibaca oleh R. Jika datanya sedikit, kamu bisa mengetikkan langsung ke dalam R (seperti contoh ini). Tetapi jika datanya sangat banyak (biasanya begitu), data bisa diketik dulu ke Excel atau Notepad kemudian diimpor ke R (lain kali kita akan coba).
+Sebelum melakukan regresi, tentu saja data harus diinputkan dulu agar bisa dibaca oleh R. Jika datanya sedikit, kamu bisa mengetikkan langsung ke dalam R (seperti contoh ini). Tetapi jika datanya sangat banyak (biasanya kan begitu), mengetik langsung tidak praktis dan rawan error. Jadi data bisa diketik dulu ke Excel atau Notepad kemudian diimpor ke R (lain kali kita akan coba).
 
 Untuk ilustrasi analisis regresi kali ini, kita akan melihat hubungan antara tingkat kekerasan kayu *(hardness)* dengan tingkat kerapatannya *(density)*. Kekerasan kayu biasanya diukur dengan uji [*Janka*](https://en.m.wikipedia.org/wiki/Janka_hardness_test). Mudahnya gini, lebih gampang mana memaku kayu jati *(Tectona grandis)* dengan kayu kapuk *(Ceiba pentandra)*? Berarti kayu jati kekerasannya lebih tinggi dari kayu kapuk.
 
@@ -48,19 +48,19 @@ Untuk ilustrasi analisis regresi kali ini, kita akan melihat hubungan antara tin
 
 Sedangkan untuk kerapatannya, dapat diukur dengan membagi bobot kayu dengan volumenya. Dengan volume sama-sama 1 meter kubik, kira-kira kayu apa yang lebih berat: kayu kapuk atau kayu jati?
   
-Nah, anggaplah kita telah mengukur tingkat kekerasan dan kerapatan 10 jenis kayu dan kita ingin mengetahui hubungan antara keduanya. Kita dapat memasukkan data ini langsung ke R (karena jumlah data cuma sedikit).
+Nah, anggaplah kita telah mengukur tingkat kekerasan dan kerapatan 10 jenis kayu dan kita ingin mengetahui hubungan antara keduanya (data dibawah). Kita dapat memasukkan data ini langsung ke R (karena jumlah data cuma sedikit).
 
 kekerasan: 414,519,541,973,914,1100,1180,1400,1980,2310
 
 kerapatan: 27,28,28,35,39,40,46,45,56,59 
 
-Software R bekerja atas dasar obyek (*object base*). Jadi kita akan buat obyek-obyek yang mewakili variabel-variabel yang akan kita pakai: tingkat kekerasan kita beri nama kekerasan dan tingkat kerapatan kita beri nama kerapatan. Pemberian nama-nama obyek ini terserah kita, bisa menggunakan gabungan huruf besar/kecil dan angka.Yang penting konsisten saat memanggil obyek itu. Misal untuk kekerasan, kita bisa beri nama Kekerasan, keras, keRas atau krasan. Jika suatu obyek sudah kita beri nama kekerasan, kemudian kita panggil dengan perintah Kekerasan, maka akan muncul pesan error. Selain itu ^, *, +, -, $, #, !, ?, >,<, (), [] tidak boleh digunakan karena karakter ini merupakan operator.
+Software R bekerja atas dasar obyek (*object base*). Jadi kita akan buat obyek-obyek yang mewakili variabel-variabel yang akan kita pakai: tingkat kekerasan kita beri nama kekerasan dan tingkat kerapatan kita beri nama kerapatan. Pemberian nama-nama obyek ini terserah kita, bisa menggunakan gabungan huruf besar/kecil dan angka.Yang penting konsisten saat memanggil obyek itu. Misal untuk kekerasan, kita bisa beri nama Kekerasan, keras, keRas atau krasan. Jika suatu obyek sudah kita beri nama kekerasan, kemudian kita panggil dengan perintah Kekerasan, maka akan muncul pesan error. Selain itu ^, *, +, -, $, #, !, ?, >,<, (), [] tidak boleh digunakan karena karakter ini merupakan tanda operator.
 
 ```{r}
 kekerasan <- c(414,519,541,973,914,1100,1180,1400,1980,2310)
 ```
 
-Untuk memasukkan data kita ketikkan nama obyeknya dulu, diikuti oleh simbol <- (di Rstudio ketikkan alt+ tanda minus).  Kemudian huruf c diikuti oleh tanda kurung/*round bracket*(), bukan kurung siku/*square bracket* [] atau kurung kurawal/keriting/*curly bracket*{}. Huruf c (cantumkan/*concatenate*) digunakan untuk mencantelkan data kedalam obyek yang kita beri nama kekerasan. Pada saat kamu selesai mengetikkan data, *nothing happens* pada layar tetapi data sudah tersimpan. Untuk memunculkan obyek bernama kekerasan tadi, kita panggil obyek itu dengan mengetiknya.
+Untuk memasukkan data kita ketikkan nama obyeknya dulu, diikuti oleh simbol <- (di Rstudio ketikkan alt+ tanda minus).  Kemudian huruf c diikuti oleh tanda kurung/*round bracket* (), bukan kurung siku/*square bracket* [] atau kurung kurawal/keriting/*curly bracket* {}. Huruf c (cantumkan/*concatenate*) digunakan untuk mencantelkan data kedalam obyek yang kita beri nama kekerasan. Pada saat kamu selesai mengetikkan data, *nothing happens* pada layar tetapi data sudah tersimpan. Untuk memunculkan obyek bernama kekerasan tadi, kita panggil obyek itu dengan mengetiknya.
 
 ```{r}
 kekerasan #untuk menampilkan data yang telah kamu input
@@ -77,13 +77,13 @@ kerapatan <- c(27,28,28,35,39,40,46,45,56,59)
 kerapatan # perintah untuk menampilkan data yang telah diketik
 length(kerapatan) # perintah untuk mengetahui jumlah data yang dimasukkan
 ```
-OK gaes, data sudah masuk, jumlahnya sudah betul. Tapi masih berbentuk vektor. Data-data ini harus digabungkan menjadi menjadi suatu data frame dan kita beri nama data.kayu (nama ini terserah). Perintahnya data.frame(vektor-vektor yang akan digabung). Yok kita coba!
+OK gaes, data sudah masuk, jumlahnya sudah betul. Tapi masih berbentuk vektor. Data-data ini harus digabungkan menjadi data frame dan kita beri nama data.kayu (pemilihan nama ini terserah selera). Perintahnya data.frame(vektor-vektor yang akan digabung). Yok kita coba!
 
 ```{r}
 data.kayu <- data.frame(kekerasan,kerapatan) #menggabungkan data kekerasan dan kerapatan
 data.kayu #untuk menampilkan data gabungan
 ```
-Waktunya regresi
+#Waktunya regresi
 
 ```{r}
 model.kayu <- lm(kekerasan~kerapatan) #fungsi lm(linear model) sbg perintah regresi. 
