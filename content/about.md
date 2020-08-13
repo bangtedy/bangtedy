@@ -3,4 +3,6 @@ date: "2016-05-05T21:48:51-07:00"
 title: About
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+Blog ini berisi tentang-tetapi tidak terbatas pada-pembelajaran satu software analisis statistik mumpuni R bagi para mahasiswa di [Universitas Panca Marga](https://upm.ac.id). Tulisan menggunakan Bahasa Indonesia atau Bahasa Inggris.
+
+This blog is about-but not limited to-learning one powerful statistical analysis software R for students at [Universitas Panca Marga](https://upm.ac.id). Posts are in Indonesian language or English.
