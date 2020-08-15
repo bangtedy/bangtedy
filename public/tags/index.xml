@@ -6,10 +6,37 @@
     <description>Recent content in Tags on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deskriptif</title>
+      <link>/tags/deskriptif/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deskriptif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normal</title>
+      <link>/tags/normal/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/normal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tomat</title>
+      <link>/tags/tomat/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tomat/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>regresi</title>

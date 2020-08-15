@@ -1,0 +1,87 @@
+---
+title: Normal di Era New Normal
+author: Tedy Herlambang
+date: '2020-08-15'
+slug: normal-di-era-new-normal
+categories:
+  - R
+tags:
+  - Normal
+  - Deskriptif
+  - Tomat
+---
+
+
+
+<p><em>They are like a garden on a hill: heavy rain falls and it produces double its <em>normal</em> yield; Al-Baqarah 2:265</em></p>
+<p>Cuaca yang bersahabat dapat meningkatkan produksi kebun. Sebaliknya cuaca yang tidak mendukung seperti kekeringan dapat menurunkan hasil kebun. Fluktuasi produksi merupakan hal yang normal terutama di pertanian. Pada kondisi yang ekstrim, penurunan dan kenaikan produksi juga bisa ekstrim, jauh dari tingkat “normalnya”.</p>
+<p>Di dalam banyak hal, nilai suatu pengukuran (produksi, konsumsi, tinggi badan, tingkat kepuasan,kecerdasan dll) sebagian besar berkumpul pada angka tertentu, kemudian proporsinya semakin mengecil ketika nilai-nilai itu semakin jauh dari nilai pemusatannya (<em>central value</em>). Jika digambarkan kita akan mendapatkan suatu kurva berbentuk genta (<em>bell-shape curve</em>), dimana proporsi data simetris berada di kanan dan kiri nilai tengah. Bentuk ini disebut dengan distribusi normal.</p>
+<p>Sebagai ilustrasi kita akan menggunakan data produktivitas tanaman tomat di berbagai negara yang bisa diunduh di <a href="ourworldindata.org">ourworldindata</a>. Secara teoritis, produktivitas tomat dipengaruhi oleh banyak faktor: mutu bibit, manajemen budidaya, air, hama penyakit, kondisi cuaca dll yang semuanya mempengaruhi efesiensi fotosintesis tanaman tomat. Hal-hal yang dapat meningkatkan efisiensi fotosintesis, akan dapat meningkatkan produktivitas tanaman seperti yang dilakukan oleh para peneliti dari <em>University of Sussex</em> dalam artikel <a href="http://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=18262">ini</a>.</p>
+<p><img src="C:/Users/Anna/Documents/tomat_ranti.png" alt="Tomat Ranti" />
+Data yang sudah diunduh, misalkan kita taruh di desktop dan kita beri nama tomat.dun.csv. Data ini selanjutnya kita masukkan ke dalam R dan kita beri nama tomat.dunia (tobat maksiat dunia).</p>
+<pre class="r"><code>tomat.dunia &lt;- read.csv (&quot;C:\\Users\\Anna\\Desktop\\tomat.dun.csv&quot;) # gunakan garis geblak ganda atau garing tunggal /.</code></pre>
+<pre class="r"><code>str(tomat.dunia) #untuk melihat struktur data pada file tomat.dunia</code></pre>
+<pre><code>## &#39;data.frame&#39;:    10609 obs. of  4 variables:
+##  $ Entity: chr  &quot;Africa&quot; &quot;Africa&quot; &quot;Africa&quot; &quot;Africa&quot; ...
+##  $ Code  : chr  &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; ...
+##  $ Year  : int  1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 ...
+##  $ Yield : num  12.3 13 12.9 13.2 13.5 ...</code></pre>
+<p>Selanjutnya kita akan mengekstrak data produktivitas tomat di beberapa negara secara acak. Untuk negara di belahan selatan kita ambil Argentina dan Australia. Sedangkan untuk negara di belahan utara kita ambil Jerman dan Perancis. R menyediakan paket (package) untuk memudahkan melakukan ini. Jadi kita instal dulu paket dplyr dengan perintah install.packages (“dplyr”).</p>
+<p>install.packages(“dplyr”) #jangan lupa tanda petik ganda</p>
+<p>Kita tunggu beberapa saat sampai instal selesai, kemudian kita panggil paket tersebut dengan perintah</p>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<p>Berikut adalah perintah-perintah untuk mengekstrak data produktivitas tomat di empat negara:</p>
+<pre class="r"><code>tomat.arg &lt;- filter(tomat.dunia, Entity==&quot;Argentina&quot;) %&gt;% select (Yield) %&gt;% unlist #untuk memilih data produktivitas tomat di Argentina</code></pre>
+<pre class="r"><code>tomat.aus &lt;- filter(tomat.dunia, Entity==&quot;Australia&quot;) %&gt;% select (Yield) %&gt;% unlist #untuk memilih data produktivitas tomat di Australia
+
+tomat.jer&lt;- filter(tomat.dunia, Entity==&quot;Germany&quot;) %&gt;% select (Yield) %&gt;% unlist #untuk memilih data produktivitas tomat di Jerman
+
+tomat.prc &lt;- filter(tomat.dunia, Entity==&quot;France&quot;) %&gt;% select (Yield) %&gt;% unlist #untuk memilih data produktivitas tomat di Perancis</code></pre>
+<p>Tanda %&gt;% adalah <em>pipe</em> untuk mengalirkan hasil dari perintah sebelumnya ke perintah selanjutnya. Data tomat.dunia kita filter dengan kriteria <em>Entity</em> (nama negara), kemudian hasilnya kita alirkan ke perintah selanjutnya yaitu memilih variabel <em>Yield</em> (produktivitas), kemudian hasilnya kita <em>unlist</em>.</p>
+<p>Selanjutnya kita explorasi produktivitas tomat di negara-negara tersebut:</p>
+<pre class="r"><code>summary (tomat.arg)</code></pre>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   13.88   18.33   23.79   26.96   38.41   39.85</code></pre>
+<pre class="r"><code>sd(tomat.arg) #untuk mengetahui standar deviasi</code></pre>
+<pre><code>## [1] 9.467531</code></pre>
+<pre class="r"><code>summary (tomat.aus)</code></pre>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   18.75   22.70   33.68   37.98   50.04   80.65</code></pre>
+<pre class="r"><code>sd(tomat.aus) </code></pre>
+<pre><code>## [1] 17.13879</code></pre>
+<pre class="r"><code>summary (tomat.jer)</code></pre>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   23.60   30.45   40.36  100.59  172.77  259.76</code></pre>
+<pre class="r"><code>sd(tomat.jer) </code></pre>
+<pre><code>## [1] 83.1932</code></pre>
+<pre class="r"><code>summary (tomat.prc)</code></pre>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   20.05   35.20   64.59   78.21  118.37  188.84</code></pre>
+<pre class="r"><code>sd(tomat.prc)</code></pre>
+<pre><code>## [1] 47.8893</code></pre>
+<p>Sekarang kita bandingkan produktivitas tomat Argentina dengan Australia. Data menunjukkan bahwa rata-rata produktivitas tomat di Australia (37.98 ton/ha) lebih tinggi daripada Argentina (26.96 ton/ha) tetapi keragaman (sd) di Australia lebih tinggi. Data ini bisa jadi menunjukkan bahwa produktivitas tomat di Australia lebih fluktuatif daripada Argentina. Mungkin hal ini disebabkan oleh faktor iklim gurun di Australia yang tidak dapat diprediksi seperti kekeringan, kebakaran hutan (ini hanya asumsi, kebenarannya harus dicek dilapangan).</p>
+<p>Nah sekarang apa yang dapat kita lihat produktivitas tomat di negara Jerman dan Perancis, apa yang bisa kita simpulkan? Secara umum dapat dikatakan bahwa produktivitas tomat di negara Jerman dan Perancis jauh lebih tinggi dari produktivitas di negara Argentina dan Australia. Bagaimana dengan keragamannya? Apa yang bisa kita simpulkan?</p>
+<p>Hmm, bagaimana dengan produktivitas tomat di Indonesia. Dengan perintah yang sama:</p>
+<pre class="r"><code>tomat.idn &lt;- filter(tomat.dunia, Entity==&quot;Indonesia&quot;) %&gt;% select (Yield) %&gt;% unlist #untuk memilih data produktivitas tomat di Indonesia
+summary(tomat.idn)</code></pre>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   1.412   3.198   5.139   7.702  12.290  18.139</code></pre>
+<pre class="r"><code>sd(tomat.idn)</code></pre>
+<pre><code>## [1] 5.378243</code></pre>
+<p>Jika asumsikan bahwa data produktivitas tomat di Indonesia terdistribusi secara normal, kita bisa buat kurva normalnya dengan perintah</p>
+<pre class="r"><code>curve (dnorm (x, 7.702, 5.378), from = 0.5, to = 18) #darimana angka 7.702 dan 5.378?</code></pre>
+<p><img src="/post/2020-08-15-normal-di-era-new-normal_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+Di statistik kita mengenal aturan 68-95-97.5, yang menunjukkan bahwa untuk data yang terdistribusi normal, peluang suatu data akan berada pada 1, 2 dan 3 kali standar deviasi dari nilai tengahnya adalah sebesar 68, 95 dan 99,7 %. Jadi kita menanam tomat di Indonesia, peluang bahwa produktivitas tomat yang kita tanam berada antara 2.3 (7.7-5.4) - 13 (7.7+5.4) ton/ha adalah sebesar 68%.</p>
+<p>Sekarang berapa peluang produktivitas tomat yang kita dapat akan sebesar 6-16 ton/ha?</p>
+<pre class="r"><code>pnorm (16, 7.702, 5.378243)-pnorm (6, 7.702, 5.378243)</code></pre>
+<pre><code>## [1] 0.5627438</code></pre>
+<p>Jadi peluang mendapatkan produktivitas antara 6-16 ton/ha jika menanam tomat di Indonesia adalah sebesar 56%. Semakin sempit selangnya, misal 10-16 ton/ha, peluang akan semakin kecil, mengapa? Tentu saja ini hanya diatas kertas lho ya! Banyak faktor kondisi lokal yang ikut menentukan hasil tomat. Menanam tomat di Sukapura Bromo akan berbeda dengan menanamnya di Paiton yang pesisir.</p>
+<p>Pertanyaan yang lebih menarik sebenarnya adalah mengapa produktivitas tomat di Indonesia jauh lebih rendah dibandingkan dengan negara-negara lain di atas? Ini menjadi tugas mahasiswa <a href="https://fp.upm.ac.id">Fakultas Pertanian UPM</a> untuk menjawab dan meningkatkan produktivitas tomat di Indonesia. Ayo riset riset riset! RRR!</p>
