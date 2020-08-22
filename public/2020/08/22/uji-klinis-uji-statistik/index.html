@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.74.3" />
+
+
+<title>Uji Klinis Uji Statistik - A Hugo website</title>
+<meta property="og:title" content="Uji Klinis Uji Statistik - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/tedy_pp.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/t_hlb">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Uji Klinis Uji Statistik</h1>
+
+    
+    <span class="article-date">2020-08-22</span>
+    
+
+    <div class="article-content">
+      <p>Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?</p>
+<p>Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui prosedur dan etika yang ditetapkan oleh WHO, bisa dibaca <a href="https://www.who.int/health-topics/clinical-trials/#tab=tab_1">disini</a>. Suatu senyawa bagaimanapun menjanjikannya untuk menyembuhkan suatu penyakit, harus melalui serangkaian pengujian (pada hewan terlebih dahulu) di laboratorium sebelum diuji coba pada manusia. Tujuan dari uji coba di laboratorium ini adalah untuk menentukan apakah suatu senyawa cukup aman untuk dipakai pada manusia. Biasanya yang dilihat adalah toksisitas dari senyawa itu dan menemukan dosis yang pas untuk pengujian selanjutnya pada manusia.</p>
+<p>Setelah senyawa itu lolos dalam uji laboratorium, obat siap memasuki tahap uji klinis di dunia nyata diluar laboratorium (berarti laboratorium bukan dunia nyata?). Senyawa yang tidak lolos pada uji laboratorium tidak boleh diujicobakan pada manusia. Hal ini karena walaupun telah melewati uji laboratorium intensif, seringkali obat baru tersebut belum jelas apakah manfaatnya nanti akan lebih besar dari mudaratnya. Oleh karena itu desain percobaan yang tepat diperlukan untuk bisa menjawabnya.</p>
+<p>Prinsip utama dari desain percobaan untuk suatu senyawa (untuk kesehatan, pertanian, olah raga, dll) adalah perbandingan. Calon obat baru (misalnya pil untuk Covid-19) diberikan kepada partisipan di dalam kelompok perlakuan (<em>treatment group</em>). Secara paralel, ada partisipan di kelompok lain yang diberikan pil kosong/plasebo digunakan sebagai kontrol. Respon kedua kelompok itu dibandingkan dengan berbagai uji statistik untuk melihat apakah terdapat perbedaan. Hasil percobaan harus diuji statistik adalah karena data yang digunakan dari sampel bukan populasi.</p>
+<p>Partisipan pada kedua kelompok tersebut harus dipilih secara acak dengan diundi atau cara lain. Tujuan utamanya adalah menghindari <em>selection bias</em> di dalam memasukkan partisipan kedalam kelompok perlakuan atau kontrol. Harus dihindari sejauh mungkin menggunakan <em>human judgement</em> misalnya karena faktor suka-tidak suka, pertemanan sesama kolektor ubur-ubur, apalagi faktor KKN. Pengalaman menunjukkan bahwa penggunaan <em>human judgement</em> ini untuk membagi partisipan ke dalam kelompok-kelompok hasilnya akan bias.</p>
+<p>Percobaan dilakukan secara <em>double-blind</em>. Artinya baik partisipan maupun peneliti yang mengevaluasi respon partisipan sama-sama tidak tahu siapa saja yang ada didalam kelompok perlakuan dan kelompok kontrol.</p>
+<p>Karakteristik dari dua kelompok perlakuan dan kontrol harus semirip mungkin: usia, jenis kelamin, latar belakang sosial ekonomi, budaya dll. Ini untuk memastikan hasil yang didapat (jika memang terdapat perbedaan yang signifikan) adalah murni karena perlakuan yang diterima bukan karena faktor lain. Jika kedua kelompok karakteristiknya berbeda, respon perlakuan obat akan tercampur (<em>confounded</em>) dengan perbedaan karakteristik partisipan. Di dalam desain penelitian ini disebut <em>confounding factor</em> yang benar-benar dicermati oleh peneliti karena dapat menjadikan hasil penelitian bias.</p>
+<p>Tentang plasebo: semua partisipan di kedua kelompok diberi pil. Tetapi baik partisipan atau pengevaluasi, sama-sama tidak tahu apakah pil yang diberikan mengandung senyawa atau hanya pil kosong (<em>double-blind</em>). Dengan demikian respon yang diamati adalah karena kandungan pil yang dikonsumsi bukan karena perasaan tenang karena telah mengkonsumsi pil. Untuk kondisi tertentu, dokter kadang memberikan pil kosong (kandungan netral) pada pasien. Hasilnya pasien merasa lebih baik. Atau pernahkah Anda sakit, begitu Anda berinisiatif atau ketika sudah tiba diruang praktek dokter, kita sudah merasa lebih baik padahal belum diperiksa?</p>
+<p>Desain uji acak terkendali atau <em>randomized controlled trial (RCT) double-blind design</em> dapat memberikan dasar yang sahih bagi peneliti untuk melakukan perbandingan dan akan mengurangi bias penelitian. Semangka harus dibandingkan dengan semangka bukan dengan melon. Bias tidak mungkin dihilangkan sama sekali, tetapi bisa diminimalisir. Salah satu alasan mengapa desain RCT ini harus diterapkan jika memungkinkan di dalam suatu penelitian.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
