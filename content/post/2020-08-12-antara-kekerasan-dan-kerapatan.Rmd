@@ -83,7 +83,7 @@ OK gaes, data sudah masuk, jumlahnya sudah betul. Tapi masih berbentuk vektor. D
 data.kayu <- data.frame(kekerasan,kerapatan) #menggabungkan data kekerasan dan kerapatan
 data.kayu #untuk menampilkan data gabungan
 ```
-#Waktunya regresi
+# Waktunya regresi
 
 ```{r}
 model.kayu <- lm(kekerasan~kerapatan) #fungsi lm(linear model) sbg perintah regresi. 
