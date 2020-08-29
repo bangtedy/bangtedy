@@ -6,47 +6,35 @@
     <description>Recent content in Categories on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
     <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
-=======
-    <lastBuildDate>Sat, 22 Aug 2020 00:00:00 +0000</lastBuildDate>
->>>>>>> 13ba75f9e0f7a6917409bb521a37a1566e0d14dc
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>finance</title>
       <link>/categories/finance/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/finance/</guid>
-=======
+      <description></description>
+    </item>
+    
+    <item>
       <title>teori</title>
       <link>/categories/teori/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/teori/</guid>
->>>>>>> 13ba75f9e0f7a6917409bb521a37a1566e0d14dc
       <description></description>
     </item>
     
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>teori</title>
-      <link>/categories/teori/</link>
-      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/teori/</guid>
       <description></description>
     </item>
     
