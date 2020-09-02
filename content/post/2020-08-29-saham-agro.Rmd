@@ -1,5 +1,5 @@
 ---
-title: Saham Agro
+title: Kandil Pertanian
 author: Tedy Herlambang
 date: '2020-08-29'
 slug: saham-agro
@@ -8,7 +8,8 @@ categories:
 tags:
   - keuangan
   - saham
-  - agribisnis
+  - finance
+  - candlestick
 ---
 
 *Bergegaslah bangun dari mimpi*
@@ -25,15 +26,15 @@ Bursa saham sebagai bagian dari pasar keuangan berperan penting dalam kapitalism
 
 Sebagai mahasiswa yang kemungkinan nanti juga akan terjun ke dunia persahaman, tidak ada salahnya jika kita mempersiapkan diri. Salah satu keterampilan yang diperlukan di bursa saham adalah keterampilan analisis. Agar bisa menganalisis pertama harus belajar alat analisisnya.
 
-Kemampuan analisis adalah keterampilan dasar yang diperlukan di pasar saham sehingga seseorang bisa memahami, mengidentifikasi dan memanfaatkan peluang untuk memperolah keuntungan. Ketika sudah masuj kesini, seseorang masuk kesini harus mempersiapkan diri untuk berbagai kemungkinan termasuk kemungkinan buruk, selalu menjaga kewarasan dan tidak gampang panik dan putus asa. Sudah banyak cerita orang terjun dari lantai 10 karena kalah "main". Panik bisa membuat orang membuat keputusan keliru yang malah lebih memperburuk situasi. 
+Kemampuan analisis adalah keterampilan dasar yang diperlukan di pasar saham sehingga seseorang bisa memahami, mengidentifikasi dan memanfaatkan peluang untuk memperolah keuntungan. Ketika sudah masuk kesini, seseorang harus mempersiapkan diri termasuk untuk kemungkinan buruk, selalu menjaga kewarasan dan tidak gampang panik dan putus asa. Sudah banyak cerita orang terjun dari lantai 10 karena salah "mainnya". Panik bisa membuat keputusan yang sudah keliru menjadi lebih buruk lagi ya khan? 
 
-Dengan mempelajari teknik dasar analisis, mencermati pergerakan pasar harga dalam waktu yang cukup, seseorang akan dapat  "merasakan" pasang surut, naik-turunnya harga, dan akan sangat membantu seseorang untuk belajar dan membuat penyesuaian yang diperlukan dalam perdagangan. Setelah itu kita dapat mencoba melatih melatih intuisi dengan membuat prediksi harga. 
+Dengan mempelajari teknik dasar analisis, mencermati pergerakan harga dalam waktu yang cukup, seseorang akan dapat  "merasakan" pasang surut, naik-turunnya harga, dan akan sangat membantu seseorang untuk belajar dan membuat penyesuaian yang diperlukan dalam perdagangan. Setelah itu kita dapat mencoba melatih intuisi dengan memprediksi perubahan harga. 
 
-Secara teori, sekuritas (*stock, bond, option*) hanya dapat menjadi lebih tinggi atau lebih rendah. Tetapi di dalam kenyataannya, harga-harga dapat berubah semaunya sendiri. Di dalam kondisi gonjang-ganjing ini, peluang untuk meraup keuntungan bisa muncul. Kita dapat  mengamati pergerakan saham dari menit per menit, jam-jaman, harian, mingguan atau bulanan. 
+Secara teori, sekuritas (*stock, bond, option*) hanya dapat menjadi lebih tinggi atau lebih rendah. Tetapi di dalam kenyataannya, harga-harga dapat berubah semaunya sendiri. Di dalam kondisi gonjang-ganjing ini, untung atau buntung. Kita dapat  mengamati pergerakan saham dari menit per menit, jam-jaman, harian, mingguan atau bulanan. 
 
-Kali ini kita akan mencoba belajar tentang hal ini. Situs-situs untuk belajar bursa saham juga banyak, diantaranya [sahamok.com](https://www.sahamok.com/), yang berbahasa Inggris bisa melihat [Morningstar](https://www.morningstar.com/). 
+Kali ini kita akan mencoba belajar tentang hal ini. Situs-situs untuk belajar bursa saham banyak, diantaranya [sahamok.com](https://www.sahamok.com/), yang berbahasa Inggris bisa melihat [Morningstar](https://www.morningstar.com/). 
 
-Salah situs yang menyediakan data historis dan bisa diunduh adalah [Yahoo Finance](https://finance.yahoo.com/). Data di Yahoo Finance mencakup harga pembukaan, harga tinggi (maksimum), harga rendah (minimum), harga penutupan dan volume perdagangan. Silakan dibaca tentang istilah-istilah ini, misalnya [disini](https://www.investopedia.com/). 
+Salah situs yang menyediakan data historis dan bisa diunduh misalnya [Yahoo Finance](https://finance.yahoo.com/). Data di Yahoo Finance mencakup harga pembukaan (open), harga tinggi (high), harga rendah (low), harga penutupan (close) dan volume perdagangan. Silakan dibaca tentang istilah-istilah ini, misalnya [disini](https://www.investopedia.com/). 
 
 ## Mengunduh data
 
@@ -134,19 +135,19 @@ plot(data.AGRO$AGRO.JK.Close) #ploting harga penutupan
 ```
 Hmm...ternyata harga penutupan saham Agroniaga dalam 3 tahun terakhir trendnya terus menurun ya, walaupun pada pertengahan tahun 2020 terlihat kembali naik.
 
-## Membuat grafik lilin(*candlestick chart*) dengan data bulanan
+## Membuat grafik *candlestick* dengan data bulanan
 
-Salah satu grafik yang berguna untuk melihat perbedaan antara harga tertinggi dan terendah secara visual adalah membuat grafik lilin. Untuk membuatnya pertama data kita ubah ke dalam bentuk obyek *open-high-low-close* (OHLC). Perintahnya:
+Salah satu grafik yang berguna untuk melihat perbedaan antara harga tertinggi dan terendah, harga pembukaan dan penutupan secara visual adalah dengan membuat *candlestick chart*. Tentang candlestick bisa dibaca [disini](https://www.soegeeforex.com/tips-dan-trik/belajar-trading-emas-menggunakan-candlestick/). Untuk membuatnya pertama data kita ubah ke dalam bentuk obyek *open-high-low-close* (OHLC). Perintahnya:
 
 ```{r}
-OHLC<-data.monthly[-1,-6]
+OHLC<-data.monthly[-1,-6] #kolom pertama dan keenam tidak diikutkan
 AGRO.ohlc<-as.quantmod.OHLC(OHLC,col.names=c("Open","High","Low","Close","Volume"))
 class(AGRO.ohlc)
-AGRO.ohlc[c(1:3,nrow(AGRO.ohlc)),]
-chartSeries(AGRO.ohlc, name="PT BRI Agroniaga OHLC")
+AGRO.ohlc[c(1:3,nrow(AGRO.ohlc)),] #melihat 3 data pertama dan data terakhir
+chartSeries(AGRO.ohlc, name="PT BRI Agroniaga OHLC") ##perintah membuat candlestick chart
 ```
 
-Grafik lilin menunjukkan bahwa pada November dan Desember 2018 selisih antara harga tertinggi dan terendah paling kecil. Sedangkan selisih harga terbesar terjadi pada bulan Maret 2018 yaitu harga tertinggi sebesar 565 dan terendah sebesar 412 sehingga terdapat selisih sebesar 153. Btw itu satuan harga sahamnya apa ya? Coba dicek!
+Candlestick chart menunjukkan bahwa pada November dan Desember 2018 selisih antara harga tertinggi dan terendah paling kecil. Sedangkan selisih harga terbesar terjadi pada bulan Maret 2018 yaitu harga tertinggi sebesar 565 dan terendah sebesar 412 sehingga terdapat selisih sebesar 153. Btw itu satuan harga sahamnya apa ya? Coba dicek! 
 
-Nah, tema grafik bisa kita ubah latar dan warnanya, misalnya untuk keperluan presentasi sehingga kelihatan lebih menarik (lain kali kita akan lakukan). Oke gaes...Selamat belajar.
+Nah, tema grafik bisa kita ubah latar dan warnanya, misalnya untuk keperluan presentasi sehingga kelihatan lebih menarik (lain kali kita akan lakukan). Oke gaes...Selamat belajar, semoga bisa menjadi kandil sektor pertanian.
 

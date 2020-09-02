@@ -30,11 +30,20 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>/categories/r/</link>
+      <title>uji normalitas</title>
+      <link>/categories/uji-normalitas/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>/categories/uji-normalitas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regresi</title>
+      <link>/categories/regresi/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/regresi/</guid>
       <description></description>
     </item>
     

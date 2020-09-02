@@ -4,11 +4,11 @@ author: Tedy Herlambang
 date: '2020-08-15'
 slug: normal-di-era-new-normal
 categories:
-  - R
+  - uji normalitas
 tags:
-  - Normal
-  - Deskriptif
-  - Tomat
+  - uji normalitas
+  - statistika deskriptif
+  - tomat
 ---
 
 *They are like a garden on a hill: heavy rain falls and it produces double its _normal_ yield; Al-Baqarah 2:265*
@@ -21,7 +21,7 @@ Sebagai ilustrasi kita akan menggunakan data produktivitas tanaman tomat di berb
 
 Data yang sudah diunduh, misalkan kita taruh di desktop dan kita beri nama tomat.dun.csv. Data ini selanjutnya kita masukkan ke dalam R dan kita beri nama tomat.dunia (tobat maksiat dunia).
 ```{r}
-tomat.dunia <- read.csv ("C:\\Users\\Anna\\Desktop\\tomat.dun.csv") # gunakan garis geblak ganda atau garing tunggal /.
+tomat.dunia <- read.csv ("C:\\Users\\Anna\\Documents\\tomat.dun.csv") # gunakan garis geblak ganda atau garing tunggal /.
 ```
 
 ```{r}

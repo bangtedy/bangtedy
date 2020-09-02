@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>/tags/agribisnis/</loc>
+    <loc>/tags/candlestick/</loc>
     <lastmod>2020-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,7 +18,17 @@
   </url>
   
   <url>
+    <loc>/tags/finance/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/finance/</loc>
+    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/08/29/saham-agro/</loc>
     <lastmod>2020-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,13 +48,18 @@
   </url>
   
   <url>
-    <loc>/2020/08/29/saham-agro/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-29T00:00:00+00:00</lastmod>
+    <loc>/tags/desain-penelitian/</loc>
+    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/desain-percobaan/</loc>
+    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,22 +78,12 @@
   </url>
   
   <url>
-    <loc>/tags/deskriptif/</loc>
-    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/normal/</loc>
-    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2020/08/15/normal-di-era-new-normal/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/tags/statistika-deskriptif/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,17 +93,32 @@
   </url>
   
   <url>
+    <loc>/tags/uji-normalitas/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/uji-normalitas/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/analisis-regresi/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/08/12/antara-kekerasan-dan-kerapatan/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/regresi/</loc>
+    <loc>/categories/regresi/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/regression/</loc>
+    <loc>/tags/regression-analysis/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
   

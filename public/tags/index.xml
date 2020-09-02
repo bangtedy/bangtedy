@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>agribisnis</title>
-      <link>/tags/agribisnis/</link>
+      <title>candlestick</title>
+      <link>/tags/candlestick/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/agribisnis/</guid>
+      <guid>/tags/candlestick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finance</title>
+      <link>/tags/finance/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/finance/</guid>
       <description></description>
     </item>
     
@@ -39,6 +48,24 @@
     </item>
     
     <item>
+      <title>desain penelitian</title>
+      <link>/tags/desain-penelitian/</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/desain-penelitian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>desain percobaan</title>
+      <link>/tags/desain-percobaan/</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/desain-percobaan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>uji klinis</title>
       <link>/tags/uji-klinis/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
@@ -48,25 +75,16 @@
     </item>
     
     <item>
-      <title>Deskriptif</title>
-      <link>/tags/deskriptif/</link>
+      <title>statistika deskriptif</title>
+      <link>/tags/statistika-deskriptif/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/deskriptif/</guid>
+      <guid>/tags/statistika-deskriptif/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Normal</title>
-      <link>/tags/normal/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/normal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tomat</title>
+      <title>tomat</title>
       <link>/tags/tomat/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -75,20 +93,29 @@
     </item>
     
     <item>
-      <title>regresi</title>
-      <link>/tags/regresi/</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      <title>uji normalitas</title>
+      <link>/tags/uji-normalitas/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/regresi/</guid>
+      <guid>/tags/uji-normalitas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>regression</title>
-      <link>/tags/regression/</link>
+      <title>analisis regresi</title>
+      <link>/tags/analisis-regresi/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>/tags/analisis-regresi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression analysis</title>
+      <link>/tags/regression-analysis/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/regression-analysis/</guid>
       <description></description>
     </item>
     

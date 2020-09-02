@@ -7,6 +7,8 @@ categories:
   - teori
 tags:
   - uji klinis
+  - desain percobaan
+  - desain penelitian
 ---
 
 Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?
