@@ -1,0 +1,1 @@
+http://bangtedy.rbind.io/*   https://bangtedy.rbind.io/:splat  301!
