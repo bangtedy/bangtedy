@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium"
-googleAnalytics = ""
+googleAnalytics = "UA-29884135-3"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
