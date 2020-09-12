@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.74.3 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Tedy Herlambang">
+<meta name="keywords" content="">
+<meta name="description" content="AssalamualaikumGaes, ada cara mantul membuat regresi hanya dengan dua baris perintah saja. Ya betul, hanya dengan dua baris perintah saja dengan menggunakan software R! Kuy, kita icip-icip RRR (Regresi Rasa R).
+model.kayu &lt;- lm (kekerasan~kerapatan)
+model.kayu
+Nah…keluar tuh model kayunya! Gimana caranya?
+Mengunduh dan memasang RJika kamu belum pernah menggunakan R, kamu bisa mengunduh dan memasang R gratis. Caranya:
+kunjungi https://cran.r-project.org/klik pilihan Download R sesuai os komputer kalian Windows, Mac atau Linuxpilih R versi terbaru yang ada (contoh ini dibuat menggunakan R versi 4.">
+
+
+<meta property="og:description" content="AssalamualaikumGaes, ada cara mantul membuat regresi hanya dengan dua baris perintah saja. Ya betul, hanya dengan dua baris perintah saja dengan menggunakan software R! Kuy, kita icip-icip RRR (Regresi Rasa R).
+model.kayu &lt;- lm (kekerasan~kerapatan)
+model.kayu
+Nah…keluar tuh model kayunya! Gimana caranya?
+Mengunduh dan memasang RJika kamu belum pernah menggunakan R, kamu bisa mengunduh dan memasang R gratis. Caranya:
+kunjungi https://cran.r-project.org/klik pilihan Download R sesuai os komputer kalian Windows, Mac atau Linuxpilih R versi terbaru yang ada (contoh ini dibuat menggunakan R versi 4.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Antara Kekerasan dan Kerapatan">
+<meta name="twitter:title" content="Antara Kekerasan dan Kerapatan">
+<meta property="og:url" content="/2020/08/antara-kekerasan-dan-kerapatan/">
+<meta property="twitter:url" content="/2020/08/antara-kekerasan-dan-kerapatan/">
+<meta property="og:site_name" content="Hugo tranquilpeak theme">
+<meta property="og:description" content="AssalamualaikumGaes, ada cara mantul membuat regresi hanya dengan dua baris perintah saja. Ya betul, hanya dengan dua baris perintah saja dengan menggunakan software R! Kuy, kita icip-icip RRR (Regresi Rasa R).
+model.kayu &lt;- lm (kekerasan~kerapatan)
+model.kayu
+Nah…keluar tuh model kayunya! Gimana caranya?
+Mengunduh dan memasang RJika kamu belum pernah menggunakan R, kamu bisa mengunduh dan memasang R gratis. Caranya:
+kunjungi https://cran.r-project.org/klik pilihan Download R sesuai os komputer kalian Windows, Mac atau Linuxpilih R versi terbaru yang ada (contoh ini dibuat menggunakan R versi 4.">
+<meta name="twitter:description" content="AssalamualaikumGaes, ada cara mantul membuat regresi hanya dengan dua baris perintah saja. Ya betul, hanya dengan dua baris perintah saja dengan menggunakan software R! Kuy, kita icip-icip RRR (Regresi Rasa R).
+model.kayu &lt;- lm (kekerasan~kerapatan)
+model.kayu
+Nah…keluar tuh model kayunya! Gimana caranya?
+Mengunduh dan memasang RJika kamu belum pernah menggunakan R, kamu bisa mengunduh dan memasang R gratis. Caranya:
+kunjungi https://cran.r-project.org/klik pilihan Download R sesuai os komputer kalian Windows, Mac atau Linuxpilih R versi terbaru yang ada (contoh ini dibuat menggunakan R versi 4.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-08-12T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2020-08-12T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="regresi">
+    
+  
+  
+    
+      <meta property="article:tag" content="regression analysis">
+    
+      <meta property="article:tag" content="analisis regresi">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=640">
+
+
+    <title>Antara Kekerasan dan Kerapatan</title>
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="/2020/08/antara-kekerasan-dan-kerapatan/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">Hugo tranquilpeak theme</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Tedy Herlambang</h4>
+        
+          <h5 class="sidebar-profile-bio">Macul with markdown support <strong>CUL</strong></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/kakawait">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com/users/636472/kakawait">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+      
+      <span class="sidebar-button-desc">Stack Overflow</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Antara Kekerasan dan Kerapatan
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-08-12T00:00:00Z">
+        
+  August 12, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="/categories/regresi">regresi</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              
+
+
+<p>Assalamualaikum
+Gaes, ada cara <em>mantul</em> membuat regresi hanya dengan dua baris perintah saja. Ya betul, hanya dengan dua baris perintah saja dengan menggunakan software R! Kuy, kita icip-icip RRR (Regresi Rasa R).</p>
+<p><em>model.kayu &lt;- lm (kekerasan~kerapatan)</em></p>
+<p><em>model.kayu</em></p>
+<p>Nah…keluar tuh model kayunya! Gimana caranya?</p>
+<div id="mengunduh-dan-memasang-r" class="section level1">
+<h1>Mengunduh dan memasang R</h1>
+<p>Jika kamu belum pernah menggunakan R, kamu bisa mengunduh dan memasang R gratis. Caranya:</p>
+<ul>
+<li>kunjungi <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></li>
+<li>klik pilihan <em>Download R</em> sesuai os komputer kalian Windows, Mac atau Linux</li>
+<li>pilih R versi terbaru yang ada (contoh ini dibuat menggunakan R versi 4.0.2)</li>
+<li>ikuti petunjuk yang ditampilkan untuk menginstalnya.</li>
+</ul>
+</div>
+<div id="mengunduh-dan-memasang-rstudio" class="section level1">
+<h1>Mengunduh dan memasang RStudio</h1>
+<p>Untuk mempermudah menggunakan R, kamu bisa menggunakan antarmuka (<em>interface</em>) RStudio. Jika R itu diibaratkan sebagai mesin mobilnya, maka RStudio adalah <em>dashboard</em>nya. Cara menginstal RStudio:</p>
+<ul>
+<li>kunjungi <a href="https://rstudio.com/" class="uri">https://rstudio.com/</a></li>
+<li>klik pilihan <em>Download RStudio (free)</em>, pilih sesuai os kalian</li>
+<li>ikuti petunjuk yang muncul untuk menginstal RStudio</li>
+<li>Jika sudah selesai, klik RStudio <em>shortcut</em> yang muncul di start menu atau desktop sesuai pilihan instalasi yang kamu buat sebelumnya.</li>
+</ul>
+</div>
+<div id="memasukkan-data-ke-dalam-r" class="section level1">
+<h1>Memasukkan data ke dalam R</h1>
+<p>Sebelum melakukan regresi, tentu saja data harus diinputkan dulu agar bisa dibaca oleh R. Jika datanya sedikit, kamu bisa mengetikkan langsung ke dalam R (seperti contoh ini). Tetapi jika datanya sangat banyak (biasanya kan begitu), mengetik langsung tidak praktis dan rawan error. Jadi data bisa diketik dulu ke Excel atau Notepad kemudian diimpor ke R (lain kali kita akan coba).</p>
+<p>Untuk ilustrasi analisis regresi kali ini, kita akan melihat hubungan antara tingkat kekerasan kayu <em>(hardness)</em> dengan tingkat kerapatannya <em>(density)</em>. Kekerasan kayu biasanya diukur dengan uji <a href="https://en.m.wikipedia.org/wiki/Janka_hardness_test"><em>Janka</em></a>. Mudahnya gini, lebih gampang mana memaku kayu jati <em>(Tectona grandis)</em> dengan kayu kapuk <em>(Ceiba pentandra)</em>? Berarti kayu jati kekerasannya lebih tinggi dari kayu kapuk.</p>
+<div class="figure">
+<img src="/post/2020-08-12-antara-kekerasan-dan-kerapatan_files/kayu_jati.png" style="width:50.0%" alt="" />
+<p class="caption">Pohon Jati</p>
+</div>
+<p>Sedangkan untuk kerapatannya, dapat diukur dengan membagi bobot kayu dengan volumenya. Dengan volume sama-sama 1 meter kubik, kira-kira kayu apa yang lebih berat: kayu kapuk atau kayu jati?</p>
+<p>Nah, anggaplah kita telah mengukur tingkat kekerasan dan kerapatan 10 jenis kayu dan kita ingin mengetahui hubungan antara keduanya (data dibawah). Kita dapat memasukkan data ini langsung ke R (karena jumlah data cuma sedikit).</p>
+<p>kekerasan: 414,519,541,973,914,1100,1180,1400,1980,2310</p>
+<p>kerapatan: 27,28,28,35,39,40,46,45,56,59</p>
+<p>Software R bekerja atas dasar obyek (<em>object base</em>). Jadi kita akan buat obyek-obyek yang mewakili variabel-variabel yang akan kita pakai: tingkat kekerasan kita beri nama kekerasan dan tingkat kerapatan kita beri nama kerapatan. Pemberian nama-nama obyek ini terserah kita, bisa menggunakan gabungan huruf besar/kecil dan angka.Yang penting konsisten saat memanggil obyek itu. Misal untuk kekerasan, kita bisa beri nama Kekerasan, keras, keRas atau krasan. Jika suatu obyek sudah kita beri nama kekerasan, kemudian kita panggil dengan perintah Kekerasan, maka akan muncul pesan error. Selain itu ^, *, +, -, $, #, !, ?, &gt;,&lt;, (), [] tidak boleh digunakan karena karakter ini merupakan tanda operator.</p>
+<pre class="r"><code>kekerasan &lt;- c(414,519,541,973,914,1100,1180,1400,1980,2310)</code></pre>
+<p>Untuk memasukkan data kita ketikkan nama obyeknya dulu, diikuti oleh simbol &lt;- (di Rstudio ketikkan alt+ tanda minus). Kemudian huruf c diikuti oleh tanda kurung/<em>round bracket</em> (), bukan kurung siku/<em>square bracket</em> [] atau kurung kurawal/keriting/<em>curly bracket</em> {}. Huruf c (cantumkan/<em>concatenate</em>) digunakan untuk mencantelkan data kedalam obyek yang kita beri nama kekerasan. Pada saat kamu selesai mengetikkan data, <em>nothing happens</em> pada layar tetapi data sudah tersimpan. Untuk memunculkan obyek bernama kekerasan tadi, kita panggil obyek itu dengan mengetiknya.</p>
+<pre class="r"><code>kekerasan #untuk menampilkan data yang telah kamu input</code></pre>
+<pre><code>##  [1]  414  519  541  973  914 1100 1180 1400 1980 2310</code></pre>
+<p>Untuk mengecek jumlah data kekerasan, ketik length (nama obyek)</p>
+<pre class="r"><code>length (kekerasan) #harus keluar angka 10 sesuai jumlah pengukuran yang dilakukan</code></pre>
+<pre><code>## [1] 10</code></pre>
+<p>Dengan cara yang sama kita masukkan data tingkat kerapatan kayu, kita beri nama kerapatan.</p>
+<pre class="r"><code>kerapatan &lt;- c(27,28,28,35,39,40,46,45,56,59)
+kerapatan # perintah untuk menampilkan data yang telah diketik</code></pre>
+<pre><code>##  [1] 27 28 28 35 39 40 46 45 56 59</code></pre>
+<pre class="r"><code>length(kerapatan) # perintah untuk mengetahui jumlah data yang dimasukkan</code></pre>
+<pre><code>## [1] 10</code></pre>
+<p>OK gaes, data sudah masuk, jumlahnya sudah betul. Tapi masih berbentuk vektor. Data-data ini harus digabungkan menjadi data frame dan kita beri nama data.kayu (pemilihan nama ini terserah selera). Perintahnya data.frame(vektor-vektor yang akan digabung). Yok kita coba!</p>
+<pre class="r"><code>data.kayu &lt;- data.frame(kekerasan,kerapatan) #menggabungkan data kekerasan dan kerapatan
+data.kayu #untuk menampilkan data gabungan</code></pre>
+<pre><code>##    kekerasan kerapatan
+## 1        414        27
+## 2        519        28
+## 3        541        28
+## 4        973        35
+## 5        914        39
+## 6       1100        40
+## 7       1180        46
+## 8       1400        45
+## 9       1980        56
+## 10      2310        59</code></pre>
+</div>
+<div id="waktunya-regresi" class="section level1">
+<h1>Waktunya regresi</h1>
+<pre class="r"><code>model.kayu &lt;- lm(kekerasan~kerapatan) #fungsi lm(linear model) sbg perintah regresi. 
+model.kayu #untuk menampilkan hasil regresi</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = kekerasan ~ kerapatan)
+## 
+## Coefficients:
+## (Intercept)    kerapatan  
+##    -1033.52        53.76</code></pre>
+<p>Jadi model regresi yang kita dapat adalah:</p>
+<p><strong>kekerasan = -1033.52 + 53.76 kerapatan</strong></p>
+<p>Selanjutnya terserah Anda untuk menginterpretasikannya. Namanya juga cuma mencicipi, kali ini kita tidak uji apakah model regresi ini memenuhi asumsi <em>linearity</em>, <em>homoscedasticity</em>, dll. Insyallah dipostingan lain. Model ini hanya sebagai ilustrasi saja bagaimana melakukan regresi dengan R dengan mudah, dan bukan hasil riset.</p>
+<p>Software R ini memang <strong>mantul</strong>, tidak hanya untuk analisis regresi lho. Coba saja <em>search</em> di Google, aplikasi R sangat luas pada berbagai bidang. Blog ini juga dibuat dengan menggunakan RStudio. Insyallah kita gak akan rugi investasi waktu belajar R.</p>
+</div>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/regression-analysis/">regression analysis</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/analisis-regresi/">analisis regresi</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/08/normal-di-era-new-normal/" data-tooltip="Normal di Era New Normal">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2015/06/welcome-to-tranquilpeak-0.4.8-beta/" data-tooltip="Welcome to Tranquilpeak 0.4.8-BETA">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2020/08/antara-kekerasan-dan-kerapatan/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2020/08/antara-kekerasan-dan-kerapatan/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2020/08/antara-kekerasan-dan-kerapatan/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Tedy Herlambang. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/08/normal-di-era-new-normal/" data-tooltip="Normal di Era New Normal">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2015/06/welcome-to-tranquilpeak-0.4.8-beta/" data-tooltip="Welcome to Tranquilpeak 0.4.8-BETA">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2020/08/antara-kekerasan-dan-kerapatan/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2020/08/antara-kekerasan-dan-kerapatan/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2020/08/antara-kekerasan-dan-kerapatan/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2F2020%2F08%2Fantara-kekerasan-dan-kerapatan%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2F2020%2F08%2Fantara-kekerasan-dan-kerapatan%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2F2020%2F08%2Fantara-kekerasan-dan-kerapatan%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Tedy Herlambang</h4>
+    
+      <div id="about-card-bio">Macul with markdown support <strong>CUL</strong></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Bercocok tanam
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        PP Paiton Probolinggo
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = '\/2020\/08\/antara-kekerasan-dan-kerapatan\/';
+          
+            this.page.identifier = '\/2020\/08\/antara-kekerasan-dan-kerapatan\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
