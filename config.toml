@@ -15,7 +15,7 @@
 baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "bangtedy BLOG"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-29884135-3"
@@ -33,7 +33,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [author]
   name = "Tedy Herlambang"
-  bio = "Macul with markdown support **CUL**"
+  bio = "Mencangkul with markdown support **KUUL**"
   job = "Bercocok tanam"
   location = "PP Paiton Probolinggo"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
