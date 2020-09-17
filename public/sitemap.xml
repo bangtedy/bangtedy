@@ -28,12 +28,12 @@
   </url>
   
   <url>
-    <loc>/2020/09/puas-dengan-pengalaman.en-us/</loc>
+    <loc>/2020/09/17/puas-dengan-pengalaman.en-us/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/09/puas-dengan-pengalamannya.en-us/</loc>
+    <loc>/2020/09/17/puas-dengan-pengalamannya.en-us/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>/2020/08/saham-agro/</loc>
+    <loc>/2020/08/29/saham-agro/</loc>
     <lastmod>2020-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,12 +98,12 @@
   </url>
   
   <url>
-    <loc>/2020/08/uji-klinis-uji-statistik/</loc>
+    <loc>/2020/08/22/uji-klinis-uji-statistik/</loc>
     <lastmod>2020-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/08/normal-di-era-new-normal/</loc>
+    <loc>/2020/08/15/normal-di-era-new-normal/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,7 +133,7 @@
   </url>
   
   <url>
-    <loc>/2020/08/antara-kekerasan-dan-kerapatan/</loc>
+    <loc>/2020/08/12/antara-kekerasan-dan-kerapatan/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -145,6 +145,11 @@
   <url>
     <loc>/tags/regression-analysis/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/12/30/a-plain-markdown-post/</loc>
+    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
   
   <url>
@@ -168,6 +173,11 @@
   </url>
   
   <url>
+    <loc>/2015/01/01/lorem-ipsum/</loc>
+    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/my-awesome-project/</loc>
     <lastmod>2014-11-18T02:13:50+00:00</lastmod>
   </url>
@@ -178,12 +188,12 @@
   </url>
   
   <url>
-    <loc>/2014/09/creating-a-new-theme/</loc>
+    <loc>/2014/09/28/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2014/04/hugo-template-primer/</loc>
+    <loc>/2014/04/02/hugo-template-primer/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
@@ -203,7 +213,7 @@
   </url>
   
   <url>
-    <loc>/2014/04/migrating-from-jekyll/</loc>
+    <loc>/2014/04/02/migrating-from-jekyll/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
@@ -223,7 +233,7 @@
   </url>
   
   <url>
-    <loc>/2014/04/getting-started-with-hugo/</loc>
+    <loc>/2014/04/02/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -235,10 +245,6 @@
   <url>
     <loc>/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/archives/</loc>
   </url>
   
 </urlset>

@@ -1,11 +1,4 @@
-# os
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# sass
-node_modules/
-
-# yarn
-yarn-error.log
 .Rproj.user
+.Rhistory
+.RData
+.Ruserdata

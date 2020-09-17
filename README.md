@@ -1,125 +1,44 @@
-# Ghostwriter
+# Hugo Lithium
 
-Enhanced port of the Ghost "[ghostwriter](https://github.com/roryg/ghostwriter)" theme to the [Hugo](https://gohugo.io) site generator.
+A simple responsive blog theme for [Hugo](https://gohugo.io/) forked from https://github.com/jrutheiser/hugo-lithium-theme with modifications to make it work better with [**blogdown**](https://github.com/rstudio/blogdown).
 
-## Installation
+The easiest way to get started is to create a new (empty) RStudio project, then
 
-Inside the folder of your Hugo site run:
-
-```bash
-$ mkdir themes
-$ cd themes
-$ git clone https://github.com/jbub/ghostwriter
+```r
+devtools::install_github('rstudio/blogdown')  # install blogdown
+blogdown::new_site(theme = 'yihui/hugo-lithium')
 ```
 
-For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
+Then you should be able to see an example website launched in the RStudio Viewer.
 
-## Development
+For the full documentation, please see this section in the **blogdown** book: https://bookdown.org/yihui/blogdown/themes.html
 
-After installing the theme you need to install javascript dependencies. You can use 
-`npm` or `yarn` to install them from `package.json`. We are using `webpack` to build
-and package styles. In order to develop with realtime reloading in the browser you can 
-use this powerful combo:
+## Features
 
-```bash
-hugo server
-yarn run watch
-```
+- Blog
+- Responsive
+- Disqus
+- Google Analytics
+- Google web fonts (Merriweather and Lato)
+- MathJax
+- highlight.js
 
-To update theme styles edit the `styles/style.scss` file. You can then either use the `watch` command
-or run `build` to compile the styles:
+## Changes
 
-```bash
-yarn run build
-```
+The main changes I made to the original hugo-lithium-theme are:
 
-## Example config.yml
+1. Added support for [MathJax](https://bookdown.org/yihui/blogdown/output-format.html) (for rendering LaTeX math expressions) and highlight.js (for syntax highlighting).
 
-To customize your theme you can use following params:
+    - For both libraries, you can specify the CDN host (e.g., CloudFlare, BootCDN, ...).
 
-```yaml
-baseurl: "https://example.com/"
-title: mytitle
-theme: ghostwriter
-languageCode: en-us
-copyright: My Name
-googleAnalytics: XXX
-disqusShortname: XXX
-pygmentsUseClasses: true
-pygmentsCodefences: true
+    - For highlight.js, you can specify additional languages (e.g., `r`, `yaml`, `tex`, ...).
 
-markup:
-  highlight:
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    tabWidth: 2
+1. Added Google web fonts (embedded in the theme so that visitors from countries where Google is banned can still see the typefaces).
 
-privacy:
-  disqus:
-    disable: true
-  googleAnalytics:
-    anonymizeIP: true
-    respectDoNotTrack: true
-    useSessionStorage: false
+1. Improved Hugo's built-in Disqus template, so that you can actually view the comments even when you are previewing the website locally.
 
-author:
-  name: My Name
-  profile: "https://google.com/+XXX"
+1. Replaced the variable `.Permalink` with `.RelPermalink`, and function `absURL` with `relURL` where necessary. It is a bad idea to use full absolute links (with the protocol and domain) in general. For example, `.Permalink` and `absURL` may generate URLs of the form `http://www.example.com/foo/bar.html`, but `/foo/bar.html` is more portable.
 
-taxonomies:
-  tag: tags
+## License
 
-params:
-  mainSections:
-    - post
-  intro: true
-  headline: My headline
-  description: My description
-  github: "https://github.com/XXX"
-  gitlab: "https://gitlab.com/XXX"
-  linkedin: "https://linkedin.com/in/XXX/"
-  twitter: "https://twitter.com/XXX"
-  stackoverflow: "https://stackoverflow.com/users/XXX/YYY"
-  facebook: "https://www.facebook.com/username"
-  email: xxx@example.com
-  opengraph: true
-  shareTwitter: true
-  shareFacebook: true
-  shareGooglePlus: true
-  shareLinkedIn: false
-  dateFormat: "Mon, Jan 2, 2006"
-  exponeaJsUrl: ""
-  exponeaTarget: ""
-  exponeaToken: ""
-  exponeaTrackVisits: false
-  readingTime: true
-  readingTimeText: "Estimated reading time:"
-  fathomUrl: ""
-  fathomSiteId: ""
-
-permalinks:
-  post: "/:year/:month/:day/:filename/"
-
-menu:
-  main:
-    - name: Blog
-      url: /
-      weight: 1
-    - name: Projects
-      url: /project/
-      weight: 2
-    - name: Contact
-      url: /page/contact/
-      weight: 3
-    - name: About
-      url: /page/about/
-      weight: 4
-```
-
-You can also inject arbitrary HTML into `<head>` simply by overriding the `extra-in-head.html`
-partial, which is meant for that purpose.
+The original hugo-lithium-theme was released by Jonathan Rutheiser under [the MIT License](https://github.com/jrutheiser/hugo-lithium-theme/blob/master/LICENSE.md). The modified version in this repository is also released under MIT.
