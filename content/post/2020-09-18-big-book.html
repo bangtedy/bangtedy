@@ -1,0 +1,59 @@
+---
+title: Big Book
+author: TH
+date: '2020-09-18'
+slug: big-book
+categories:
+  - Example
+tags:
+  - Markdown
+---
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.</p>
+<pre class="r"><code>summary(cars)</code></pre>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
+<pre class="r"><code>library (haven) #paket untuk mengimpor data spss
+library (ggplot2)
+library (gridExtra)
+ce.cs &lt;- read_sav(&quot;ce.cs.sav&quot;) #perintah mengimpor data SPSS
+ce1 &lt;- ggplot(ce.cs, aes(factor(CE1))) +
+  geom_bar(fill=&quot;blue&quot;) + ylab(&quot;&quot;) +
+  xlab(&quot;CE1(reliability)&quot;) + ylim(0, 225)
+
+ce2 &lt;- ggplot(ce.cs, aes(factor(CE2))) +
+  geom_bar(fill=&quot;red&quot;) + ylab(&quot;&quot;) +
+  xlab(&quot;CE2(right diagnosis)&quot;) + ylim(0, 225)
+
+ce3 &lt;- ggplot(ce.cs, aes(factor(CE3))) +
+  geom_bar(fill=&quot;orange&quot;) + ylab(&quot;&quot;) +
+  xlab(&quot;CE3(right treatment)&quot;) + ylim(0, 225)
+
+ce4 &lt;- ggplot(ce.cs, aes(factor(CE4))) +
+  geom_bar(fill=&quot;yellow&quot;) + ylab(&quot;&quot;) +
+  xlab(&quot;CE4(verbal com.)&quot;) + ylim(0, 225)
+
+ce5 &lt;- ggplot(ce.cs, aes(factor(CE5))) +
+  geom_bar(fill=&quot;green&quot;) + ylab(&quot;&quot;) +
+  xlab(&quot;CE5(non-verbal com.)&quot;) + ylim(0, 225)
+
+grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)</code></pre>
+<p><img src="/post/2020-09-18-big-book_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<pre class="r"><code>ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
+  geom_smooth(method=&quot;lm&quot;, colour=&quot;red&quot;) +
+  geom_abline(slope=1, intercept=0)</code></pre>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="/post/2020-09-18-big-book_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
+<pre class="r"><code>ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
+  geom_smooth(method=&quot;lm&quot;, colour=&quot;red&quot;, se=FALSE) + stat_smooth()</code></pre>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
+<p><img src="/post/2020-09-18-big-book_files/figure-html/unnamed-chunk-2-3.png" width="672" /></p>
