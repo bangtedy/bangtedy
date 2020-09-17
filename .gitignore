@@ -1,7 +1,11 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-blogdown
+# os
+.DS_Store
 Thumbs.db
-public/
+Desktop.ini
+
+# sass
+node_modules/
+
+# yarn
+yarn-error.log
+.Rproj.user
