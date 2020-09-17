@@ -11,9 +11,6 @@ tags:
 keywords:
   - tech
 ---
-
-<!--more-->
-
 Salah satu kunci keberhasilan suatu bisnis adalah pengetahuan akan keinginan dan kebutuhan konsumen khususnya pengetahuan tentang seberapa puas mereka terhadap layanan atau produk yang ditawarkan oleh bisnis tersebut. Saat ini memberikan pengalaman yang memuaskan bagi pelanggan menjadi mantra utama di dalam peningkatan mutu layanan sebuah bisnis modern. Atas alasan ini maka pengalaman dan kepuasan konsumen harus dikaji oleh organisasi kemudian diterjemahkan ke dalam parameter-parameter yang bisa diukur.
 
 Agar operasional perusahaan sehari-hari berorientasi pada pelayanan konsumen, beberapa perusahaan menuliskan kepuasan pelanggan di visi misi mereka dan menjadikannya sebagai indikator kinerja utama mereka (*main performance indicator*). Coba dilihat misalnya misi dari [The Walt Disney Company](https://thewaltdisneycompany.com/about/) atau visi misi [Telkomsel](https://www.telkomsel.com/en/about-us/our-story).
