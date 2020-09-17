@@ -1,8 +1,8 @@
-baseurl: "https://example.com/"
-title: Ghostwriter example
+baseurl: "https://bangtedy.rbind.io/"
+title: bangtedy BLOG
 theme: ghostwriter
 languageCode: en-us
-copyright: My Name
+copyright: Tedy Herlambang
 disqusShortname: XXX
 googleAnalytics: XXX
 pygmentsUseClasses: true
