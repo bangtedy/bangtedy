@@ -16,12 +16,12 @@ baseURL = "https://bangtedy.rbind.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "bangtedy BLOG"
-theme = "hugo-tranquilpeak-theme"
+theme = "ghostwriter"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-29884135-3"
 paginate = 7
 canonifyurls = true
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
   post = "/:year/:month/:slug/"
 

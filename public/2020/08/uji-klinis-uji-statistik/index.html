@@ -1,265 +1,102 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="generator" content="Hugo 0.75.1 with theme Tranquilpeak 0.4.8-BETA">
-<meta name="author" content="Tedy Herlambang">
-<meta name="keywords" content="">
-<meta name="description" content="Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Uji Klinis Uji Statistik &middot; Tedy Herlambang</title>
+        <meta name="description" content="Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?
 Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui prosedur dan etika yang ditetapkan oleh WHO, bisa dibaca disini. Suatu senyawa bagaimanapun menjanjikannya untuk menyembuhkan suatu penyakit, harus melalui serangkaian pengujian (pada hewan terlebih dahulu) di laboratorium sebelum diuji coba pada manusia.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.75.1" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="/dist/site.css">
+        <link rel="stylesheet" href="/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="bangtedy BLOG" href="/">bangtedy BLOG</a>
+                            </h1>
+                        
+                        <a class="button-square" href="/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a title="Home" href="/">Home</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Categories" href="/categories">Categories</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Tags" href="/tags">Tags</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Archives" href="/archives">Archives</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="About" href="/#about">About</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Getting Started with Hugo" href="/2014/04/getting-started-with-hugo/">Getting Started with Hugo</a>
+    </li>
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
 
 
-<meta property="og:description" content="Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?
-Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui prosedur dan etika yang ditetapkan oleh WHO, bisa dibaca disini. Suatu senyawa bagaimanapun menjanjikannya untuk menyembuhkan suatu penyakit, harus melalui serangkaian pengujian (pada hewan terlebih dahulu) di laboratorium sebelum diuji coba pada manusia.">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Uji Klinis Uji Statistik">
-<meta name="twitter:title" content="Uji Klinis Uji Statistik">
-<meta property="og:url" content="/2020/08/uji-klinis-uji-statistik/">
-<meta property="twitter:url" content="/2020/08/uji-klinis-uji-statistik/">
-<meta property="og:site_name" content="bangtedy BLOG">
-<meta property="og:description" content="Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?
-Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui prosedur dan etika yang ditetapkan oleh WHO, bisa dibaca disini. Suatu senyawa bagaimanapun menjanjikannya untuk menyembuhkan suatu penyakit, harus melalui serangkaian pengujian (pada hewan terlebih dahulu) di laboratorium sebelum diuji coba pada manusia.">
-<meta name="twitter:description" content="Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?
-Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui prosedur dan etika yang ditetapkan oleh WHO, bisa dibaca disini. Suatu senyawa bagaimanapun menjanjikannya untuk menyembuhkan suatu penyakit, harus melalui serangkaian pengujian (pada hewan terlebih dahulu) di laboratorium sebelum diuji coba pada manusia.">
-<meta property="og:locale" content="en-us">
-
-  
-    <meta property="article:published_time" content="2020-08-22T00:00:00">
-  
-  
-    <meta property="article:modified_time" content="2020-08-22T00:00:00">
-  
-  
-  
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Uji Klinis Uji Statistik</h1>
     
-      <meta property="article:section" content="teori">
+    <p class="post-date post-line">
+        <span>Published <time datetime="2020-08-22" itemprop="datePublished">Sat, Aug 22, 2020</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Tedy Herlambang</a>
+            </span>
+        </span>
+    </p>
     
-  
-  
-    
-      <meta property="article:tag" content="uji klinis">
-    
-      <meta property="article:tag" content="desain percobaan">
-    
-      <meta property="article:tag" content="desain penelitian">
-    
-  
-
-
-<meta name="twitter:card" content="summary">
-
-
-
-
-
-
-
-
-
-
-
-  <meta property="og:image" content="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=640">
-  <meta property="twitter:image" content="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=640">
-
-
-    <title>Uji Klinis Uji Statistik</title>
-
-    <link rel="icon" href="/favicon.png">
-    
-
-    
-
-    <link rel="canonical" href="/2020/08/uji-klinis-uji-statistik/">
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
-    
-    
-    <link rel="stylesheet" href="/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
-    
-    
-
-    
-      
-    
-    
-  </head>
-
-  <body>
-    <div id="blog">
-      <header id="header" data-behavior="4">
-  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
-  <div class="header-title">
-    <a class="header-title-link" href="/">bangtedy BLOG</a>
-  </div>
-  
-    
-      <a class="header-right-picture "
-         href="/#about">
-    
-    
-    
-      
-        <img class="header-picture" src="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=90" alt="Author&#39;s picture" />
-      
-    
-    </a>
-  
 </header>
 
-      <nav id="sidebar" data-behavior="4">
-  <div class="sidebar-container">
+        <div class="post-content clearfix" itemprop="articleBody">
     
-      <div class="sidebar-profile">
-        <a href="/#about">
-          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=110" alt="Author&#39;s picture" />
-        </a>
-        <h4 class="sidebar-profile-name">Tedy Herlambang</h4>
-        
-          <h5 class="sidebar-profile-bio">Super bio with markdown support <strong>COOL</strong></h5>
-        
-      </div>
-    
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="/">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
-      
-      <span class="sidebar-button-desc">Home</span>
-    </a>
-  </li>
 
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="/categories">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
-      
-      <span class="sidebar-button-desc">Categories</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="/tags">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
-      
-      <span class="sidebar-button-desc">Tags</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="/archives">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
-      
-      <span class="sidebar-button-desc">Archives</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="/#about">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
-      
-      <span class="sidebar-button-desc">About</span>
-    </a>
-  </li>
-
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://github.com/kakawait">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
-      
-      <span class="sidebar-button-desc">GitHub</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://stackoverflow.com/users/636472/kakawait">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
-      
-      <span class="sidebar-button-desc">Stack Overflow</span>
-    </a>
-  </li>
-
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="/index.xml">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
-      
-      <span class="sidebar-button-desc">RSS</span>
-    </a>
-  </li>
-
-
-    </ul>
-  </div>
-</nav>
-
-      
-
-      <div id="main" data-behavior="4"
-        class="
-               hasCoverMetaIn
-               ">
-        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
-          
-          
-            <div class="post-header main-content-wrap text-left">
-  
-    <h1 class="post-title" itemprop="headline">
-      Uji Klinis Uji Statistik
-    </h1>
-  
-  
-  <div class="postShorten-meta post-meta">
-    
-      <time itemprop="datePublished" datetime="2020-08-22T00:00:00Z">
-        
-  August 22, 2020
-
-      </time>
-    
-    
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="/categories/teori">teori</a>
-    
-  
-
-  </div>
-
-</div>
-          
-          <div class="post-content markdown" itemprop="articleBody">
-            <div class="main-content-wrap">
-              <p>Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?</p>
+    <p>Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?</p>
 <p>Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui prosedur dan etika yang ditetapkan oleh WHO, bisa dibaca <a href="https://www.who.int/health-topics/clinical-trials/#tab=tab_1">disini</a>. Suatu senyawa bagaimanapun menjanjikannya untuk menyembuhkan suatu penyakit, harus melalui serangkaian pengujian (pada hewan terlebih dahulu) di laboratorium sebelum diuji coba pada manusia. Tujuan dari uji coba di laboratorium ini adalah untuk menentukan apakah suatu senyawa cukup aman untuk dipakai pada manusia. Biasanya yang dilihat adalah toksisitas dari senyawa itu dan menemukan dosis yang pas untuk pengujian selanjutnya pada manusia.</p>
 <p>Setelah senyawa itu lolos dalam uji laboratorium, obat siap memasuki tahap uji klinis di dunia nyata diluar laboratorium (berarti laboratorium bukan dunia nyata?). Senyawa yang tidak lolos pada uji laboratorium tidak boleh diujicobakan pada manusia. Hal ini karena walaupun telah melewati uji laboratorium intensif, seringkali obat baru tersebut belum jelas apakah manfaatnya nanti akan lebih besar dari mudaratnya. Oleh karena itu desain percobaan yang tepat diperlukan untuk bisa menjawabnya.</p>
 <p>Prinsip utama dari desain percobaan untuk suatu senyawa (untuk kesehatan, pertanian, olah raga, dll) adalah perbandingan. Calon obat baru (misalnya pil untuk Covid-19) diberikan kepada partisipan di dalam kelompok perlakuan (<em>treatment group</em>). Secara paralel, ada partisipan di kelompok lain yang diberikan pil kosong/plasebo digunakan sebagai kontrol. Respon kedua kelompok itu dibandingkan dengan berbagai uji statistik untuk melihat apakah terdapat perbedaan. Hasil percobaan harus diuji statistik adalah karena data yang digunakan dari sampel bukan populasi.</p>
@@ -269,318 +106,105 @@ Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui pr
 <p>Tentang plasebo: semua partisipan di kedua kelompok diberi pil. Tetapi baik partisipan atau pengevaluasi, sama-sama tidak tahu apakah pil yang diberikan mengandung senyawa atau hanya pil kosong (<em>double-blind</em>). Dengan demikian respon yang diamati adalah karena kandungan pil yang dikonsumsi bukan karena perasaan tenang karena telah mengkonsumsi pil. Untuk kondisi tertentu, dokter kadang memberikan pil kosong (kandungan netral) pada pasien. Hasilnya pasien merasa lebih baik. Atau pernahkah Anda sakit, begitu Anda berinisiatif atau ketika sudah tiba diruang praktek dokter, kita sudah merasa lebih baik padahal belum diperiksa?</p>
 <p>Desain uji acak terkendali atau <em>randomized controlled trial (RCT) double-blind design</em> dapat memberikan dasar yang sahih bagi peneliti untuk melakukan perbandingan dan akan mengurangi bias penelitian. Semangka harus dibandingkan dengan semangka bukan dengan melon. Bias tidak mungkin dihilangkan sama sekali, tetapi bisa diminimalisir. Salah satu alasan mengapa desain RCT ini harus diterapkan jika memungkinkan di dalam suatu penelitian.</p>
 
-              
-            </div>
-          </div>
-          <div id="post-footer" class="post-footer main-content-wrap">
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
             
-              
-                
-                
-                  <div class="post-footer-tags">
-                    <span class="text-color-light text-small">TAGGED IN</span><br/>
-                    
-  <a class="tag tag--primary tag--small" href="/tags/uji-klinis/">uji klinis</a>
-
-  <a class="tag tag--primary tag--small" href="/tags/desain-percobaan/">desain percobaan</a>
-
-  <a class="tag tag--primary tag--small" href="/tags/desain-penelitian/">desain penelitian</a>
-
-                  </div>
-                
-              
             
-            <div class="post-actions-wrap">
-  
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/08/saham-agro/" data-tooltip="Kandil Pertanian">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/08/normal-di-era-new-normal/" data-tooltip="Normal di Era New Normal">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
-        </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
-      
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
+                <a href="/tags/uji-klinis/">uji klinis</a>, 
+            
+                <a href="/tags/desain-percobaan/">desain percobaan</a>, 
+            
+                <a href="/tags/desain-penelitian/">desain penelitian</a>
+            
+        </p>
+    
+
+    <div class="share">
         
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2020/08/uji-klinis-uji-statistik/">
-              <i class="fa fa-facebook-official"></i>
+            <a class="icon-twitter" href="https://twitter.com/share?text=Uji%20Klinis%20Uji%20Statistik&url=%2f2020%2f08%2fuji-klinis-uji-statistik%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
             </a>
-          </li>
         
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2020/08/uji-klinis-uji-statistik/">
-              <i class="fa fa-twitter"></i>
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2f2020%2f08%2fuji-klinis-uji-statistik%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
             </a>
-          </li>
         
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2020/08/uji-klinis-uji-statistik/">
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=%2f2020%2f08%2fuji-klinis-uji-statistik%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
               <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
             </a>
-          </li>
         
-      
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
-      <li class="post-action">
         
-          <a class="post-action-btn btn btn--default" href="#">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
-  
-</div>
-
-            
-              
-                <div id="disqus_thread">
-  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-              
-            
-          </div>
-        </article>
-        <footer id="footer" class="main-content-wrap">
-  <span class="copyrights">
-    &copy; 2020 Tedy Herlambang. All Rights Reserved
-  </span>
+    </div>
 </footer>
 
-      </div>
-      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
-        <div class="post-actions-wrap">
-  
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/08/saham-agro/" data-tooltip="Kandil Pertanian">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/08/normal-di-era-new-normal/" data-tooltip="Normal di Era New Normal">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
-        </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
-      
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
         
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=/2020/08/uji-klinis-uji-statistik/">
-              <i class="fa fa-facebook-official"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=/2020/08/uji-klinis-uji-statistik/">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=/2020/08/uji-klinis-uji-statistik/">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </li>
-        
-      
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
-      <li class="post-action">
-        
-          <a class="post-action-btn btn btn--default" href="#">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
-  
-</div>
-
-      </div>
-      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
-  <i id="btn-close-shareoptions" class="fa fa-close"></i>
-  <ul class="share-options">
-    
-      <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2F2020%2F08%2Fuji-klinis-uji-statistik%2F">
-          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
-        </a>
-      </li>
-    
-      <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2F2020%2F08%2Fuji-klinis-uji-statistik%2F">
-          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
-        </a>
-      </li>
-    
-      <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2F2020%2F08%2Fuji-klinis-uji-statistik%2F">
-          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-<div id="share-options-mask" class="share-options-mask"></div>
-    </div>
-    
-    <div id="about">
-  <div id="about-card">
-    <div id="about-btn-close">
-      <i class="fa fa-remove"></i>
-    </div>
-    
-      <img id="about-card-picture" src="https://www.gravatar.com/avatar/4b3012f5af5ade5b7f63190b5a5401e5?s=110" alt="Author&#39;s picture" />
-    
-    <h4 id="about-card-name">Tedy Herlambang</h4>
-    
-      <div id="about-card-bio">Super bio with markdown support <strong>COOL</strong></div>
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
     
-      <div id="about-card-job">
-        <i class="fa fa-briefcase"></i>
-        <br/>
-        Bercocok Tanam
-      </div>
     
-    
-      <div id="about-card-location">
-        <i class="fa fa-map-marker"></i>
-        <br/>
-        PP Paiton Probolinggo
-      </div>
-    
-  </div>
-</div>
-
-    
-
-    
-  
-    
-      <div id="cover" style="background-image:url('/images/cover.jpg');"></div>
-    
-  
-
-
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
-
-
-<script src="/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
-
-
-<script lang="javascript">
-window.onload = updateMinWidth;
-window.onresize = updateMinWidth;
-document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
-function updateMinWidth() {
-  var sidebar = document.getElementById("sidebar");
-  var main = document.getElementById("main");
-  main.style.minWidth = "";
-  var w1 = getComputedStyle(main).getPropertyValue("min-width");
-  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
-  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
-  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
-}
-</script>
-
-<script>
-$(document).ready(function() {
-  hljs.configure({ classPrefix: '', useBR: false });
-  $('pre.code-highlight > code, pre > code').each(function(i, block) {
-    if (!$(this).hasClass('codeblock')) {
-      $(this).addClass('codeblock');
-    }
-    hljs.highlightBlock(block);
-  });
-});
-</script>
-
-
-  
-    
-      <script>
-        var disqus_config = function () {
-          this.page.url = '\/2020\/08\/uji-klinis-uji-statistik\/';
-          
-            this.page.identifier = '\/2020\/08\/uji-klinis-uji-statistik\/'
-          
-        };
-        (function() {
-          
-          
-          if (window.location.hostname == "localhost") {
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
             return;
-          }
-          var d = document, s = d.createElement('script');
-          var disqus_shortname = 'hugo-tranquilpeak-theme';
-          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-tranquilpeak-theme" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
 
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-    
-  
+    </article>
+</div>
 
+            </div>
+        </div>
 
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="bangtedy BLOG" href="/">bangtedy BLOG</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
 
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
 
-    
-  </body>
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
 </html>
 
