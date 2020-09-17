@@ -15,13 +15,12 @@
 baseURL = "https://bangtedy.rbind.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "bangtedy BLOG"
+title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-29884135-3"
 paginate = 7
 canonifyurls = true
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -33,8 +32,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [author]
   name = "Tedy Herlambang"
-  bio = "Mencangkul with markdown support **KUUL**"
-  job = "Bercocok tanam"
+  bio = "Super bio with markdown support **COOL**"
+  job = "Bercocok Tanam"
   location = "PP Paiton Probolinggo"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "bangtedy@gmail.com"
@@ -42,7 +41,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
-  # twitter = "t_hlb"
+  # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
   # googlePlus = "+ThibaudLepretre"
 

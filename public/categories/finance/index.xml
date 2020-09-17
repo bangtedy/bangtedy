@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>finance on bangtedy BLOG</title>
+    <title>finance on Hugo tranquilpeak theme</title>
     <link>/categories/finance/</link>
-    <description>Recent content in finance on bangtedy BLOG</description>
+    <description>Recent content in finance on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/finance/index.xml" rel="self" type="application/rss+xml" />
