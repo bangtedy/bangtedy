@@ -15,7 +15,7 @@
 baseURL = "https://bangtedy.rbind.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "bangtedy BLOG"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-29884135-3"
