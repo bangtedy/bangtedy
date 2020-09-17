@@ -44,8 +44,16 @@ Responden diminta untuk memberikan skor dengan 5-point skala Likert untuk setiap
 
 ```{r}
 library (haven) #paket untuk mengimpor data spss
+```
+```{r}
 library (ggplot2)
+```
+
+```{r}
 library (gridExtra)
+```
+
+```{r}
 ce.cs <- read_sav("ce.cs.sav") #perintah mengimpor data SPSS
 ```
 ## Eksplorasi pengalaman pelanggan untuk lima indikator
@@ -54,23 +62,33 @@ ce.cs <- read_sav("ce.cs.sav") #perintah mengimpor data SPSS
 ce1 <- ggplot(ce.cs, aes(factor(CE1))) +
   geom_bar(fill="blue") + ylab("") +
   xlab("CE1(reliability)") + ylim(0, 225)
+```
 
+```{r}
 ce2 <- ggplot(ce.cs, aes(factor(CE2))) +
   geom_bar(fill="red") + ylab("") +
   xlab("CE2(right diagnosis)") + ylim(0, 225)
+```
 
+```{r}
 ce3 <- ggplot(ce.cs, aes(factor(CE3))) +
   geom_bar(fill="orange") + ylab("") +
   xlab("CE3(right treatment)") + ylim(0, 225)
+```
 
+```{r}
 ce4 <- ggplot(ce.cs, aes(factor(CE4))) +
   geom_bar(fill="yellow") + ylab("") +
   xlab("CE4(verbal com.)") + ylim(0, 225)
+```
 
+```{r}
 ce5 <- ggplot(ce.cs, aes(factor(CE5))) +
   geom_bar(fill="green") + ylab("") +
   xlab("CE5(non-verbal com.)") + ylim(0, 225)
+```
 
+```{r}
 grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)
 ```
 
@@ -82,23 +100,33 @@ Berdasarkan grafik di atas, terlihat bahwa pelanggan layanan kesehatan di Nigeri
 cs1 <- ggplot(ce.cs, aes(factor(CS1))) +
 	geom_bar(fill="#e05561") + ylab("") +
     xlab("CS1(reliability)") + ylim(0, 200)
-           
+```
+
+```{r}
 cs2 <- ggplot(ce.cs, aes(factor(CS2))) +
     geom_bar(fill="#42b3c2") + ylab("") +
     xlab("CS2(professional)")+ ylim(0, 200)
-           
+```
+
+```{r}
 cs3 <- ggplot(ce.cs, aes(factor(CS3))) +
     geom_bar(fill="#8cc265") + ylab("") +
     xlab("CS3(privacy)") + ylim(0, 200)
-           
+```
+
+```{r}
 cs4 <- ggplot(ce.cs, aes(factor(CS4))) +
     geom_bar(fill="#f0a45d") + ylab("") +
     xlab("CS4(aroma)") + ylim(0, 200)
-           
+```
+
+```{r}
 cs5 <- ggplot(ce.cs, aes(factor(CS5))) +
     geom_bar(fill="#29244b") + ylab("") +
     xlab("CS5(cleanliness)") + ylim(0, 200)
+```
 
+```{r}
 grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)
 ```
 
