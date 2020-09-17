@@ -1,29 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>regresi on A Hugo website</title>
-    <link>/tags/regresi/</link>
-    <description>Recent content in regresi on A Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/regresi/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Antara Kekerasan dan Kerapatan</title>
-      <link>/2020/08/12/antara-kekerasan-dan-kerapatan/</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/08/12/antara-kekerasan-dan-kerapatan/</guid>
-      <description>AssalamualaikumGaes, ada cara mantul membuat regresi hanya dengan dua baris perintah saja. Ya betul, hanya dengan dua baris perintah saja dengan menggunakan software R! Kuy, kita icip-icip RRR (Regresi Rasa R).
-model.kayu &amp;lt;- lm (kekerasan~kerapatan)
-model.kayu
-Nah…keluar tuh model kayunya! Gimana caranya?
-Mengunduh dan memasang RJika kamu belum pernah menggunakan R, kamu bisa mengunduh dan memasang R gratis. Caranya:
-kunjungi https://cran.r-project.org/klik pilihan Download R sesuai os komputer kalian Windows, Mac atau Linuxpilih R versi terbaru yang ada (contoh ini dibuat menggunakan R versi 4.</description>
-    </item>
-    
-  </channel>
-</rss>
