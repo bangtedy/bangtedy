@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>desain percobaan on A Hugo website</title>
+    <title>desain percobaan on bangtedy Blog</title>
     <link>/tags/desain-percobaan/</link>
-    <description>Recent content in desain percobaan on A Hugo website</description>
+    <description>Recent content in desain percobaan on bangtedy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/desain-percobaan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uji Klinis Uji Statistik</title>
-      <link>/2020/08/22/uji-klinis-uji-statistik/</link>
+      <link>/2020/08/uji-klinis-uji-statistik/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/08/22/uji-klinis-uji-statistik/</guid>
+      <guid>/2020/08/uji-klinis-uji-statistik/</guid>
       <description>Belum ada obat yang spesifik untuk Covid-19 (as of 21/08/2020). Kebutuhan obat yang spesifik untuk pasien Covid-19 terus mendesak karena jumlah kasus akibat penyakit yang disebabkan oleh virus SARS-COV-2 ini terus bertambah. Bagaimana riset dan pengembangan obat itu didesain untuk menguji keamanan dan efektivitasnya?
 Dari awal proses riset sampai obat itu bisa diedarkan harus dilakukan melalui prosedur dan etika yang ditetapkan oleh WHO, bisa dibaca disini. Suatu senyawa bagaimanapun menjanjikannya untuk menyembuhkan suatu penyakit, harus melalui serangkaian pengujian (pada hewan terlebih dahulu) di laboratorium sebelum diuji coba pada manusia.</description>
     </item>
