@@ -1,0 +1,128 @@
+---
+title: Puas dengan Pengalamannya
+author: Tedy Herlambang
+date: '2020-09-17'
+slug: puas-dengan-pengalamannya.en-us
+categories:
+  - service quality
+tags:
+  - kepuasan konsumen
+  - customer satisfaction
+keywords:
+  - tech
+---
+
+<!--more-->
+
+Salah satu kunci keberhasilan suatu bisnis adalah pengetahuan akan keinginan dan kebutuhan konsumen khususnya pengetahuan tentang seberapa puas mereka terhadap layanan atau produk yang ditawarkan oleh bisnis tersebut. Saat ini memberikan pengalaman yang memuaskan bagi pelanggan menjadi mantra utama di dalam peningkatan mutu layanan sebuah bisnis modern. Atas alasan ini maka pengalaman dan kepuasan konsumen harus dikaji oleh organisasi kemudian diterjemahkan ke dalam parameter-parameter yang bisa diukur.
+
+Agar operasional perusahaan sehari-hari berorientasi pada pelayanan konsumen, beberapa perusahaan menuliskan kepuasan pelanggan di visi misi mereka dan menjadikannya sebagai indikator kinerja utama mereka (*main performance indicator*). Coba dilihat misalnya misi dari [The Walt Disney Company](https://thewaltdisneycompany.com/about/) atau visi misi [Telkomsel](https://www.telkomsel.com/en/about-us/our-story).
+
+Akan tetapi di dalam praktek sehari-hari, sangat sulit bagi seluruh anggota sebuah organisasi untuk selalu termotivasi oleh visi misi dan konsep abstrak yang bernama kepuasan konsumen. Oleh karena itulah, kepuasan konsumen harus diterjemahkan menjadi sejumlah parameter/indikator yang terkait langsung dengan tugas dan pekerjaan seluruh anggota organisasi dari paling bawah sampai atas. 
+
+Indikator-indikator itu haruslah merupakan sesuatu yang bisa mudah dipahami dan dapat dipengaruhi oleh yang berkepentingan. Penterjemahan konsep abstrak bernama kepuasan konsumen akan memberikan perasaan pencapaian (*achievement*) dan prestasi (*accomplishment*) bagi semua staf yang telibat dalam proses layanan.
+
+Dengan cara ini sebuah visi memberikan layanan terbaik bagi konsumen dapat memotivasi staf yang bekerja dan berusaha mencapai produktivitas lebih tinggi. Bagi perusahaan, penerjemahan kepuasan pelanggan ke dalam indikator-indikator yang terukur dapat digunakan untuk mengevaluasi kinerja karyawan dan sekaligus mengukur daya saing perusahaan di dalam industri. Tidak hanya ini, dengan mengukur kepuasan pelanggan perusahaan dapat mengidentifikasi peluang-peluang bisnis baru dengan mengidentifikasi dan menganalisa ekspektasi, kebutuhan dan keinginan pelanggannya.
+
+# Studi Kasus Kepuasan Pengguna Layanan Sektor Kesehatan
+
+Sebagai contoh kasus, kali ini kita akan mengeksplorasi data hasil penelitian tentang hubungan antara tingkat kepuasan konsumen (*customer satisfaction*) dengan pengalaman konsumen(*customer experience*) untuk layanan kesehatan di Nigeria. Peneliti ini mendekati kepuasan pelanggan sebagai situasi akhir dari pengalaman memakai sesuatu (*as an end-state resulting from the consumption experience*).
+
+### Customer experience diukur dengan lima indikator:
+1. The reliability of the health care services makes me contented(ce1) 
+2. The right diagnosis of illness by the health care organization makes me completely happy with the organization(ce2).
+3. The right treatment of illness by the health care organization enhances my relief(ce3).
+4. The effective verbal communication of the health care service enhances my gratification(ce4).
+5. The non-verbal communication of the health care service enhances my gratification(ce5).
+
+### Customer satisfaction diukur dengan lima indikator juga, yaitu:
+
+1. Respecting my wishes makes me satisfied(cs1)
+2. Showing professionally appropriate behaviour by the health care service provider delights me(cs2)
+3. Maintaining patient privacy enhances customer’s trust(cs3)
+4. The aroma of the health care organization makes me satisfied(cs4)
+5. The cleanliness of the health care organization satisfies me(cs5)
+
+Responden diminta untuk memberikan skor dengan 5-point skala Likert untuk setiap pernyataan yang berhubungan dengan pengalaman dan kepuasan diatas, dimana 5: sangat setuju, 4: setuju, 3: tidak tahu, 2: tidak setuju, 1: sangat tidak setuju. Data dari peneliti dalam bentuk SPSS dengan nama DIB on Customer Experience and Customer satisfaction. Artikel dan data bisa diunduh bebas di [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2352340918307212). Untuk kemudahan nama file dari peneliti saya ganti dengan nama ce.cs. Tiga packages akan kita gunakan (Anda harus menginstal dulu jika belum dengan perintah install.packages()).
+
+```{r}
+library (haven) #paket untuk mengimpor data spss
+library (ggplot2)
+library (gridExtra)
+ce.cs <- read_sav("ce.cs.sav") #perintah mengimpor data SPSS
+```
+## Eksplorasi pengalaman pelanggan untuk lima indikator
+
+```{r}
+ce1 <- ggplot(ce.cs, aes(factor(CE1))) +
+  geom_bar(fill="blue") + ylab("") +
+  xlab("CE1(reliability)") + ylim(0, 225)
+
+ce2 <- ggplot(ce.cs, aes(factor(CE2))) +
+  geom_bar(fill="red") + ylab("") +
+  xlab("CE2(right diagnosis)") + ylim(0, 225)
+
+ce3 <- ggplot(ce.cs, aes(factor(CE3))) +
+  geom_bar(fill="orange") + ylab("") +
+  xlab("CE3(right treatment)") + ylim(0, 225)
+
+ce4 <- ggplot(ce.cs, aes(factor(CE4))) +
+  geom_bar(fill="yellow") + ylab("") +
+  xlab("CE4(verbal com.)") + ylim(0, 225)
+
+ce5 <- ggplot(ce.cs, aes(factor(CE5))) +
+  geom_bar(fill="green") + ylab("") +
+  xlab("CE5(non-verbal com.)") + ylim(0, 225)
+
+grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)
+```
+
+Berdasarkan grafik di atas, terlihat bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan. Dengan skor sebagian besar berada pada angka 4 dan 5, dapat dikatakan bahwa sebagian besar dari pelanggan memperoleh pengalaman baik dari sektor kesehatan.
+
+## Eksplorasi kepuasan pelanggan yang diukur dengan lima indikator kepuasan
+
+```{r}
+cs1 <- ggplot(ce.cs, aes(factor(CS1))) +
+	geom_bar(fill="#e05561") + ylab("") +
+    xlab("CS1(reliability)") + ylim(0, 200)
+           
+cs2 <- ggplot(ce.cs, aes(factor(CS2))) +
+    geom_bar(fill="#42b3c2") + ylab("") +
+    xlab("CS2(professional)")+ ylim(0, 200)
+           
+cs3 <- ggplot(ce.cs, aes(factor(CS3))) +
+    geom_bar(fill="#8cc265") + ylab("") +
+    xlab("CS3(privacy)") + ylim(0, 200)
+           
+cs4 <- ggplot(ce.cs, aes(factor(CS4))) +
+    geom_bar(fill="#f0a45d") + ylab("") +
+    xlab("CS4(aroma)") + ylim(0, 200)
+           
+cs5 <- ggplot(ce.cs, aes(factor(CS5))) +
+    geom_bar(fill="#29244b") + ylab("") +
+    xlab("CS5(cleanliness)") + ylim(0, 200)
+
+grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)
+```
+
+Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa pelanggan layanan kesehatan di Nigeria sebagian besar menyatakan setuju atau sangat setuju dengan indikator-indikator pengukur kepuasan layanan (skor 4 dan 5). Artinya mereka sebagian besar merasa puas dengan layanan di sektor kesehatan yang mereka terima. Selanjutnya kita buat scatter plot antara customer experience dan customer satisfaction.
+
+```{r}
+ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
+  geom_smooth(method="lm", colour="red") +
+  geom_abline(slope=1, intercept=0)
+```
+
+Hasil scatter plot menunjukkan bahwa terdapat hubungan yang positif antara pengalaman dengan kepuasan pelanggan. Pelanggan yang memberi rating tinggi untuk indikator pengalaman secara umum memberikan rating yang tinggi pula untuk indikator kepuasan, walaupun tidak setinggi rating yang mereka berikan pada indikator pengalaman. Hal ini menunjukkan bahwa masih ada variabilitas pada kepuasan pelanggan yang tidak dapat dijelaskan oleh model ini. 
+
+Untuk mengeksplorasi lebih jauh, apakah ada kemungkinan hubungan antara kepuasan konsumen dengan pengalaman konsumen bersifat non-linear, kita dapat membuat plot smoother dan garis regresi terbaik (*the best ﬁt regression line*) secara bersama-sama. Hasilnya menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan.
+
+```{r}
+ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
+  geom_smooth(method="lm", colour="red", se=FALSE) + stat_smooth()
+```
+Tahap selanjutnya, Anda tinggal melakukan  regresi (lihat posting [Antara Kekerasan dan Kerapatan](https://bangtedy.rbind.io/2020/08/antara-kekerasan-dan-kerapatan/). Selamat mencoba!
+
+
+
+
