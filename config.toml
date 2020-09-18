@@ -1,15 +1,18 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A minimal Hugo website"
-theme = "hugo-xmin"
+title = "A Light Drizzle"
+theme = "hugo-xmag"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+enableEmoji = true
+paginate = 6
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -33,9 +36,11 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 -- 2019 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+    summary_length = 300
+    github_edit = "https://github.com/yihui/hugo-xmag/edit/master/exampleSite/content/"
+    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/t_hlb)"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[params.text]
+    back = "&larr; Back to Home"
+    edit = "Edit this page &rarr;"
+    truncated = "&hellip;"
