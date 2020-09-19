@@ -1,9 +1,9 @@
-+++
-title = "Migrating from Jekyll"
-description = "Migrating from Jekyll description."
-date = 2014-04-02T02:13:50Z
-author = "Michael Henderson"
-+++
+---
+author: Michael Henderson
+date: "2014-04-02T02:13:50Z"
+description: Migrating from Jekyll description.
+title: Migrating from Jekyll
+---
 
 ## Move static content to `static`
 
