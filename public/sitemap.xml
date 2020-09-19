@@ -3,142 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/kepuasan-konsumen/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+    <loc>/tags/kepuasan-konsumen/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/layanan-kesehatan/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/pengalaman-konsumen/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2020/09/18/pengalaman-memuaskan/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+    <loc>/post/pengalaman-memuaskan/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/service/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2017/02/14/a-plain-markdown-post/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/page/about/</loc>
+    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/blogdown/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/page/contact/</loc>
+    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/example/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/page/</loc>
+    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/project/my-awesome-project/</loc>
+    <lastmod>2014-11-18T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/project/</loc>
+    <lastmod>2014-11-18T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mathjax/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/post/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/pandoc/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rstudio/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <loc>/tags/development/</loc>
+    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2015/07/28/jeff-leek-can-do-zero-fold-cross-validation/</loc>
-    <lastmod>2015-07-28T00:00:00+00:00</lastmod>
+    <loc>/tags/go/</loc>
+    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/lorem-ipsum/</loc>
-    <lastmod>2015-07-28T00:00:00+00:00</lastmod>
+    <loc>/tags/golang/</loc>
+    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/machine-learning/</loc>
-    <lastmod>2015-07-28T00:00:00+00:00</lastmod>
+    <loc>/post/migrate-from-jekyll/</loc>
+    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2015/07/27/correlation-implies-whatever-jeff-leek-tells-it-to-imply/</loc>
-    <lastmod>2015-07-27T00:00:00+00:00</lastmod>
+    <loc>/tags/templates/</loc>
+    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/leekaso/</loc>
-    <lastmod>2015-07-27T00:00:00+00:00</lastmod>
+    <loc>/tags/themes/</loc>
+    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2015/07/26/jeff-leek-counted-to-infinity.-twice./</loc>
-    <lastmod>2015-07-26T00:00:00+00:00</lastmod>
+    <loc>/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2015/07/25/git-commits-to-jeff-leek/</loc>
-    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    <loc>/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/tech/</loc>
-    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    <loc>/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2015/07/24/jeff-leek-always-obtains-unbiased-estimators/</loc>
-    <lastmod>2015-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/statistics/</loc>
-    <lastmod>2015-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015/07/23/jeff-leek-is-the-uniformly-most-powerful-jeff/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

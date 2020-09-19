@@ -1,72 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on A Light Drizzle</title>
+    <title>Categories on My New Hugo Site</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on A Light Drizzle</description>
+    <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kepuasan Konsumen</title>
-      <link>/categories/kepuasan-konsumen/</link>
-      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <title>service</title>
+      <link>/categories/service/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/kepuasan-konsumen/</guid>
+      <guid>/categories/service/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Example</title>
-      <link>/categories/example/</link>
-      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <title>Development</title>
+      <link>/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/categories/example/</guid>
+      <guid>/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>/categories/hugo/</link>
-      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <title>golang</title>
+      <link>/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/categories/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>/categories/machine-learning/</link>
-      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leekaso</title>
-      <link>/categories/leekaso/</link>
-      <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/leekaso/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>/categories/tech/</link>
-      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>/categories/statistics/</link>
-      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/statistics/</guid>
+      <guid>/categories/golang/</guid>
       <description></description>
     </item>
     
