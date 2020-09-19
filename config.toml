@@ -1,5 +1,7 @@
 theme = "ghostwriter"
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "bangtedy Blog"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+hasCJKLanguage = true
+enableEmoji = true

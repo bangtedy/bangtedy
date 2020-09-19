@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/big-book-1/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
@@ -28,7 +33,17 @@
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/categories/health-sector/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kepuasan-konsumen/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/pengalaman-memuaskan/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
