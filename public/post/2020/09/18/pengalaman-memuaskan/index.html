@@ -126,7 +126,7 @@ ce5 &lt;- ggplot(ce.cs, aes(factor(CE5))) +
 
 grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)</code></pre>
 <p><img src="/post/2020-09-18-pengalaman-memuaskan_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-<p>Berdasarkan grafik di atas, terlihat bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan.</p>
+<p>Berdasarkan grafik di atas, terlihat bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan. Dengan kata lain, sebagian besar pelanggan (300 orang lebih, kecuali indikator non-verbal communication) memperoleh pengalaman menyenangkan untuk indikator reliability, right diagnosis, right treatment, verbal communication dan non-verbal communication.</p>
 </div>
 <div id="eksplorasi-kepuasan-pelanggan-yang-diukur-dengan-lima-indikator-kepuasan" class="section level3">
 <h3>Eksplorasi kepuasan pelanggan yang diukur dengan lima indikator kepuasan</h3>
@@ -153,7 +153,7 @@ cs5 &lt;- ggplot(ce.cs, aes(factor(CS5))) +
 
 grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)</code></pre>
 <p><img src="/post/2020-09-18-pengalaman-memuaskan_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur kepuasan layanan. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.</p>
+<p>Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor kesehatan di Nigeria menyatakan puas dengan indikator reliability, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.</p>
 <pre class="r"><code>ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
   geom_smooth(method=&quot;lm&quot;, colour=&quot;red&quot;) +
   geom_abline(slope=1, intercept=0)</code></pre>
@@ -166,7 +166,7 @@ grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)</code></pre>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
 <pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
 <p><img src="/post/2020-09-18-pengalaman-memuaskan_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
-<p>Hasil plotting menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan. Tahap selanjutnya, Anda tinggal membuat perintah regresi. Selamat Mencoba!</p>
+<p>Hasil plotting menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan. Tahap selanjutnya, Anda tinggal membuat perintah regresi. Selamat Mencoba sunflower: herb: blossom:</p>
 </div>
 
 </main>

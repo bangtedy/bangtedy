@@ -76,7 +76,7 @@ ce5 <- ggplot(ce.cs, aes(factor(CE5))) +
 grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)
 ```
 
-Berdasarkan grafik di atas, terlihat bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan.
+Berdasarkan grafik di atas, terlihat bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan. Dengan kata lain, sebagian besar pelanggan (300 orang lebih, kecuali indikator non-verbal communication) memperoleh pengalaman menyenangkan untuk indikator reliability, right diagnosis, right treatment, verbal communication dan non-verbal communication. 
 
 ### Eksplorasi kepuasan pelanggan yang diukur dengan lima indikator kepuasan
 Beberapa perintah dibawah, akan kita gunakan untuk melihat grafik distribusi rating yang diberikan oleh responden tentang kepuasan dari menggunakan layanan di sektor kesehatan.
@@ -105,7 +105,7 @@ cs5 <- ggplot(ce.cs, aes(factor(CS5))) +
 grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)
 ```
 
-Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur kepuasan layanan. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.
+Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor  kesehatan di Nigeria menyatakan puas dengan indikator reliability, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.
 
 ```{r}
 ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
@@ -122,5 +122,5 @@ ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
   geom_smooth(method="lm", colour="red", se=FALSE) + stat_smooth()
 ```
 
-Hasil plotting menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan. Tahap selanjutnya, Anda tinggal membuat perintah regresi. Selamat Mencoba!
+Hasil plotting menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan. Tahap selanjutnya, Anda tinggal membuat perintah regresi. Selamat Mencoba sunflower: herb: blossom:
 
