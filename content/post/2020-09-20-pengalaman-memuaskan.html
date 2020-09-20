@@ -1,12 +1,13 @@
 ---
 title: Pengalaman Memuaskan
 author: Tedy Herlambang
-date: '2020-09-19'
+date: '2020-09-20'
 slug: pengalaman-memuaskan
 categories:
   - health sector
 tags:
   - kepuasan konsumen
+  - service quality
 description: ''
 ---
 
@@ -17,7 +18,7 @@ description: ''
 <p>Akan tetapi di dalam praktek sehari-hari, sangat sulit bagi seluruh anggota sebuah organisasi untuk selalu termotivasi oleh visi misi dan konsep abstrak yang bernama kepuasan konsumen. Oleh karena itulah, kepuasan konsumen harus diterjemahkan menjadi sejumlah parameter/indikator yang terkait langsung dengan tugas dan pekerjaan seluruh anggota organisasi dari paling bawah sampai atas.</p>
 <p>Indikator-indikator itu haruslah merupakan sesuatu yang bisa mudah dipahami dan dapat dipengaruhi oleh yang berkepentingan. Penterjemahan konsep abstrak bernama kepuasan konsumen akan memberikan perasaan pencapaian (<em>achievement</em>) dan prestasi (<em>accomplishment</em>) bagi semua staf yang telibat dalam proses layanan.</p>
 <p>Dengan cara ini sebuah visi memberikan layanan terbaik bagi konsumen dapat memotivasi staf yang bekerja dan berusaha mencapai produktivitas lebih tinggi. Bagi perusahaan, penerjemahan kepuasan pelanggan ke dalam indikator-indikator yang terukur dapat digunakan untuk mengevaluasi kinerja karyawan dan sekaligus mengukur daya saing perusahaan di dalam industri. Tidak hanya ini, dengan mengukur kepuasan pelanggan perusahaan dapat mengidentifikasi peluang-peluang bisnis baru dengan mengidentifikasi dan menganalisa ekspektasi, kebutuhan dan keinginan pelanggannya.</p>
-<p>Sebagai ilustrasi, kali ini kita akan mengeksplorasi data hasil penelitian yang dilakukan oleh Taiye Borishade, Oladele Kehinde, Oluwole Iyiola, Maxwell Olokundun, Ayodotun Ibidunni, Joy Dirisu dan Charles Omotoyinbo dari Covenant University, Nigeria pada 2017-2018. Mereka ingin melihat hubungan antara tingkat kepuasan konsumen (<em>customer satisfaction</em>) dengan pengalaman konsumen(<em>customer experience</em>) untuk layanan sektor kesehatan di Nigeria.</p>
+<p>Sebagai ilustrasi, kali ini kita akan mengeksplorasi data hasil penelitian yang dilakukan oleh Taiye Borishade, Oladele Kehinde, Oluwole Iyiola, Maxwell Olokundun, Ayodotun Ibidunni, Joy Dirisu dan Charles Omotoyinbo dari Covenant University, Nigeria pada 2017-2018. Mereka ingin melihat hubungan antara tingkat kepuasan konsumen (<em>customer satisfaction</em>) dengan pengalaman konsumen(<em>customer experience</em>) untuk layanan sektor kesehatan di Nigeria :hospital:.</p>
 <p>Para peneliti ini melakukan survey dan berhasil mengumpulkan data dari 365 responden. Pendekatan yang digunakan peneliti ini adalah melihat kepuasan pelanggan sebagai situasi akhir dari pengalaman memakai sesuatu (<em>as an end-state resulting from the consumption experience</em>).</p>
 <div id="customer-experience-diukur-dengan-lima-indikator-yaitu" class="section level3">
 <h3>Customer experience diukur dengan lima indikator yaitu:</h3>
@@ -39,76 +40,76 @@ description: ''
 <li>The cleanliness of the health care organization satisfies me(cs5)</li>
 </ol>
 <p>Terhadap sepuluh indikator ini, responden diminta untuk memberikan skor dengan 5-point skala Likert untuk setiap pernyataan yang berhubungan dengan pengalaman dan kepuasan diatas, dimana 5: sangat setuju, 4: setuju, 3: tidak tahu, 2: tidak setuju, 1: sangat tidak setuju.</p>
-<p>Artikel dan data bisa diunduh bebas di <a href="https://www.sciencedirect.com/science/article/pii/S2352340918307212">ScienceDirect</a>. Nama asli file dalam bentuk SPSS adalah <em>DIB on Customer Experience and Customer satisfaction</em>. Dengan alasan kepraktisan nama awal file dari peneliti saya ganti dengan nama ce.cs. Tiga paket akan kita gunakan (Anda harus menginstal dulu jika belum dengan perintah install.packages()).</p>
+<p>Artikel dan data bisa diunduh bebas di <a href="https://www.sciencedirect.com/science/article/pii/S2352340918307212">ScienceDirect</a>. Nama asli file dalam bentuk SPSS adalah <em>DIB on Customer Experience and Customer satisfaction</em>. Dengan alasan kepraktisan nama awal file dari peneliti saya ganti dengan nama cecs. Tiga paket akan kita gunakan (Anda harus menginstal dulu jika belum dengan perintah install.packages()).</p>
 <pre class="r"><code>library (haven) #paket untuk mengimpor data spss
 library (ggplot2)
 library (gridExtra)
-ce.cs &lt;- read_sav(&quot;ce.cs.sav&quot;) #perintah mengimpor data SPSS</code></pre>
+cecs &lt;- read_sav(&quot;cecs.sav&quot;) #perintah mengimpor data SPSS</code></pre>
 </div>
-<div id="eksplorasi-pengalaman-pelanggan-dengan-lima-indikator-pengalaman-dengan-grafik" class="section level3">
-<h3>Eksplorasi pengalaman pelanggan dengan lima indikator pengalaman dengan grafik</h3>
-<p>Beberapa perintah berikut, akan kita gunakan untuk melihat grafik persebaran rating yang diberikan oleh responden tentang pengalaman menggunakan layanan di sektor kesehatan.</p>
-<pre class="r"><code>ce1 &lt;- ggplot(ce.cs, aes(factor(CE1))) +
+<div id="eksplorasi-pengalaman-pelanggan-dengan-lima-indikator" class="section level3">
+<h3>Eksplorasi pengalaman pelanggan dengan lima indikator</h3>
+<p>Beberapa perintah berikut, akan kita gunakan untuk melihat persebaran rating yang diberikan oleh responden tentang pengalaman menggunakan layanan di sektor kesehatan.</p>
+<pre class="r"><code>ce1 &lt;- ggplot(cecs, aes(factor(CE1))) +
   geom_bar(fill=&quot;blue&quot;) + ylab(&quot;&quot;) +
   xlab(&quot;CE1(reliability)&quot;) + ylim(0, 225)
 
-ce2 &lt;- ggplot(ce.cs, aes(factor(CE2))) +
+ce2 &lt;- ggplot(cecs, aes(factor(CE2))) +
   geom_bar(fill=&quot;red&quot;) + ylab(&quot;&quot;) +
   xlab(&quot;CE2(right diagnosis)&quot;) + ylim(0, 225)
 
-ce3 &lt;- ggplot(ce.cs, aes(factor(CE3))) +
+ce3 &lt;- ggplot(cecs, aes(factor(CE3))) +
   geom_bar(fill=&quot;orange&quot;) + ylab(&quot;&quot;) +
   xlab(&quot;CE3(right treatment)&quot;) + ylim(0, 225)
 
-ce4 &lt;- ggplot(ce.cs, aes(factor(CE4))) +
+ce4 &lt;- ggplot(cecs, aes(factor(CE4))) +
   geom_bar(fill=&quot;yellow&quot;) + ylab(&quot;&quot;) +
   xlab(&quot;CE4(verbal com.)&quot;) + ylim(0, 225)
 
-ce5 &lt;- ggplot(ce.cs, aes(factor(CE5))) +
+ce5 &lt;- ggplot(cecs, aes(factor(CE5))) +
   geom_bar(fill=&quot;green&quot;) + ylab(&quot;&quot;) +
   xlab(&quot;CE5(non-verbal com.)&quot;) + ylim(0, 225)
 
 grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)</code></pre>
-<p><img src="/post/2020-09-19-pengalaman-memuaskan_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-<p>Berdasarkan grafik di atas, terlihat bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan. Dengan kata lain, sebagian besar pelanggan (300 orang lebih, kecuali indikator non-verbal communication) memperoleh pengalaman menyenangkan untuk indikator reliability, right diagnosis, right treatment, verbal communication dan non-verbal communication.</p>
+<p><img src="/post/2020-09-20-pengalaman-memuaskan_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>Grafik di atas menunjukkan bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan. Dengan kata lain, sebagian besar pelanggan (300 orang lebih, kecuali indikator non-verbal communication) memperoleh pengalaman menyenangkan untuk indikator reliability, right diagnosis, right treatment, verbal communication dan non-verbal communication.</p>
 </div>
-<div id="eksplorasi-kepuasan-pelanggan-yang-diukur-dengan-lima-indikator-kepuasan" class="section level3">
-<h3>Eksplorasi kepuasan pelanggan yang diukur dengan lima indikator kepuasan</h3>
-<p>Beberapa perintah dibawah, akan kita gunakan untuk melihat grafik distribusi rating yang diberikan oleh responden tentang kepuasan dari menggunakan layanan di sektor kesehatan.</p>
-<pre class="r"><code>cs1 &lt;- ggplot(ce.cs, aes(factor(CS1))) +
+<div id="eksplorasi-kepuasan-pelanggan-diukur-dengan-lima-indikator" class="section level3">
+<h3>Eksplorasi kepuasan pelanggan diukur dengan lima indikator</h3>
+<p>Beberapa perintah dibawah, akan kita gunakan untuk melihat grafik distribusi rating yang diberikan oleh responden tentang kepuasan dari menggunakan layanan di sektor kesehatan :ambulance:.</p>
+<pre class="r"><code>cs1 &lt;- ggplot(cecs, aes(factor(CS1))) +
     geom_bar(fill=&quot;#e05561&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS1(reliability)&quot;) + ylim(0, 200)
            
-cs2 &lt;- ggplot(ce.cs, aes(factor(CS2))) +
+cs2 &lt;- ggplot(cecs, aes(factor(CS2))) +
     geom_bar(fill=&quot;#42b3c2&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS2(professional)&quot;)+ ylim(0, 200)
            
-cs3 &lt;- ggplot(ce.cs, aes(factor(CS3))) +
+cs3 &lt;- ggplot(cecs, aes(factor(CS3))) +
     geom_bar(fill=&quot;#8cc265&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS3(privacy)&quot;) + ylim(0, 200)
            
-cs4 &lt;- ggplot(ce.cs, aes(factor(CS4))) +
+cs4 &lt;- ggplot(cecs, aes(factor(CS4))) +
     geom_bar(fill=&quot;#f0a45d&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS4(aroma)&quot;) + ylim(0, 200)
            
-cs5 &lt;- ggplot(ce.cs, aes(factor(CS5))) +
+cs5 &lt;- ggplot(cecs, aes(factor(CS5))) +
     geom_bar(fill=&quot;#29244b&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS5(cleanliness)&quot;) + ylim(0, 200)
 
 grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)</code></pre>
-<p><img src="/post/2020-09-19-pengalaman-memuaskan_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p><img src="/post/2020-09-20-pengalaman-memuaskan_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p>Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor kesehatan di Nigeria menyatakan puas dengan indikator reliability, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.</p>
-<pre class="r"><code>ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
+<pre class="r"><code>ggplot(cecs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
   geom_smooth(method=&quot;lm&quot;, colour=&quot;red&quot;) +
   geom_abline(slope=1, intercept=0)</code></pre>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
-<p><img src="/post/2020-09-19-pengalaman-memuaskan_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="/post/2020-09-20-pengalaman-memuaskan_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>Hasil scatter plot menunjukkan bahwa terdapat hubungan yang searah antara pengalaman menggunakan layanan kesehatan dengan kepuasannya. Pelanggan yang memberi rating tinggi untuk indikator pengalaman secara umum juga memberikan rating tinggi untuk indikator kepuasan, walaupun tidak setinggi rating yang mereka berikan pada indikator pengalaman. Hal ini menunjukkan bahwa masih ada variabilitas pada kepuasan pelanggan yang tidak dapat dijelaskan oleh model ini.</p>
 <p>Perintah selanjutnya kita gunakan untuk mengeksplorasi lebih jauh, apakah ada kemungkinan hubungan antara kepuasan konsumen dengan pengalaman konsumen tidak linier. Perintah ini untuk membuat plot smoother dan garis regresi terbaik (<em>the best ﬁt regression line</em>) secara bersama-sama.</p>
-<pre class="r"><code>ggplot(ce.cs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
+<pre class="r"><code>ggplot(cecs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
   geom_smooth(method=&quot;lm&quot;, colour=&quot;red&quot;, se=FALSE) + stat_smooth()</code></pre>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
 <pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
-<p><img src="/post/2020-09-19-pengalaman-memuaskan_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
-<p>Hasil plotting menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan. Tahap selanjutnya, Anda tinggal membuat perintah regresi. Selamat Mencoba sunflower: herb: blossom:</p>
+<p><img src="/post/2020-09-20-pengalaman-memuaskan_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>Hasil plotting menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan. Tahap selanjutnya, Anda tinggal membuat perintah regresi. Selamat Mencoba :herb: :blossom:</p>
 </div>
