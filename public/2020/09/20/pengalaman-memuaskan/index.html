@@ -196,19 +196,19 @@ grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)</code></pre>
 <h3>Eksplorasi kepuasan pelanggan diukur dengan lima indikator</h3>
 <p>Beberapa perintah dibawah, akan kita gunakan untuk melihat grafik distribusi rating yang diberikan oleh responden tentang kepuasan dari menggunakan layanan di sektor kesehatan 🚑.</p>
 <pre class="r"><code>cs1 &lt;- ggplot(cecs, aes(factor(CS1))) +
-    geom_bar(fill=&quot;#e05561&quot;) + ylab(&quot;&quot;) +
-    xlab(&quot;CS1(reliability)&quot;) + ylim(0, 200)
+    geom_bar(fill=&quot;#cc0033&quot;) + ylab(&quot;&quot;) +
+    xlab(&quot;CS1(respect)&quot;) + ylim(0, 200)
            
 cs2 &lt;- ggplot(cecs, aes(factor(CS2))) +
-    geom_bar(fill=&quot;#42b3c2&quot;) + ylab(&quot;&quot;) +
+    geom_bar(fill=&quot;#00ccff&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS2(professional)&quot;)+ ylim(0, 200)
            
 cs3 &lt;- ggplot(cecs, aes(factor(CS3))) +
-    geom_bar(fill=&quot;#8cc265&quot;) + ylab(&quot;&quot;) +
+    geom_bar(fill=&quot;#66ff00&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS3(privacy)&quot;) + ylim(0, 200)
            
 cs4 &lt;- ggplot(cecs, aes(factor(CS4))) +
-    geom_bar(fill=&quot;#f0a45d&quot;) + ylab(&quot;&quot;) +
+    geom_bar(fill=&quot;#ff9900&quot;) + ylab(&quot;&quot;) +
     xlab(&quot;CS4(aroma)&quot;) + ylim(0, 200)
            
 cs5 &lt;- ggplot(cecs, aes(factor(CS5))) +
@@ -217,7 +217,7 @@ cs5 &lt;- ggplot(cecs, aes(factor(CS5))) +
 
 grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)</code></pre>
 <p><img src="/post/2020-09-20-pengalaman-memuaskan_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor kesehatan di Nigeria menyatakan puas dengan indikator reliability, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.</p>
+<p>Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor kesehatan di Nigeria menyatakan puas dengan indikator respecting patients’ wishes, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.</p>
 <pre class="r"><code>ggplot(cecs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
   geom_smooth(method=&quot;lm&quot;, colour=&quot;red&quot;) +
   geom_abline(slope=1, intercept=0)</code></pre>

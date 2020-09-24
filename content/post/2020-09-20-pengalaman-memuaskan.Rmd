@@ -84,19 +84,19 @@ Beberapa perintah dibawah, akan kita gunakan untuk melihat grafik distribusi rat
 
 ```{r}
 cs1 <- ggplot(cecs, aes(factor(CS1))) +
-	geom_bar(fill="#e05561") + ylab("") +
-    xlab("CS1(reliability)") + ylim(0, 200)
+	geom_bar(fill="#cc0033") + ylab("") +
+    xlab("CS1(respect)") + ylim(0, 200)
            
 cs2 <- ggplot(cecs, aes(factor(CS2))) +
-    geom_bar(fill="#42b3c2") + ylab("") +
+    geom_bar(fill="#00ccff") + ylab("") +
     xlab("CS2(professional)")+ ylim(0, 200)
            
 cs3 <- ggplot(cecs, aes(factor(CS3))) +
-    geom_bar(fill="#8cc265") + ylab("") +
+    geom_bar(fill="#66ff00") + ylab("") +
     xlab("CS3(privacy)") + ylim(0, 200)
            
 cs4 <- ggplot(cecs, aes(factor(CS4))) +
-    geom_bar(fill="#f0a45d") + ylab("") +
+    geom_bar(fill="#ff9900") + ylab("") +
     xlab("CS4(aroma)") + ylim(0, 200)
            
 cs5 <- ggplot(cecs, aes(factor(CS5))) +
@@ -106,7 +106,7 @@ cs5 <- ggplot(cecs, aes(factor(CS5))) +
 grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)
 ```
 
-Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor  kesehatan di Nigeria menyatakan puas dengan indikator reliability, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.
+Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor  kesehatan di Nigeria menyatakan puas dengan indikator respecting patients' wishes, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.
 
 ```{r}
 ggplot(cecs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
