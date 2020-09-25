@@ -7,4 +7,4 @@ title: How to contact me
 
 :email:  bangtedy@gmail.com
 
-Whatsapp or :calling: +6285219197318
+Whatsapp: +6285219197318
