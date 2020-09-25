@@ -51,7 +51,18 @@ a1 </code></pre>
 <pre><code>## Warning: Removed 2 rows containing missing values (position_stack).</code></pre>
 <p><img src="/post/2020-09-25-laju-laju-penglaju-pakpok_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>Grafik diatas menunjukkan berbagai alasan yang dikemukakan keluarga komuter di lima kotamadya di DKI Jakarta. Bagi para keluarga komuter di wilayah Jakarta Timur, tiga alasan utama mereka tinggal disini dan bekerja di luar Jakarta Timur adalah karena harga/sewa rumah lebih terjangkau, lingkungan aman dan nyaman, dekat dengan keluarga. Sedangkan bagi para keluarga komuter di Jakarta Barat, tiga alasan yang dominan mengapa mereka tinggal disana dan bekerja di luar Jakarta Barat adalah biaya hidup lebih murah, harga/sewa rumah lebih terjangkau, dekat dengan keluarga. Sedangkan alasan keluarga komuter di Jakarta Pusat memilih tinggal di Jakarta Pusat adalah karena kemudahan akses ke fasilitas sosial/umum serta karena merupakan rumah warisan orang tua/saudara.</p>
-<p>Masih banyak lagi data dari laporan BPS yang bisa dieksplorasi untuk mengungkap nuansa nglaju di Indonesia. Apalagi jika Anda punya akses terhadap microdatanya :house_with_garden:</p>
+<p>Selanjutnya kita akan eksplorasi pengalaman buruk yang pernah dialami komuter dalam perjalanan (Tabel 37, hal. 42). Pengalaman menyenangkannya pasti juga ada, mungkin kita bahas di kesempatan lain.</p>
+<pre class="r"><code>bep &lt;- read.table(&quot;~/myData/pengburuk.txt&quot;, header = T, na.strings = &quot;-&quot;)
+grabep &lt;- ggplot(bep, aes(x = wil, y=jumlah, fill = pengalaman)) + 
+  geom_col(position = &quot;dodge&quot;) + 
+  geom_text(aes(label = jumlah), 
+  color = &quot;white&quot;, size = 3, 
+  vjust = 1.5, position = position_dodge (.9))
+grabep</code></pre>
+<pre><code>## Warning: Removed 4 rows containing missing values (geom_col).</code></pre>
+<pre><code>## Warning: Removed 4 rows containing missing values (geom_text).</code></pre>
+<p><img src="/post/2020-09-25-laju-laju-penglaju-pakpok_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>Grafik diatas menunjukkan bahwa untuk semua wilayah di DKI pengalaman buruk para komuter di perjalanan mayoritas berhubungan dengan kemacetan parah dan gangguan pada moda transportasi. Masih banyak lagi data dari laporan BPS yang bisa dieksplorasi untuk mengungkap nuansa nglaju di Indonesia. Apalagi jika Anda punya akses terhadap microdatanya :house_with_garden:</p>
 <blockquote>
 <p>Baiti jannati, rumahku surgaku. Pepatah Arab</p>
 </blockquote>
