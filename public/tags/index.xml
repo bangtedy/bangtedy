@@ -9,6 +9,15 @@
     <copyright>Tedy Herlambang</copyright>
     <lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>belajar memimpin</title>
+      <link>/tags/belajar-memimpin/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/belajar-memimpin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>budidaya pertanian</title>
       <link>/tags/budidaya-pertanian/</link>
       <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
@@ -23,6 +32,60 @@
       <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/farm-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indonesia</title>
+      <link>/tags/indonesia/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/indonesia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kepemimpinan efektif</title>
+      <link>/tags/kepemimpinan-efektif/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kepemimpinan-efektif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leader</title>
+      <link>/tags/leader/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/leader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leadership</title>
+      <link>/tags/leadership/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>power play</title>
+      <link>/tags/power-play/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/power-play/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>take action</title>
+      <link>/tags/take-action/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/take-action/</guid>
       <description></description>
     </item>
     
@@ -95,78 +158,6 @@
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/service-quality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>development</title>
-      <link>/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/themes/</guid>
       <description></description>
     </item>
     

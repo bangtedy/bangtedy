@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/09/27/ale-and-kaka-on-belajar-memimpin/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/belajar-memimpin/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/27/boer-met-kaka-at-bungurasih/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/budidaya-pertanian/</loc>
     <lastmod>2020-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -13,7 +28,47 @@
   </url>
   
   <url>
+    <loc>/tags/indonesia/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/27/kaka-and-ale-on-taking-action/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kepemimpinan-efektif/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/leader/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/leadership/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/09/27/maka-embun-pun-memadai/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/27/nala/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/27/ning-and-boer-on-kepemimpinan-yang-mimpin/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/27/ning-and-boer-on-pemimpin-jaman-now/</loc>
     <lastmod>2020-09-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,7 +78,17 @@
   </url>
   
   <url>
+    <loc>/tags/power-play/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2020-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/take-action/</loc>
     <lastmod>2020-09-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,68 +173,8 @@
   </url>
   
   <url>
-    <loc>/2015/07/23/hello-r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/page/contact/</loc>
     <lastmod>2015-04-03T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/09/28/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/04/02/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/development/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/go/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/golang/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/04/02/migrating-from-jekyll/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/templates/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/themes/</loc>
-    <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
 </urlset>
