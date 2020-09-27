@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tedy Herlambang site</title>
+    <title>Tedy Herlambang</title>
     <link>/</link>
-    <description>Recent content on Tedy Herlambang site</description>
+    <description>Recent content on Tedy Herlambang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Tedy Herlambang</copyright>
-    <lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maka embun (pun memadai)</title>
+      <link>/2020/09/27/maka-embun-pun-memadai/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/27/maka-embun-pun-memadai/</guid>
+      <description>Fluktuasi produksi merupakan hal yang normal terutama di pertanian. Pada kondisi yang ekstrim, penurunan dan kenaikan produksi juga bisa ekstrim, jauh dari rata-rata normalnya. Jika kita mengumpulkan cukup banyak data produksi, maka datanya biasanya akan terdistribusi secara normal membentuk kurva genta (bell-shape curve), dimana proporsi data simetris berada di kanan dan kiri nilai tengahnya.
+Pertumbuhan dan produktivitas aktual tanaman dipengaruhi oleh tiga hal: faktor potensi + faktor pembatas + faktor pengurang (Jones, et.</description>
+    </item>
+    
     <item>
       <title>Laju-Laju Penglaju Pakpok</title>
       <link>/2020/09/25/laju-laju-penglaju-pakpok/</link>
