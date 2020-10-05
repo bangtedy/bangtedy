@@ -207,16 +207,6 @@
   
   <url>
     <loc>/id/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="/id/projects/"
-                />
   </url>
   
   <url>
