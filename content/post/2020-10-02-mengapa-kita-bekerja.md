@@ -36,8 +36,7 @@ Dan tidak ada pekerjaan yang memiliki elemen lengkap semuanya seperti ini.
 
 Guru, dokter, polisi, wartawan, pedagang,...dll. Pasti ada bagian tertentu dari pekerjaan itu yang tidak Anda sukai.
 
-Orang tidak akan mau bekerja jika tidak dapat imbalan materi.
-Tetapi bukan itu inti dari alasan orang bekerja.
+Orang tidak akan mau bekerja jika tidak dapat imbalan materi atau hanya mendapat imbalan materi. Bukan itu inti alasan orang bekerja.
 
 Carilah atau ciptakan pekerjaan yang sebagian besar elemennya kita sukai.
 Maka kita akan bersemangat tiap hari...dan ogah pensiun.

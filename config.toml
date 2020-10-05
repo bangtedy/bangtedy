@@ -15,7 +15,7 @@ markup = true
 [highlight]
     codeFences = true
     guessSyntax = false
-    hl_Lines = ""
+    hl_Lines = "go"
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
@@ -43,7 +43,7 @@ privacy = true
 [params]
   mainSections = "post"
   intro =true
-  headline = "Kunci-Kunci Semua yang Gaib"
+  headline = ""
   description = ''
   twitter = "https://twitter.com/t_hlb"
   facebook = "https://www.facebook.com/tedy.herlambang.96"
