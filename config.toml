@@ -1,88 +1,171 @@
-baseURL = "https://bangtedy.rbind.io/"
-title = "Tedy Herlambang"
-theme = "ghostwriter"
-languageCode = "en-us"
-copyright = "Tedy Herlambang"
-disqusShortname = ""
-googleAnalytics = true
-pygmentsUseClasses = true
-pygmentsCodefences = true
+baseurl = "/"
+title = "Tedy H"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-hasCJKLanguage = true
-enableEmoji = true
+paginate = 20
 
-markup = true
-[highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = "go"
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    tabWidth = 2
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-privacy = true
-  googleAnalytics = "UA-29884135-3"
-    anonymizeIP =  true
-    respectDoNotTrack = true
-    useSessionStorage = false
-
-[privacy]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = false
-
-[author]
-  name = "Tedy Herlambang"
-  profile = "https://google.com/+XXX"
-  
-[taxonomies]
-  tag ="tags"
+disqusShortname = "yourdiscussshortname"
 
 [params]
-  mainSections = "post"
-  intro =true
-  headline = ""
-  description = ''
-  twitter = "https://twitter.com/t_hlb"
-  facebook = "https://www.facebook.com/tedy.herlambang.96"
-  email = "bangtedy@gmail.com"
-  opengraph = true
-  shareTwitter= true
-  shareFacebook = true
-  shareGooglePlus = true
-  shareLinkedIn = false
-  dateFormat = "Mon, Jan 2, 2006"
-  exponeaJsUrl = ""
-  exponeaTarget = ""
-  exponeaToken = ""
-  exponeaTrackVisits = false
-  readingTime = true
-  readingTimeText = "Estimated reading time:"
-  fathomUrl = ""
-  fathomSiteId = ""
+    author = "Tedy Herlambang"
+    description = "Tedy Herlambang's"
+    keywords = "blog,developer,personal"
+    info = "Personal Website"
+    avatarurl = "images/avatarth.jpg"
+    #gravatar = "john.doe@example.com"
+    footercontent = "Enter a text here."
+    math = true
 
-[permalinks]
-  post = "/:year/:month/:day/:slug/"
+    dateformat = "January 2, 2006"
 
-[menu]
-  [[menu.main]]
-  name = "Blog"
-  url = "/"
-  weight = 1
-  
-  [[menu.main]] 
-  name = "Projects"
-  url = "/project/"
-  weight = 2
-  
-  [[menu.main]]
-  name = "Contact"
-  url = "/page/contact/"
-  weight = 3
-  
-  [[menu.main]]
-  name = "About"
-  url = "/page/about/"
-  weight = 4
+    hideFooter = false
+    hideCredits = false
+    hideCopyright = false
+    since = 2019
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "auto"
+
+    # Hide the toggle button, along with the associated vertical divider
+    hidecolorschemetoggle = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Enable Twemoji
+    enableTwemoji = true
+    enableEmoji = true
+
+    # Custom CSS
+    custom_css = []
+
+    # Custom JS
+    custom_js = []
+
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+[params.fathomAnalytics]
+    siteID = "ABCDE"
+    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+    serverURL = "analytics.example.com"
+    
+# If you want to use plausible(https://plausible.io) for analytics, add this section
+[params.plausibleAnalytics]
+    domain = "example.com"
+    # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+    serverURL = "analytics.example.com"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/johndoe/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fa fa-gitlab"
+    weight = 2
+    url = "https://gitlab.com/johndoe/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 3
+    url = "https://twitter.com/johndoe/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/johndoe/"
+[[params.social]]
+    name = "Medium"
+    icon = "fa fa-medium"
+    weight = 5
+    url = "https://medium.com/@johndoe"
+[[params.social]]
+    name = "RSS"
+    icon = "fa fa-rss"
+    weight = 6
+    url = "https://myhugosite.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
+
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 3
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 5
+            url = "contact/"
+
+
+    [languages.id]
+        languagename = "Bahasa Indonesia"
+        title = "Tedy Herlambang"
+
+        [languages.id.params]
+            author = "Tedy Herlambang"
+            info = "bercocok tanam, riset, postang-posting"
+            description = "Blog Pribadi Tedy Herlambang"
+            keywords = "blog,developer, personal"
+            footercontent = "Ketik disini."
+
+        [languages.id.menu]
+
+            [[languages.id.menu.main]]
+            name = "Tentang"
+            weight = 1
+            url = "about/"
+
+            [[languages.id.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.id.menu.main]]
+            name = "Proyek"
+            weight = 3
+            url = "projects/"
+
+            [[languages.id.menu.main]]
+            name = "Kontak"
+            weight = 5
+            url = "contact/"

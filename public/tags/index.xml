@@ -1,190 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Tedy Herlambang</title>
+    <title>Tags on Tedy H</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Tedy Herlambang</description>
+    <description>Recent content in Tags on Tedy H</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Tedy Herlambang</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bekerja</title>
-      <link>/tags/bekerja/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bekerja/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kesalahan pengukuran</title>
-      <link>/tags/kesalahan-pengukuran/</link>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/kesalahan-pengukuran/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>measurement error</title>
-      <link>/tags/measurement-error/</link>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/measurement-error/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>belajar memimpin</title>
-      <link>/tags/belajar-memimpin/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/belajar-memimpin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>budidaya pertanian</title>
-      <link>/tags/budidaya-pertanian/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/budidaya-pertanian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>farm management</title>
-      <link>/tags/farm-management/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/farm-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Indonesia</title>
-      <link>/tags/indonesia/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/indonesia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kepemimpinan efektif</title>
-      <link>/tags/kepemimpinan-efektif/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/kepemimpinan-efektif/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>leader</title>
-      <link>/tags/leader/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/leader/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>leadership</title>
-      <link>/tags/leadership/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>power play</title>
-      <link>/tags/power-play/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/power-play/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>take action</title>
-      <link>/tags/take-action/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/take-action/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>commuting</title>
-      <link>/tags/commuting/</link>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/commuting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>komuter</title>
-      <link>/tags/komuter/</link>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/komuter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid-19</title>
-      <link>/tags/covid-19/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/covid-19/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>farmers</title>
       <link>/tags/farmers/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/farmers/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>social economic impact</title>
-      <link>/tags/social-economic-impact/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <title>risk</title>
+      <link>/tags/risk/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/social-economic-impact/</guid>
+      <guid>/tags/risk/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>humble</title>
-      <link>/tags/humble/</link>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <title>development</title>
+      <link>/tags/development/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/humble/</guid>
+      <guid>/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>kepuasan konsumen</title>
-      <link>/tags/kepuasan-konsumen/</link>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/kepuasan-konsumen/</guid>
+      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>service quality</title>
-      <link>/tags/service-quality/</link>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <title>themes</title>
+      <link>/tags/themes/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/service-quality/</guid>
+      <guid>/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/templates/</guid>
       <description></description>
     </item>
     

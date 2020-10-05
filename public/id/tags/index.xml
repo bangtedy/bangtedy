@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tedy Herlambang</title>
+    <link>/id/tags/</link>
+    <description>Recent content in Tags on Tedy Herlambang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>commuting</title>
+      <link>/id/tags/commuting/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/commuting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>customer satisfaction</title>
+      <link>/id/tags/customer-satisfaction/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/customer-satisfaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>farming system</title>
+      <link>/id/tags/farming-system/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/farming-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kepuasan konsumen</title>
+      <link>/id/tags/kepuasan-konsumen/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/kepuasan-konsumen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kerja</title>
+      <link>/id/tags/kerja/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/kerja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>komuter</title>
+      <link>/id/tags/komuter/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/komuter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>measurement error</title>
+      <link>/id/tags/measurement-error/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/measurement-error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/id/tags/hugo/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i18n</title>
+      <link>/id/tags/i18n/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/id/tags/i18n/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

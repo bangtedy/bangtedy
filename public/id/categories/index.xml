@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Tedy Herlambang</title>
+    <link>/id/categories/</link>
+    <description>Recent content in Categories on Tedy Herlambang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/id/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>agriculture</title>
+      <link>/id/categories/agriculture/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/categories/agriculture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>city planning</title>
+      <link>/id/categories/city-planning/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/categories/city-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>human resource</title>
+      <link>/id/categories/human-resource/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/categories/human-resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marketing</title>
+      <link>/id/categories/marketing/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/categories/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>/id/categories/statistics/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/categories/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>/id/categories/blog/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/id/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

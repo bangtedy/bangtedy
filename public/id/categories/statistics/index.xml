@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistics on Tedy Herlambang</title>
+    <link>/id/categories/statistics/</link>
+    <description>Recent content in statistics on Tedy Herlambang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/id/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kesalahan Pengukuran</title>
+      <link>/id/posts/kesalahan-pengukuran/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/id/posts/kesalahan-pengukuran/</guid>
+      <description>Kali ini kita akan minta tolong empat orang mahasiswa untuk mengukur panjang meja dosen yang ada di depan. Mahasiswa pertama mengukurnya dengan satuan cm, yang kedua dengan satuan inci, yang ketiga dengan jengkal tangan, yang keempat dengan mengira-ngira saja. Apa yang akan kita dapat?
+Empat orang mahasiswa akan kembali dengan masing-masing angka ukuran yang berbeda-beda karena satuan pengukurannya memang tidak sama (lihat gambar). Selain itu ada dua hal lagi yang membuat perbedaan hasil pengukuran meja itu, yaitu persoalan yang diukur dan kedua persoalan yang mengukur.</description>
+    </item>
+    
+  </channel>
+</rss>
