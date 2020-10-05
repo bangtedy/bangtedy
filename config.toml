@@ -12,16 +12,16 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = ""
 
 [params]
     author = "Tedy Herlambang"
     description = "Tedy Herlambang's"
-    keywords = "blog,developer,personal"
+    keywords = "blog, developer, personal"
     info = "Personal Website"
     avatarurl = "images/avatarth.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "Enter a text here."
+    footercontent = ""
     math = true
 
     dateformat = "January 2, 2006"
@@ -90,7 +90,7 @@ disqusShortname = "yourdiscussshortname"
     name = "Twitter"
     icon = "fa fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/t_hlb/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
@@ -146,7 +146,7 @@ disqusShortname = "yourdiscussshortname"
             info = "bercocok tanam, riset, postang-posting"
             description = "Blog Pribadi Tedy Herlambang"
             keywords = "blog,developer, personal"
-            footercontent = "Ketik disini."
+            footercontent = ""
 
         [languages.id.menu]
 

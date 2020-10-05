@@ -15,9 +15,9 @@ Kali ini kita akan minta tolong empat orang mahasiswa untuk mengukur panjang mej
 
 Empat orang mahasiswa akan kembali dengan masing-masing angka ukuran yang berbeda-beda karena satuan pengukurannya memang tidak sama (lihat gambar). Selain itu ada dua hal lagi yang membuat perbedaan hasil pengukuran meja itu, yaitu persoalan yang diukur dan kedua persoalan yang mengukur. 
 
-Persoalan yang diukur terjadi karena kita memang tidak tahu ukuran panjang yang sebenarnya dari meja itu. Kedua karena faktor yang mengukur: misalnya penggaris yang digunakan tidak standard, kecapekan, tulisan tidak jelas, terburu-buru dan lain-lain. 
+Persoalan yang diukur terjadi karena kita memang tidak tahu ukuran panjang yang sebenarnya dari meja itu. Kedua karena faktor yang mengukur: misalnya penggaris yang digunakan tidak standard, kecapekan, tulisan tidak jelas, terburu-buru dan lain-lain.
 
-![Gambar: Kesalahan Pengukuran](/post/2020-09-28-kesalahan-pengukuran_files/measurement_error.jpg){width=80% height=80%}
+<img src="/posts/2020-10-05-kesalahan-pengukuran.id_files/measurement_error.jpg" alt="Gambar: Kesalahan Pengukuran" width="80%" height="80%"/>
 
 Meja bukan sesuatu yang abstrak dan hipotetis, barangnya nyata dan ada di depan mata serta memiliki atribut yang _fixed_ bernama "panjang". Adakah meja yang tidak punya atribut panjang? Yang masih belum pasti adalah berapa panjang sebenarnya dari meja tersebut.
 

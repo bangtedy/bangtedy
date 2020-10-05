@@ -6,16 +6,7 @@
     <description>Recent content on Tedy H</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Accounting for the Social Economic Impacts of Covid-19 on Farmers and Farming</title>
-      <link>/projects/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/</guid>
-      <description>The aim of this study is to investigate the social economic impacts of Covid-19 on farmers and farming in Indonesia. COVID-19 continues to cause turmoil and its social economic impact on farmers are recognized. However, there are few studies that seek to explore and measure these impacts. A mixed methods approach is used in the study to investigate how farmers perceive and manage risks associated with Covid-19 pandemic, coping strategies they adopt, impacts on their productivity and well-being.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Twemoji Support 🤩</title>
       <link>/posts/twemoji-support/</link>
@@ -106,6 +97,15 @@ Follow the following steps:
       
       <guid>/posts/migrate-from-jekyll/</guid>
       <description>Table of Contents  Move static content to static Create your Hugo configuration file Set your configuration publish folder to site Convert Jekyll templates to Hugo templates Convert Jekyll plugins to Hugo shortcodes  Implementation Usage   Finishing Touches  Fix Content Clean Up   A practical example in a diff  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
+    </item>
+    
+    <item>
+      <title>Accounting for the Social Economic Impacts of Covid-19 on Farmers and Farming</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>The aim of this study is to investigate the social economic impacts of Covid-19 on farmers and farming in Indonesia. COVID-19 continues to cause turmoil and its social economic impact on farmers are recognized. However, there are few studies that seek to explore and measure these impacts. A mixed methods approach is used in the study to investigate how farmers perceive and manage risks associated with Covid-19 pandemic, coping strategies they adopt, impacts on their productivity and well-being.</description>
     </item>
     
     <item>
