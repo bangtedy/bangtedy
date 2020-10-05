@@ -17,7 +17,7 @@ Empat orang mahasiswa akan kembali dengan masing-masing angka ukuran yang berbed
 
 Persoalan yang diukur terjadi karena kita memang tidak tahu ukuran panjang yang sebenarnya dari meja itu. Kedua karena faktor yang mengukur: misalnya penggaris yang digunakan tidak standard, kecapekan, tulisan tidak jelas, terburu-buru dan lain-lain.
 
-<img src="/posts/2020-10-05-kesalahan-pengukuran.id_files/measurement_error.jpg" alt="Gambar: Kesalahan Pengukuran" width="80%" height="80%"/>
+{{< figure src="/images/measurement_error.jpg" caption="Gambar,\"Ilustrasi Kesalahan Pengukuran\" by TH" >}}
 
 Meja bukan sesuatu yang abstrak dan hipotetis, barangnya nyata dan ada di depan mata serta memiliki atribut yang _fixed_ bernama "panjang". Adakah meja yang tidak punya atribut panjang? Yang masih belum pasti adalah berapa panjang sebenarnya dari meja tersebut.
 
