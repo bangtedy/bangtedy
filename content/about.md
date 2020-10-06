@@ -3,6 +3,6 @@ title = "Interest"
 slug = "about"
 +++
 
-### *Agriculture Leadership and Development
+### *Agricultural Innovation
 ### *Agri-food Marketing
 ### *R and Statistics
