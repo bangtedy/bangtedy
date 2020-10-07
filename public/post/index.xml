@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tedy H</title>
+    <title>Posts | Academic</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Tedy H</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Accounting for the Social Economic Impacts of Covid-19 on Farmers and Farming</title>
-      <link>/post/projects/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/projects/</guid>
-      <description>The aim of this study is to investigate the social economic impacts of Covid-19 on farmers and farming in Indonesia. COVID-19 continues to cause turmoil and its social economic impact on farmers are recognized. However, there are few studies that seek to explore and measure these impacts. A mixed methods approach is used in the study to investigate how farmers perceive and manage risks associated with Covid-19 pandemic, coping strategies they adopt, impacts on their productivity and well-being.</description>
-    </item>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
     
   </channel>
 </rss>
