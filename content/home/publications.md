@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
 title = "Recent Publications"
-subtitle = ""
+subtitle = "Increasing Value Delivery in Horticulture Sector in Indonesia"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -53,11 +53,11 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/media/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "banana.jpg"  # Name of image in `static/media/`.
+  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  text_color_light = true  
   
 [advanced]
  # Custom CSS. 

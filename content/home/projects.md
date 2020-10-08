@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Accounting for the Social Economic Impacts of Covid-19 on Farmers and Farming"
 
 [content]
   # Page type to display. E.g. project.
@@ -21,13 +21,13 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+  [[content.filter_button]]
+  name = "The aim of this study is to investigate the social economic impacts of Covid-19           on farmers and farming in Indonesia. COVID-19 continues to cause turmoil and             its social economic impact on farmers are recognized. However, there are few             studies that seek to explore and measure these impacts. A mixed methods                  approach is used in the study to investigate how farmers perceive and manage             risks associated with Covid-19 pandemic, coping strategies they adopt, impacts           on their productivity and well-being."
+  tag = "social economic impact"
   
   # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+  # name = "Deep Learning"
+  # tag = "Deep Learning"
   
   # [[content.filter_button]]
   #   name = "Other"
@@ -49,9 +49,9 @@ subtitle = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
+  # Uncomment (by removing `#`) an option to apply it.
+  # Choose a light or dark text color by setting `text_color_light`.
+  # Any HTML color name or Hex value is valid.
   
   # Background color.
   # color = "navy"
@@ -61,8 +61,8 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/media/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "rice_field.jpg"  # Name of image in `static/media/`.
+  image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   # text_color_light = true  

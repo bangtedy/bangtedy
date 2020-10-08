@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ass.Professor (Agri-food Marketing)
+role: Ass.Professor
 
 # Organizations/Affiliations
 organizations:
@@ -78,4 +78,4 @@ user_groups:
 - Visitors
 ---
 
-Tedy Herlambang is an Assistant Professor of agri-food marketing at Universitas Panca Marga. His research interests include applied economics and management, agricultural leadership and development, agri-food marketing, consumer behavior and agriculture innovation. 
+Tedy Herlambang is an Assistant Professor at Universitas Panca Marga. His research interests include applied economics and management, agricultural leadership and development, agri-food marketing, consumer behavior and agriculture innovation. 
