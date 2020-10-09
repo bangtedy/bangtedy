@@ -3,6 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/agriculture/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/city-planning/</loc>
+    <lastmod>2020-10-09T06:12:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/consumer-behaviour/</loc>
+    <lastmod>2020-10-09T05:57:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/farm-management/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/kepemimpinan/</loc>
+    <lastmod>2020-10-09T06:12:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/kepuasan-konsumen/</loc>
+    <lastmod>2020-10-09T05:57:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/kesalahan-pengukuran/</loc>
+    <lastmod>2020-10-09T06:19:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/laju-laju-penglaju/</loc>
+    <lastmod>2020-10-09T06:12:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/leadership/</loc>
+    <lastmod>2020-10-09T06:04:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/leadership/</loc>
+    <lastmod>2020-10-09T06:12:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/maka-embun-pun-memadai/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/manajemen-usaha-tani/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/mengapa-perlu-bekerja/</loc>
+    <lastmod>2020-10-09T06:04:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/pengalaman-dan-kepuasan/</loc>
+    <lastmod>2020-10-09T05:57:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/pengukuran/</loc>
+    <lastmod>2020-10-09T06:19:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/statistics/</loc>
+    <lastmod>2020-10-09T06:19:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/statistik/</loc>
+    <lastmod>2020-10-09T06:19:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
@@ -13,19 +118,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
   </url>
   
   <url>
@@ -38,10 +131,6 @@
   
   <url>
     <loc>/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
   <url>

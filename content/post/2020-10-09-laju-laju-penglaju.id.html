@@ -1,0 +1,85 @@
+---
+title: Laju-Laju Penglaju
+author: Tedy Herlambang
+date: '2020-10-09'
+slug: laju-laju-penglaju
+categories:
+  - leadership
+tags:
+  - kepemimpinan
+  - city planning
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-10-09T06:12:43+07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Nglaju (<em>commuting</em>) semakin menjadi bagian penting dalam penggunaan waktu kita. Proporsinya terus meningkat. Sebagai gambaran dari survei yang dilakukan oleh BPS menunjukkan pada tahun 2019, sebanyak 34,6 persen komuter di Jabodetabek menghabiskan waktu berangkat rata-rata selama 30 menit hingga 1 jam.</p>
+<p>Persentase ini menurun dibandingkan dengan survei tahun 2014 yaitu sebanyak 45 persen penglaju/komuter menempuh perjalanan selama kurang dari satu jam untuk mencapai tempat kegiatannya. Artinya waktu tempuh komuter semakin lama. Data dan laporannya bisa diunduh <a href="https://www.bps.go.id/publication/2019/12/04/eab87d14d99459f4016bb057/statistik-komuter-jabodetabek-2019.html">disini</a>.</p>
+<div id="economic-bad" class="section level2">
+<h2><em>Economic bad</em></h2>
+<p>Umumnya orang gak suka nglaju: capek, macet, stress dan ngabisin waktu. Oleh karena itulah nglaju dianggap sebagai (<em>economic bad</em>). Lihat misalnya salah studi tentang biaya ekonomi dari nglaju <a href="http://www.milwaukeeindependent.com/syndicated/metro-merry-go-round-new-study-analyzes-negative-impact-true-economic-cost-commuting/">disini</a>. :vertical_traffic_light:</p>
+<p>Maka orang yang rasional akan berhitung: hanya nglaju jika kompensasinya (moneter atau non-moneter) sesuai. Kompensasi moneter misalnya gaji yang lebih tinggi, sedangkan non-moneter seperti lingkungan perumahan yang lebih tenang dan aman.</p>
+<p>Dengan logika ini, para komuter dengan jarak tempuh lebih jauh atau lebih lama seharusnya tidak melaporkan tingkat kebahagiaan subyektif (proksi dari utilitas) yang lebih rendah dibandingkan komuter yang lebih dekat/sebentar.</p>
+<p>Studi lain tentang nglaju dilakukan oleh Luke Munford (2014) dalam thesisnya <em>Driving My Life Away? Essays examining the impact of commuting on income and well-being</em> bisa diunduh <a href="http://etheses.whiterose.ac.uk/6843/">disini</a>. Munford menemukan hubungan yang positif dan signifikan antara jarak nglaju dengan tingkat pendapatan, artinya orang memperoleh kompensasi moneter yang sepadan dengan pengorbanan nglaju.</p>
+<p>Hal lain yang menarik dari studi ini adalah bahwa nglaju juga menurunkan modal sosial komuter. Karena komuter semakin lama menghabiskan waktu di jalan, frekuensi komuter untuk mengunjungi teman atau keluarga (proksi modal sosial) menjadi berkurang.</p>
+<p>Munford juga menemukan dari studinya bahwa tidak terdapat hubungan yang signifikan antara waktu nglaju dengan kebahagian subyektif yang dilaporkan oleh komuter. Alasannya: waktu nglaju memang terkompensasi oleh pendapatan yang lebih tinggi, tetapi nglaju harus dibayar dengan turunnya modal sosial.</p>
+</div>
+<div id="komuter-indonesia" class="section level2">
+<h2>Komuter Indonesia</h2>
+<p>Bagaimana dengan komuter di Indonesia? Badan Pusat Statistik di tahun 2014 dan 2019 melakukan survei komuter di dua wilayah yaitu Medan, Binjai, dan Deli Serdang (Mebidang) dan di wilayah Jakarta, Bogor, Depok, Tangerang, dan Bekasi (Jabodetabek). Untuk wilayah Jabodetabek, survei 2019 menunjukkan bahwa dari 29 juta penduduk Jabodetabek yang berumur 5 tahun ke atas, sekitar 11 persennya merupakan penduduk komuter.</p>
+<p>Saya akan mengambil salah satu tabel hasil survei yaitu tabel 52 halaman 59 dalam laporan yang dikeluarkan oleh BPS ini. Beberapa item pertanyaan yang diajukan dikuesioner untuk menggali alasan utama sebuah rumah tangga memilih tempat tinggal sekarang (yang berbeda dengan tempat kerjanya): biaya hidup lebih murah, rumah warisan orang tua/saudara, harga/sewa rumah lebih terjangkau, lingkungan aman dan nyaman, dekat dengan keluarga, kemudahan akses ke fasilitas sosial/umum, dekat dengan tempat kerja/sekolah dan alasan lain yang tidak disebutkan :school: :hospital: .</p>
+<p>Tabel ini saya convert kedalam bentuk txt, kemudian saya impor kedalam R (data wilayah Jakarta saja):</p>
+<pre class="r"><code>alasan &lt;- read.table(&quot;~/myData/als.txt&quot;, header = T, na.strings = &quot;-&quot;) # nama file alasan
+class(alasan) # menampilkan kelas obyek</code></pre>
+<pre><code>## [1] &quot;data.frame&quot;</code></pre>
+<pre class="r"><code>library(ggplot2)
+library(RColorBrewer) # untuk color palette grafik
+head(brewer.pal.info, n=10) # untuk menampilkan nama palette yang bisa dipilih</code></pre>
+<pre><code>##          maxcolors category colorblind
+## BrBG            11      div       TRUE
+## PiYG            11      div       TRUE
+## PRGn            11      div       TRUE
+## PuOr            11      div       TRUE
+## RdBu            11      div       TRUE
+## RdGy            11      div      FALSE
+## RdYlBu          11      div       TRUE
+## RdYlGn          11      div      FALSE
+## Spectral        11      div      FALSE
+## Accent           8     qual      FALSE</code></pre>
+<pre class="r"><code>a1 &lt;- ggplot(alasan, aes(x = reorder(x = alasan, jumlah), y=jumlah, fill=kodya)) + 
+  geom_col(color = &quot;black&quot;, position = &quot;fill&quot;) + 
+  scale_y_continuous(labels = scales::percent) + 
+  scale_fill_brewer(palette = &quot;Spectral&quot;)
+a1 </code></pre>
+<pre><code>## Warning: Removed 2 rows containing missing values (position_stack).</code></pre>
+<p><img src="/post/2020-10-09-laju-laju-penglaju.id_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>Grafik diatas menunjukkan berbagai alasan yang dikemukakan keluarga komuter di lima kotamadya di DKI Jakarta. Bagi para keluarga komuter di wilayah Jakarta Timur, tiga alasan utama mereka tinggal disini dan bekerja di luar Jakarta Timur adalah karena harga/sewa rumah lebih terjangkau, lingkungan aman dan nyaman, dekat dengan keluarga.</p>
+<p>Sedangkan bagi para keluarga komuter di Jakarta Barat, tiga alasan yang dominan mengapa mereka tinggal disana dan bekerja di luar Jakarta Barat adalah biaya hidup lebih murah, harga/sewa rumah lebih terjangkau, dekat dengan keluarga. Sedangkan alasan keluarga komuter di Jakarta Pusat memilih tinggal di Jakarta Pusat adalah karena kemudahan akses ke fasilitas sosial/umum serta karena merupakan rumah warisan orang tua/saudara.</p>
+<p>Selanjutnya kita akan eksplorasi pengalaman buruk yang pernah dialami komuter dalam perjalanan (Tabel 37, hal. 42). Pengalaman menyenangkannya pasti juga ada, mungkin kita bahas di kesempatan lain.</p>
+<pre class="r"><code>bep &lt;- read.table(&quot;~/myData/pengburuk.txt&quot;, header = T, na.strings = &quot;-&quot;)
+grabep &lt;- ggplot(bep, aes(x = wil, y=jumlah, fill = pengalaman)) + 
+  geom_col(position = &quot;dodge&quot;) + 
+  geom_text(aes(label = jumlah), 
+  color = &quot;white&quot;, size = 3, 
+  vjust = 1.5, position = position_dodge (.9))
+grabep</code></pre>
+<pre><code>## Warning: Removed 4 rows containing missing values (geom_col).</code></pre>
+<pre><code>## Warning: Removed 4 rows containing missing values (geom_text).</code></pre>
+<p><img src="/post/2020-10-09-laju-laju-penglaju.id_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>Grafik diatas menunjukkan bahwa untuk semua wilayah di DKI pengalaman buruk para komuter di perjalanan mayoritas berhubungan dengan kemacetan parah dan gangguan pada moda transportasi. Masih banyak lagi data dari laporan BPS yang bisa dieksplorasi untuk mengungkap nuansa nglaju di Indonesia. Apalagi jika Anda punya akses terhadap microdatanya :house_with_garden:</p>
+<blockquote>
+<p>Baiti jannati, rumahku surgaku.</p>
+<blockquote>
+<p>Pepatah Arab</p>
+</blockquote>
+</blockquote>
+</div>
