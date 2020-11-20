@@ -3,138 +3,267 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://bangtedy.rbind.io/book/example/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/book/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/book/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/</loc>
+    <lastmod>2020-11-02T10:04:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/project/accounting-for-the-social-economic-impacts-of-covid-19-on-farmers-and-farming/</loc>
+    <lastmod>2020-11-02T10:04:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/tag/covid-19/</loc>
+    <lastmod>2020-11-02T10:04:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/tag/farming/</loc>
+    <lastmod>2020-11-02T10:04:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/project/</loc>
+    <lastmod>2020-11-02T10:04:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/tag/social-economic-impacts/</loc>
+    <lastmod>2020-11-02T10:04:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/tags/</loc>
+    <lastmod>2020-11-02T10:04:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/category/agriculture/</loc>
     <lastmod>2020-10-09T06:28:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/agriculture/</loc>
+    <loc>https://bangtedy.rbind.io/categories/</loc>
     <lastmod>2020-10-09T06:28:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/city-planning/</loc>
+    <loc>https://bangtedy.rbind.io/tag/city-planning/</loc>
     <lastmod>2020-10-09T06:12:43+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/consumer-behaviour/</loc>
+    <loc>https://bangtedy.rbind.io/category/consumer-behaviour/</loc>
     <lastmod>2020-10-09T05:57:21+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/farm-management/</loc>
+    <loc>https://bangtedy.rbind.io/tag/farm-management/</loc>
     <lastmod>2020-10-09T06:28:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/kepemimpinan/</loc>
+    <loc>https://bangtedy.rbind.io/tag/kepemimpinan/</loc>
     <lastmod>2020-10-09T06:12:43+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/kepuasan-konsumen/</loc>
+    <loc>https://bangtedy.rbind.io/tag/kepuasan-konsumen/</loc>
     <lastmod>2020-10-09T05:57:21+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kesalahan-pengukuran/</loc>
+    <loc>https://bangtedy.rbind.io/post/kesalahan-pengukuran/</loc>
     <lastmod>2020-10-09T06:19:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/laju-laju-penglaju/</loc>
+    <loc>https://bangtedy.rbind.io/post/laju-laju-penglaju/</loc>
     <lastmod>2020-10-09T06:12:43+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/leadership/</loc>
+    <loc>https://bangtedy.rbind.io/tag/leadership/</loc>
     <lastmod>2020-10-09T06:04:46+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/leadership/</loc>
+    <loc>https://bangtedy.rbind.io/category/leadership/</loc>
     <lastmod>2020-10-09T06:12:43+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/maka-embun-pun-memadai/</loc>
+    <loc>https://bangtedy.rbind.io/post/maka-embun-pun-memadai/</loc>
     <lastmod>2020-10-09T06:28:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/manajemen-usaha-tani/</loc>
+    <loc>https://bangtedy.rbind.io/tag/manajemen-usaha-tani/</loc>
     <lastmod>2020-10-09T06:28:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/mengapa-perlu-bekerja/</loc>
+    <loc>https://bangtedy.rbind.io/post/mengapa-perlu-bekerja/</loc>
     <lastmod>2020-10-09T06:04:46+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/pengalaman-dan-kepuasan/</loc>
+    <loc>https://bangtedy.rbind.io/post/pengalaman-dan-kepuasan/</loc>
     <lastmod>2020-10-09T05:57:21+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/pengukuran/</loc>
+    <loc>https://bangtedy.rbind.io/tag/pengukuran/</loc>
     <lastmod>2020-10-09T06:19:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://bangtedy.rbind.io/post/</loc>
     <lastmod>2020-10-09T06:28:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/statistics/</loc>
+    <loc>https://bangtedy.rbind.io/category/statistics/</loc>
     <lastmod>2020-10-09T06:19:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/statistik/</loc>
+    <loc>https://bangtedy.rbind.io/tag/statistik/</loc>
     <lastmod>2020-10-09T06:19:06+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-10-09T06:28:00+07:00</lastmod>
+    <loc>https://bangtedy.rbind.io/talk/partial-least-square-structural-equation-modelling-using-smartpls/</loc>
+    <lastmod>2020-11-02T09:54:03+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>https://bangtedy.rbind.io/talk/</loc>
+    <lastmod>2020-11-02T09:54:03+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>https://bangtedy.rbind.io/tag/structural-equation-modeling/</loc>
+    <lastmod>2020-11-02T09:54:03+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>https://bangtedy.rbind.io/publication-type/2/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://bangtedy.rbind.io/authors/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://bangtedy.rbind.io/publication/2019-increasing-horticulture-value-chain/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://bangtedy.rbind.io/publication_types/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/tedy-herlambang/</loc>
+    <loc>https://bangtedy.rbind.io/publication/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/author/tedy-herlambang/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/book/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/projects/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/publication/2009_customer-relationship-management/</loc>
+    <lastmod>2009-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/publication-type/1/</loc>
+    <lastmod>2008-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/author/apollo-nsubuga-kyobe/</loc>
+    <lastmod>2008-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/author/marthin-g.-nanere/</loc>
+    <lastmod>2008-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/author/peter-batt/</loc>
+    <lastmod>2008-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/publication/2008-power-conflict-value/</loc>
+    <lastmod>2008-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/publication/2006-effective-food-chain-management/</loc>
+    <lastmod>2006-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/author/murray-j.-mcgregor/</loc>
+    <lastmod>2006-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/author/peter-j.-batt/</loc>
+    <lastmod>2006-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/publication/2005-mangoes-value-chain/</loc>
+    <lastmod>2005-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bangtedy.rbind.io/author/tedy-herlambang/</loc>
   </url>
   
 </urlset>

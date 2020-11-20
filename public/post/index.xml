@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Academic</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://bangtedy.rbind.io/post/</link>
+      <atom:link href="https://bangtedy.rbind.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Tedy Herlambang 2020</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://bangtedy.rbind.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://bangtedy.rbind.io/post/</link>
     </image>
     
     <item>
       <title>Kesalahan Pengukuran</title>
-      <link>/post/kesalahan-pengukuran/</link>
+      <link>https://bangtedy.rbind.io/post/kesalahan-pengukuran/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/post/kesalahan-pengukuran/</guid>
+      <guid>https://bangtedy.rbind.io/post/kesalahan-pengukuran/</guid>
       <description>&lt;p&gt;Kali ini kita akan minta tolong empat orang mahasiswa untuk mengukur panjang meja dosen yang ada di depan. Mahasiswa pertama mengukurnya dengan satuan cm, yang kedua dengan satuan inci, yang ketiga dengan jengkal tangan, yang keempat dengan mengira-ngira saja. Apa yang akan kita dapat?&lt;/p&gt;
 &lt;p&gt;Empat orang mahasiswa akan kembali dengan masing-masing angka ukuran yang berbeda-beda karena satuan pengukurannya memang tidak sama (lihat gambar). Selain itu ada dua hal lagi yang membuat perbedaan hasil pengukuran meja itu, yaitu persoalan yang diukur dan kedua persoalan yang mengukur 📐 .&lt;/p&gt;
 &lt;p&gt;Persoalan yang diukur terjadi karena kita memang tidak tahu ukuran panjang yang sebenarnya dari meja itu. Kedua karena faktor yang mengukur: misalnya penggaris yang digunakan tidak standard, kecapekan, tulisan tidak jelas, terburu-buru dan lain-lain.&lt;/p&gt;
@@ -41,10 +41,10 @@
 &lt;figure id=&#34;figure-gambar-ilustrasi-kesalahan-pengukuran-by-th&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/images/measurement_error.jpg&#34; data-caption=&#34;Gambar, &amp;amp;ldquo;Ilustrasi Kesalahan Pengukuran&amp;amp;rdquo; by TH&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://bangtedy.rbind.io/images/measurement_error.jpg&#34; data-caption=&#34;Gambar, &amp;amp;ldquo;Ilustrasi Kesalahan Pengukuran&amp;amp;rdquo; by TH&#34;&gt;
 
 
-  &lt;img src=&#34;/images/measurement_error.jpg&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
+  &lt;img src=&#34;https://bangtedy.rbind.io/images/measurement_error.jpg&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
 &lt;/a&gt;
 
 
@@ -81,9 +81,9 @@
     
     <item>
       <title>Laju-Laju Penglaju</title>
-      <link>/post/laju-laju-penglaju/</link>
+      <link>https://bangtedy.rbind.io/post/laju-laju-penglaju/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/post/laju-laju-penglaju/</guid>
+      <guid>https://bangtedy.rbind.io/post/laju-laju-penglaju/</guid>
       <description>
 
 
@@ -126,7 +126,7 @@ head(brewer.pal.info, n=10) # untuk menampilkan nama palette yang bisa dipilih&l
   scale_fill_brewer(palette = &amp;quot;Spectral&amp;quot;)
 a1 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Removed 2 rows containing missing values (position_stack).&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-10-09-laju-laju-penglaju.id_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bangtedy.rbind.io/post/2020-10-09-laju-laju-penglaju.id_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Grafik diatas menunjukkan berbagai alasan yang dikemukakan keluarga komuter di lima kotamadya di DKI Jakarta. Bagi para keluarga komuter di wilayah Jakarta Timur, tiga alasan utama mereka tinggal disini dan bekerja di luar Jakarta Timur adalah karena harga/sewa rumah lebih terjangkau, lingkungan aman dan nyaman, dekat dengan keluarga.&lt;/p&gt;
 &lt;p&gt;Sedangkan bagi para keluarga komuter di Jakarta Barat, tiga alasan yang dominan mengapa mereka tinggal disana dan bekerja di luar Jakarta Barat adalah biaya hidup lebih murah, harga/sewa rumah lebih terjangkau, dekat dengan keluarga. Sedangkan alasan keluarga komuter di Jakarta Pusat memilih tinggal di Jakarta Pusat adalah karena kemudahan akses ke fasilitas sosial/umum serta karena merupakan rumah warisan orang tua/saudara.&lt;/p&gt;
 &lt;p&gt;Selanjutnya kita akan eksplorasi pengalaman buruk yang pernah dialami komuter dalam perjalanan (Tabel 37, hal. 42). Pengalaman menyenangkannya pasti juga ada, mungkin kita bahas di kesempatan lain.&lt;/p&gt;
@@ -139,7 +139,7 @@ grabep &amp;lt;- ggplot(bep, aes(x = wil, y=jumlah, fill = pengalaman)) +
 grabep&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Removed 4 rows containing missing values (geom_col).&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Removed 4 rows containing missing values (geom_text).&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-10-09-laju-laju-penglaju.id_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bangtedy.rbind.io/post/2020-10-09-laju-laju-penglaju.id_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Grafik diatas menunjukkan bahwa untuk semua wilayah di DKI pengalaman buruk para komuter di perjalanan mayoritas berhubungan dengan kemacetan parah dan gangguan pada moda transportasi. Masih banyak lagi data dari laporan BPS yang bisa dieksplorasi untuk mengungkap nuansa nglaju di Indonesia. Apalagi jika Anda punya akses terhadap microdatanya 🏡&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Baiti jannati, rumahku surgaku.&lt;/p&gt;
@@ -153,9 +153,9 @@ grabep&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Maka Embun (pun Memadai)</title>
-      <link>/post/maka-embun-pun-memadai/</link>
+      <link>https://bangtedy.rbind.io/post/maka-embun-pun-memadai/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/post/maka-embun-pun-memadai/</guid>
+      <guid>https://bangtedy.rbind.io/post/maka-embun-pun-memadai/</guid>
       <description>&lt;p&gt;Fluktuasi produksi merupakan hal yang normal terutama di pertanian. Pada kondisi yang ekstrim, penurunan dan kenaikan produksi juga bisa ekstrim, jauh dari rata-rata normalnya 🌽 🍅 .&lt;/p&gt;
 &lt;p&gt;Jika kita mengumpulkan cukup banyak data produksi, maka datanya biasanya akan terdistribusi secara normal membentuk kurva genta (&lt;em&gt;bell-shape curve&lt;/em&gt;), dimana proporsi data simetris berada di kanan dan kiri nilai tengahnya.&lt;/p&gt;
 &lt;p&gt;Pertumbuhan dan produktivitas aktual tanaman dipengaruhi oleh tiga hal: faktor potensi + faktor pembatas + faktor pengurang (Jones, &lt;em&gt;et. al&lt;/em&gt;,  2017), bisa diunduh &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0308521X16306096&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;disini&lt;/a&gt;.&lt;/p&gt;
@@ -194,9 +194,9 @@ grabep&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Mengapa Perlu Bekerja</title>
-      <link>/post/mengapa-perlu-bekerja/</link>
+      <link>https://bangtedy.rbind.io/post/mengapa-perlu-bekerja/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/post/mengapa-perlu-bekerja/</guid>
+      <guid>https://bangtedy.rbind.io/post/mengapa-perlu-bekerja/</guid>
       <description>&lt;p&gt;Agar dapur tetap ngebul. Itu saja?&lt;/p&gt;
 &lt;p&gt;Kita bekerja sudah rajin, tapi kok tetap kembang-kempis? Mungkin pekerjaan kita termasuk &amp;ldquo;komoditi&amp;rdquo;. &lt;em&gt;Barrier to entry&lt;/em&gt;-nya rendah karena banyak yang bisa mengerjakan pekerjaan itu. Hari ini Anda &lt;em&gt;resign&lt;/em&gt;, besok pagi puluhan orang siap menggantikan.&lt;/p&gt;
 &lt;p&gt;Tingkatkan keterampilan dan keberuntungan Anda agar tidak menjadi komoditi. Jika Anda berketerampilan dan cukup beruntung berada ditempat dan waktu yang tepat, mungkin pendapatan Anda akan 1-2 kali standar deviasi dari rata-rata gaji di dalam industri dimana Anda berada.&lt;/p&gt;
@@ -210,9 +210,9 @@ grabep&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Pengalaman dan Kepuasan</title>
-      <link>/post/pengalaman-dan-kepuasan/</link>
+      <link>https://bangtedy.rbind.io/post/pengalaman-dan-kepuasan/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/post/pengalaman-dan-kepuasan/</guid>
+      <guid>https://bangtedy.rbind.io/post/pengalaman-dan-kepuasan/</guid>
       <description>
 
 
@@ -273,7 +273,7 @@ ce5 &amp;lt;- ggplot(cecs, aes(factor(CE5))) +
   xlab(&amp;quot;CE5(non-verbal com.)&amp;quot;) + ylim(0, 225)
 
 grid.arrange(ce1,ce2,ce3,ce4,ce5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bangtedy.rbind.io/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Grafik di atas menunjukkan bahwa pelanggan layanan kesehatan di Nigeria sebagian besar setuju dengan indikator-indikator pengukur pengalaman layanan. Dengan kata lain, sebagian besar pelanggan (300 orang lebih, kecuali indikator non-verbal communication) memperoleh pengalaman menyenangkan untuk indikator reliability, right diagnosis, right treatment, verbal communication dan non-verbal communication.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;eksplorasi-kepuasan-pelanggan-diukur-dengan-lima-indikator&#34; class=&#34;section level3&#34;&gt;
@@ -300,20 +300,20 @@ cs5 &amp;lt;- ggplot(cecs, aes(factor(CS5))) +
     xlab(&amp;quot;CS5(cleanliness)&amp;quot;) + ylim(0, 200)
 
 grid.arrange(cs1,cs2,cs3,cs4,cs5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bangtedy.rbind.io/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Berdasarkan grafik di atas, dapat ditarik kesimpulan bahwa sebagian besar pelanggan sektor kesehatan di Nigeria menyatakan puas dengan indikator respecting patients’ wishes, professional, privacy, aroma dan cleanliness. Langkah selanjutnya adalah membuat scatter plot untuk melihat hubungan antara customer experience dan customer satisfaction.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(cecs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
   geom_smooth(method=&amp;quot;lm&amp;quot;, colour=&amp;quot;red&amp;quot;) +
   geom_abline(slope=1, intercept=0)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bangtedy.rbind.io/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Hasil scatter plot menunjukkan bahwa terdapat hubungan yang searah antara pengalaman menggunakan layanan kesehatan dengan kepuasannya. Pelanggan yang memberi rating tinggi untuk indikator pengalaman secara umum juga memberikan rating tinggi untuk indikator kepuasan, walaupun tidak setinggi rating yang mereka berikan pada indikator pengalaman. Hal ini menunjukkan bahwa masih ada variabilitas pada kepuasan pelanggan yang tidak dapat dijelaskan oleh model ini.&lt;/p&gt;
 &lt;p&gt;Perintah selanjutnya kita gunakan untuk mengeksplorasi lebih jauh, apakah ada kemungkinan hubungan antara kepuasan konsumen dengan pengalaman konsumen tidak linier. Perintah ini untuk membuat plot smoother dan garis regresi terbaik (&lt;em&gt;the best ﬁt regression line&lt;/em&gt;) secara bersama-sama.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(cecs, aes(Customerexperience, Customersatisfaction)) + geom_point() +
   geom_smooth(method=&amp;quot;lm&amp;quot;, colour=&amp;quot;red&amp;quot;, se=FALSE) + stat_smooth()&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;loess&amp;#39; and formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bangtedy.rbind.io/post/2020-10-09-pengalaman-dan-kepuasan.id_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Hasil plotting menunjukkan bahwa untuk data ini, model linier sudah sesuai, karena kedua garis praktis berhimpitan. Tahap selanjutnya, Anda tinggal membuat perintah regresi. Selamat Mencoba. Jangan bosen dengan regresi 😄 !&lt;/p&gt;
 &lt;/div&gt;
 </description>
