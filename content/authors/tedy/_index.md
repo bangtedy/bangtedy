@@ -4,7 +4,7 @@ title: Tedy Herlambang
 
 # Username (this should match the folder name)
 authors:
-- admin
+- tedy
 
 # Is this the primary user of the site?
 superuser: true
@@ -18,20 +18,20 @@ organizations:
   url: "https://fp.upm.ac.id"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include applied economics and management in agriculture, agri-food value chain and marketing, and consumer behavior.
+bio: My research interests include agricultural leadership, agriculture innovation, agri-food value chain and marketing.
 
 interests:
 - Agricultural Leadership
 - Agriculture Innovation
 - Agri-food Marketing
-- R and Statistics
+- Data Analysis and Visualization
 
-education:
-  courses:
-  - course: Master of Management in Agribusiness
-    institution: IPB University
-  - course: Bachelor in Agriculture
-    institution: IPB University
+# education:
+  # courses:
+  # - course: Master of Management in Agribusiness
+  #  institution: IPB University
+  # - course: Bachelor in Agriculture
+  #  institution: IPB University
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -50,9 +50,19 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-7296-4357
-- icon: impactstory
+- icon: publons
   icon_pack: ai
-  link: https://profiles.impactstory.org/u/0000-0002-7296-4357
+  link: https://publons.com/researcher/1571812/tedy-herlambang/
+- icon: mendeley
+  icon_pack: ai
+  link: https://www.mendeley.com/profiles/tedy-herlambang2/
+- icon: zotero
+  icon_pack: ai
+  link: https://www.zotero.org/bangtedy
+  
+# - icon: impactstory
+#  icon_pack: ai
+#  link: https://profiles.impactstory.org/u/0000-0002-7296-4357
 
   
 # - icon: github
@@ -78,4 +88,4 @@ user_groups:
 - Visitors
 ---
 
-Tedy Herlambang is an Assistant Professor at Universitas Panca Marga. His research interests include applied economics and management, agricultural leadership and development, agri-food marketing, consumer behavior and agriculture innovation. 
+Tedy Herlambang is an Assistant Professor at Universitas Panca Marga. His research interests include agricultural leadership and development, agriculture innovation, agri-food value chain and agri-food marketing. 
