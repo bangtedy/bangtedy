@@ -88,7 +88,7 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "bangtedy@gmail.com"
+email = ""
 phone = "+62 335 422 715"
 
 # Address
