@@ -1,5 +1,5 @@
 ---
-title: Mengapa Perlu Bekerja
+title: Mengapa Anda Bekerja
 author: Tedy Herlambang
 date: '2020-10-09'
 slug: mengapa-perlu-bekerja
@@ -8,6 +8,7 @@ categories:
 tags:
   - kepemimpinan
   - leadership
+  - bekerja
 subtitle: ''
 summary: ''
 authors: []
@@ -19,18 +20,28 @@ image:
   preview_only: no
 projects: []
 ---
-Agar dapur tetap ngebul. Itu saja?
+Karena bekerja adalah kewajiban dan kebutuhan. Wajib karena secara badaniah kita memerlukan pangan, pakaian dan rumah untuk istirahat. 
 
-Kita bekerja sudah rajin, tapi kok tetap kembang-kempis? Mungkin pekerjaan kita termasuk "komoditi". *Barrier to entry*-nya rendah karena banyak yang bisa mengerjakan pekerjaan itu. Hari ini Anda _resign_, besok pagi puluhan orang siap menggantikan. 
+Selain badaniah ada kebutuhan non-fisik: pergaulan, kebanggaan, kesempatan, kesenangan, dll.
 
-Tingkatkan keterampilan dan keberuntungan Anda agar tidak menjadi komoditi. Jika Anda berketerampilan dan cukup beruntung berada ditempat dan waktu yang tepat, mungkin pendapatan Anda akan 1-2 kali standar deviasi dari rata-rata gaji di dalam industri dimana Anda berada.
+Ketika Anda sudah rajin bekerja, tapi kok tetap begitu-begitu saja, mungkin pekerjaan kita termasuk "komoditi". *Barrier to entry*-nya rendah, banyak yang bisa mengerjakan. 
 
-Mengapa perlu bekerja? Bagi orang yang menyenangi pekerjaannya, ada elemen lain (selain alasan supaya dapur ngebul) sehingga mereka tetap semangat berangkat bekerja setiap hari. Mereka bekerja karena ...mereka bisa terserap oleh pekerjaannya sehingga waktu berjalan tidak terasa. Tidak selalu memang.
+Ketika Anda _resign_, banyak orang lain atau mungkin juga mesin yang bisa menggantikan. 
 
-Mengapa perlu bekerja? Bagi sebagian orang, pekerjaan memberi mereka kebanggaan dan perasaan dihargai. Mereka diberi otonomi untuk belajar hal-hal baru, keluar dari zona nyaman dan bertumbuh sebagai manusia tidak hanya sebagai pekerja. Mengapa perlu bekerja? Pekerjaan kadang membuat kita tertantang untuk menjadi ahli. Pekerjaan menguji kemampuan kita. 
+Tingkatkan keterampilan (yang sulit tergantikan) dan keberuntungan Anda agar tidak menjadi komoditi. 
 
-Mengapa perlu bekerja? Bekerja memberi dan membuka peluang untuk melakukan interaksi sosial. Di sela-sela pekerjaan terdapat ruang untuk berinteraksi dengan orang lain: perasaan sebagai anggota tim dan berkontribusi terhadap kemajuan organisasi walaupun pekerjaan dikerjakan secara mandiri. Bekerja juga meningkatkan rasa percaya diri karena ikut berkontribusi membuat situasi lebih baik sekecil apapun kontribusi itu.
+Jika Anda unik terampil dan cukup beruntung berada ditempat dan waktu yang tepat, mungkin pendapatan Anda bisa sekian kali standar deviasi rata-rata pendapatan di dalam industri dimana Anda berada.
 
-Tetapi, hanya sedikit pekerjaan yang memiliki elemen seperti ini. Dan tidak ada pekerjaan yang memiliki elemen lengkap semuanya seperti ini. Apakah sebagai guru, dokter, polisi, wartawan, pedagang, dll. Pasti ada bagian tertentu dari pekerjaan itu yang tidak Anda sukai :sleepy: .
+Mengapa perlu bekerja? Bagi orang yang menyenangi pekerjaannya, mereka tetap semangat berangkat bekerja setiap harinya. *Tired but fulfilled*. Capek tapi puas karena telah berkontribusi.
 
-Orang tidak akan mau bekerja jika tidak dapat imbalan materi atau hanya mendapat imbalan materi. Bukan itu inti alasan orang bekerja. Carilah atau ciptakan pekerjaan yang sebagian besar elemennya kita sukai. Maka kita akan bersemangat tiap hari :joy: .
+Mengapa perlu bekerja? Bagi sebagian orang, pekerjaan memberi mereka kebanggaan. Otonomi, belajar hal-hal baru dan bertumbuh sebagai manusia tidak hanya sebagai pekerja. 
+
+Mengapa perlu bekerja? Pekerjaan kadang membuat kita tertantang untuk menjadi ahli dan terampil. Pekerjaan menguji kemampuan kita. 
+
+Mengapa perlu bekerja? Dengan bekerja bisa bergaul dengan orang lain. Di dalam bekerja terdapat ruang untuk bersosialisasi dan berinteraksi. 
+
+Tetapi, hanya sedikit pekerjaan yang memiliki semua unsur-unsur di atas. Dan tidak ada pekerjaan yang memiliki unsur lengkap: kebanggaan, kesempatan, kesenangan, imbalan cukup dll. 
+
+Apapun profesinya, pasti ada bagian tertentu dari pekerjaan itu yang mungkin tidak Anda sukai :sleepy: .
+
+Orang tidak mau bekerja kalau tidak dapat imbalan cukup atau hanya dapat imbalan materi. Carilah atau ciptakan pekerjaan yang unsurnya lebih lengkap dan penunaiannya kita sukai.
