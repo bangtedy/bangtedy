@@ -100,7 +100,7 @@ address = {street = "Jln. Yos Sudarso", city = "Probolinggo", region = "Jawa Tim
 coordinates = {latitude = "-7.760742", longitude = "113.236644"}
 
 # Directions for visitors to locate you.
-directions = "Desa Pabean Gate, turn left, see Office 100 Floor 1"
+# directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

@@ -18,12 +18,10 @@ organizations:
   url: "https://fp.upm.ac.id"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include agricultural leadership, agriculture innovation, agri-food value chain and marketing.
+bio: My research interests include applied economics/financial economics.
 
 interests:
-- Agricultural Leadership
-- Agriculture Innovation
-- Agri-food Marketing
+- Applied Economics/Financial Economics
 - Data Analysis and Visualization
 
 # education:
@@ -88,4 +86,4 @@ user_groups:
 - Visitors
 ---
 
-Tedy Herlambang is an Assistant Professor at Universitas Panca Marga. His research interests include agricultural leadership and development, agriculture innovation, agri-food value chain and agri-food marketing. 
+Tedy Herlambang is an Ass.Professor at Universitas Panca Marga.
