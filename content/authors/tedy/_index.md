@@ -25,11 +25,7 @@ interests:
 - Data Analysis and Visualization
 
 # education:
-  # courses:
-  # - course: Master of Management in Agribusiness
-  #  institution: IPB University
-  # - course: Bachelor in Agriculture
-  #  institution: IPB University
+  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
