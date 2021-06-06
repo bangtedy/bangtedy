@@ -21,7 +21,8 @@ organizations:
 bio: My research interests include applied economics/financial economics.
 
 interests:
-- Applied Economics/Financial Economics
+- Applied Economics
+- Financial Economics
 - Data Analysis and Visualization
 
 # education:
@@ -82,4 +83,3 @@ user_groups:
 - Visitors
 ---
 
-Tedy Herlambang is an Ass.Professor at Universitas Panca Marga.
