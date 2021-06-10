@@ -58,6 +58,6 @@ Taught microeconomics, macroeconomics, quantitative analysis, strategic manageme
 
 ## Education
 
-* IPB University Bogor Jawa Barat - Agribusiness Study Program Department of Social Economics
-* IPB University Bogor Jawa Barat - Master of Management Post-graduate Study Program
+* IPB University, Bogor - Agribusiness Study Program Department of Social Economics
+* IPB University, Bogor - Master of Management Post-graduate Study Program
 
