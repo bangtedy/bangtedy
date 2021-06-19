@@ -38,7 +38,7 @@ title: Tedy Herlambang
 
 The following may be *cumulative*, like monthly electricity consumption; or it may be a statistic that reflects *activities*, such as the daily closing values of stocks on the Indonesia Stock Exchange :).
 
-I'm Tedy Herlambang, a *Pendalungan*, speak both Javanese and Madurese, and a little Sundanese. I use R and Python for finance and fun (*activities*). I graduated from IPB University and work in academia.
+I'm Tedy Herlambang, a *Pendalungan* who speak both Javanese and Madurese, and a little Sundanese. I use R and Python for finance and fun (*activities*). I graduated from IPB University and work in academia.
 
 I have written books *Ekonomi Manajerial dan Strategi Bersaing*; and *Ekonomi Mikro Suatu Pendekatan Praktis* & *Ekonomi Mikro Sebuah Kajian Komprehensif* with Said Kelana, Sugiarto, Brastoro and Rachmat Sudjana (*cumulative*).
 
