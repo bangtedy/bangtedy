@@ -17,9 +17,6 @@ image:
 projects: []
 ---
 
-
-
-
 Kekayaan diciptakan ketika suatu aset berpindah dari nilai pemakaian rendah ke tinggi. Bisnis itu simpel: mengindentifikasi aset-aset dengan nilai penggunaan rendah, kemudian mencari cara untuk memindahkannya ke nilai penggunaan tinggi, lihat misalnya [Luke M. Froeb, dkk: Managerial Economics: A Problem Solving Approach](https://www.cengage.com/c/managerial-economics-5e-froeb/9781337106665PF/).
 
 Dengan kata lain setiap aset yang kurang termanfaatkan merupakan potensi untuk transaksi yang menghasilkan kekayaaan. Seninya adalah mengidentifikasi transaksi-transaksi ini dan menemukan cara mengimplementasikannya secara menguntungkan.
