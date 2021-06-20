@@ -1,8 +1,8 @@
 ---
-title: First post
+title: Interogasi Babak Akhir
 author: Tedy Herlambang
 date: '2021-06-10'
-slug: first-post
+slug: interogasi-babak-akhir
 categories: []
 tags: []
 subtitle: ''
@@ -20,31 +20,70 @@ projects: []
 
 
 
-## R Markdown
+Kekayaan diciptakan ketika suatu aset berpindah dari nilai pemakaian rendah ke tinggi. Bisnis itu simpel: mengindentifikasi aset-aset dengan nilai penggunaan rendah, kemudian mencari cara untuk memindahkannya ke nilai penggunaan tinggi, lihat misalnya [Luke M. Froeb, dkk: Managerial Economics: A Problem Solving Approach](https://www.cengage.com/c/managerial-economics-5e-froeb/9781337106665PF/).
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Dengan kata lain setiap aset yang kurang termanfaatkan merupakan potensi untuk transaksi yang menghasilkan kekayaaan. Seninya adalah mengidentifikasi transaksi-transaksi ini dan menemukan cara mengimplementasikannya secara menguntungkan.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Secara prinsip, menghasilkan uang itu simpel saja: cari aset-aset yang digunakan pada nilai rendah, beli, kemudian jual ke pembeli yang menempatkan nilai pemakaian tinggi pada aset tersebut.
 
+[<img src="images/scott-graham-5fNmWej4tAA-unsplash.jpg" title="image by Scott Graham on unsplash" alt="image by Scott Graham on unsplash" width="574"/>](https://unsplash.com/@homajob)
 
-```r
-summary(cars)
-```
+Ambil contoh jual beli kursi (harfiah). Bagi si pembeli kursi, nilai kursi itu adalah berapa rupiah tertinggi yang mau dia keluarkan untuk mendapatkannya. Bagi si penjual kursi, nilai kursi itu adalah rupiah terendah yang dia mau terima dari pembeli, biaya produksi + keuntungan.
 
-```
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-```
+Pembeli akan membeli kursi jika harganya sama atau lebih rendah dari nilai yang dia tetapkan untuk kursi itu. Penjual, dengan alasan yang sama, akan menjualnya jika harga tawaran diatas nilai yang dia tetapkan. Jika kondisi ini tidak terpenuhi transaksi tidak akan terjadi.
 
-## Including Plots
+Contoh lain pemilik pabrik merekrut karyawan, meminjam modal dari investor, kemudian menjual produknya ke pelanggan. Secara esensi, pemilik pabrik adalah perantara yang memindahkan tenaga kerja dan kapital dari nilai penggunaan rendah ke nilai penggunaan tinggi yang ditentukan oleh keinginan konsumen untuk membayar tenaga kerja dan kapital terwujud dalam bentuk barang.
 
-You can also embed plots, for example:
+Yayasan merekrut dosen, berinvestasi milyaran rupiah untuk gedung-gedung, laboratorium, peralatan dan buku-buku, mendirikan universitas swasta, kemudian "menjual" jasa pendidikan ke mahasiswa. Yayasan ini prinsipnya juga perantara.
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/pressure-1.png" width="672" />
+# Efisiensi
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Efisiensi adalah salah satu konsep yang sangat sering dipakai di ekonomi. Para ekonom sering terobsesi dengan ide efisiensi ini.
+
+Suatu perekonomian dikatakan efisien jika semua aset berada pada nilai tertinggi penggunaannya (surplus masyarakat paling besar). Para ekonom itu mengidentifikasi aset-aset dengan nilai penggunaan rendah kemudian memikirkan kebijakan-kebijakan publik untuk "memindahkan" aset itu ke nilai penggunaan yang lebih tinggi.
+
+Sebuah kebijakan yang baik memudahkan pergerakan aset-aset ke pemakaian yang lebih tinggi. Kebijakan buruk menghambatnya, atau bahkan lebih buruk lagi karena memindahkan aset ke nilai penggunaan yang lebih rendah.
+
+Analisa baik dan buruk kebijakan harus komprehensif tentu saja: semua dampak yang diinginkan maupun dampak ikutan yang tidak diinginkan, jangka pendek maupun jangka panjang, tidak hanya pada satu kelompok tapi pada semua golongan.
+
+# Kekayaan sejati
+
+Di dalam ekonomi, kekayaaan diartikan sebagai akumulasi aset-aset yang dapat digunakan untuk menghasilkan pendapatan. Kekayaan sering dikaitkan dengan kekuasaan.
+
+Orang-orang kaya, punya kekuatan finansial besar di masyarakat dan biasanya lebih berpeluang untuk sukses di dunia politik yang biaya investasinya sangat besar.
+
+Akan tetapi beberapa ekonom juga mengemukakan dan membuktikan bahwa kekayaan sejati tidak hanya berhubungan dengan modal finansial, lihat misalnya [Mark Anielski: The Economics of Happiness Building Genuine Wealth](https://www.goodreads.com/book/show/2087086.The_Economics_of_Happiness). Anelski mengemukakan bahwa kekayaan sejati ditentukan oleh kualitas dan kuantitas dari lima kapital, yaitu
+
+1.  sumberdaya manusia (human capital) --- badan, pikiran, jiwa dan kemampuan;
+2.  modal sosial (social capital) --- mutu dan kekuatan hubungan manusia dengan sesama: tingkat kepercayaan, gotong royong, keperdulian, kejujuran, toleransi;
+3.  kekayaan alam (natural capital) --- segala hal di alam (tumbuhan, hewan, kontur) yang mendukung ekosistem kehidupan;
+4.  modal fisik (built capital) ---infrastruktur, gedung-gedung, jalan-jalan, mesin-mesin, peralatan, barang-barang tahan lama;
+5.  kekayaan finansial (financial capital) --- uang dan aset lancar lainnya yang berfungsi dan diterima sebagai alat pembayaran transaksi atau hutang.
+
+Ketika pembangunan ekonomi suatu negara lebih berfokus pada no (5), memberi perhatian besar pada no (4), tetapi kurang meningkatkan nilai guna no (1), (2), dan (3), akan seperti apa hasilnya?
+
+Kita lihat, masih menurut Anelski, justru tiga kapital yang pertamalah yang paling utama perannya bagi terciptanya kekayaan sejati. Karena kelima kapital itu saling melengkapi/komplementer. Seperti hubungan kopi dengan gula atau motor dengan bensin, kekurangan pada salah satu unsur membatasi produktivitas unsur lainnya.
+
+Khususnya kekayaan finansial cepat menjadi tidak berharga ketika kekayaan alam terkuras habis-habisan. Rumah mewah menjadi tidak berharga ketika seluruh lingkungan, air, tanah atau udara sekitarnya sangat tercemar. Rendahnya tingkat kepercayaan (modal sosial) membatasi nilai dari pengetahuan (sumberdaya manusia), dst.
+
+Beberapa ahli ekonomi kemudian memperluas konsep kekayaaan dengan memasukkan juga kekayaan SDM, kekayaaan sosial, alam dan lingkungan. Dengan mengkombinasikan bentuk kekayaaan ini dengan kekayaaan finansial (5) dan kekayaan fisik (4) ekonomi menuju pada pemahaman yang otentik tentang semua yang berkontribusi pada kesejahteraan individu atau kolektif.
+
+Dan ini baru persoalan yang berhubungan dengan bagaimana menghasilkan output. Bagi yang tertarik dengan bagaimana distribusi output di dalam perekonomian bisa melihat misalnya [Thomas Piketty: Capital in the twenty- first century](https://www.jstor.org/stable/j.ctt6wpqbc).
+
+Sekarang Anda bisa menilai kebijakan ekonomi atau aktivitas ekonomi mana yang menggerakkan kapital 1, 2, 3, 4 dan 5 dari nilai penggunaan tinggi ke nilai penggunaan rendah. Untuk menemukan yang nomer 4 dan 5 cukup mudah, banyak kekayaan yang diciptakan.
+
+Bagaimana dengan kapital nomor 1, 2 dan 3? Fakta bahwa kekayaaan finansial dan fisik adalah kategori yang paling dapat diukur dan dihitung membelokkan perhatian kita terlalu jauh pada arahnya.
+
+# Interogasi babak akhir
+
+Pada dasarnya orang tidak suka ditanya-tanya apalagi diinterogasi. Pernahkah Anda menolak seseorang yang meminta waktu untuk mengisi kuesioner atau wawancara? Ya kita sering menolaknya dengan berbagai alasan: intinya kita tidak suka ditanya-tanya apalagi hal-hal yang sifatnya pribadi.
+
+Akan tetapi akan ada masanya ketika kita tidak bisa lagi menolak sebuah interogasi. Bahkan kita tidak perlu menjawab sendiri interogasi tersebut karena ada yang akan menjawabnya, sedangkan mulut kita ditutup rapat.
+
+Setiap diri kita akan ditanya sebagai individu, pimpinan perusahaan, universitas, kota/kabupaten propinsi dll sejauh mana kita ikut berkontribusi menciptakan kekayaan sejati?
+
+> This Day, We shall seal up their mouths, and their hands will speak to Us, and their legs will bear witness to what they used to earn. *Surah Ya Sin 36:65 English - Mohsin Khan/Taqi-ud-Din al-Hilali*
+
+Kita semua memiliki waktu yang terbatas di dalam jam pasir kehidupan. Bagaimana dan dimana kita memilih untuk menginvestasikan setiap butir pasir waktu kita merefleksikan nilai-nilai kita.
+
+Bagaimana Anda menciptakan kekayaaan? Aset yang mana yang Anda pindahkan ke nilai penggunaan yang lebih tinggi?
