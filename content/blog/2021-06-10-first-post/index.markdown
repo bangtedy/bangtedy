@@ -13,9 +13,11 @@ featured: no
 image:
   caption: ''
   focal_point: ''
-  preview_only: no
+  preview_only: true
 projects: []
 ---
+
+
 
 Kekayaan diciptakan ketika suatu aset berpindah dari nilai pemakaian rendah ke tinggi. Bisnis itu simpel: mengindentifikasi aset-aset dengan nilai penggunaan rendah, kemudian mencari cara untuk memindahkannya ke nilai penggunaan tinggi, lihat misalnya [Luke M. Froeb, dkk: Managerial Economics: A Problem Solving Approach](https://www.cengage.com/c/managerial-economics-5e-froeb/9781337106665PF/).
 
@@ -23,7 +25,7 @@ Dengan kata lain setiap aset yang kurang termanfaatkan merupakan potensi untuk t
 
 Secara prinsip, menghasilkan uang itu simpel saja: cari aset-aset yang digunakan pada nilai rendah, beli, kemudian jual ke pembeli yang menempatkan nilai pemakaian tinggi pada aset tersebut.
 
-[<img src="images/scott-graham-5fNmWej4tAA-unsplash.jpg" title="image by Scott Graham on unsplash" alt="image by Scott Graham on unsplash" width="574"/>](https://unsplash.com/@homajob)
+[![](images/scott-graham-5fNmWej4tAA-unsplash.jpg "image by Scott Graham on unsplash")](https://unsplash.com/@homajob)
 
 Ambil contoh jual beli kursi (harfiah). Bagi si pembeli kursi, nilai kursi itu adalah berapa rupiah tertinggi yang mau dia keluarkan untuk mendapatkannya. Bagi si penjual kursi, nilai kursi itu adalah rupiah terendah yang dia mau terima dari pembeli, biaya produksi + keuntungan.
 
