@@ -3,8 +3,12 @@ title: Interogasi Babak Akhir
 author: Tedy Herlambang
 date: '2021-06-10'
 slug: interogasi-babak-akhir
-categories: []
-tags: []
+categories:
+  - bisnis
+  - investasi
+tags:
+  - bisnis
+  - investasi
 subtitle: ''
 summary: ''
 authors: []
