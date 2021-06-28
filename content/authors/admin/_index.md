@@ -42,6 +42,6 @@ I'm Tedy Herlambang, a *Pendalungan* who speak both Javanese and Madurese, and a
 
 I have written books *Ekonomi Manajerial dan Strategi Bersaing*; and *Ekonomi Mikro Suatu Pendekatan Praktis* & *Ekonomi Mikro Sebuah Kajian Komprehensif* with Said Kelana, Sugiarto, Brastoro and Rachmat Sudjana (*cumulative*).
 
-I live in Paiton (read as in Python) Jawa Timur, with my wife, two kids, and our five cats: Max, Mayo, Jurgen, Jeff Jupri and Bite. You can find me on [Twitter](https://twitter.com/t_hlb) and [GitHub](https://github.com/bangtedy).
+I live in Paiton (read like Python) Jawa Timur, with my wife, two kids, and our five cats: Max, Mayo, Jurgen, Jeff Jupri and Bite. You can find me on [Twitter](https://twitter.com/t_hlb) and [GitHub](https://github.com/bangtedy).
 
 This blog is built with [blogdown](https://github.com/rstudio/blogdown) and [Hugo](https://gohugo.io/), and deployed using [Netlify](https://www.netlify.com/). My blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Photos are private collections by Anna R. and Ilham R, unless credit provided.
