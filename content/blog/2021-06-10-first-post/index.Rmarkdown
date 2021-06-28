@@ -25,7 +25,9 @@ projects: []
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Kekayaan diciptakan ketika suatu aset berpindah dari nilai pemakaian rendah ke tinggi. Bisnis itu simpel: mengindentifikasi aset-aset dengan nilai penggunaan rendah, kemudian mencari cara untuk memindahkannya ke nilai penggunaan tinggi, lihat misalnya [Luke M. Froeb, dkk: Managerial Economics: A Problem Solving Approach](https://www.cengage.com/c/managerial-economics-5e-froeb/9781337106665PF/).
+Kekayaan diciptakan ketika suatu aset berpindah dari nilai pemakaian rendah ke tinggi. Bisnis itu simpel: mengindentifikasi aset-aset dengan nilai penggunaan rendah, kemudian mencari cara untuk memindahkannya ke nilai penggunaan tinggi[^1].
+
+[^1]: lihat misalnya Luke M. Froeb, dkk: Managerial Economics: A Problem Solving Approach, halaman 16.
 
 Dengan kata lain setiap aset yang kurang termanfaatkan merupakan potensi untuk transaksi yang menghasilkan kekayaaan. Seninya adalah mengidentifikasi transaksi-transaksi ini dan menemukan cara mengimplementasikannya secara menguntungkan.
 
@@ -37,7 +39,7 @@ Ambil contoh jual beli kursi (harfiah). Bagi si pembeli kursi, nilai kursi itu a
 
 Pembeli akan membeli kursi jika harganya sama atau lebih rendah dari nilai yang dia tetapkan untuk kursi itu. Penjual, dengan alasan yang sama, akan menjualnya jika harga tawaran diatas nilai yang dia tetapkan. Jika kondisi ini tidak terpenuhi transaksi tidak akan terjadi.
 
-Contoh lain pemilik pabrik merekrut karyawan, meminjam modal dari investor, kemudian menjual produknya ke pelanggan. Secara esensi, pemilik pabrik adalah perantara yang memindahkan tenaga kerja dan kapital dari nilai penggunaan rendah ke nilai penggunaan tinggi yang ditentukan oleh keinginan konsumen untuk membayar tenaga kerja dan kapital terwujud dalam bentuk barang.
+Contoh lain pemilik pabrik merekrut karyawan, meminjam modal dari investor, kemudian menjual produknya ke pelanggan. Secara esensi, pemilik pabrik adalah perantara yang memindahkan tenaga kerja dan kapital dari nilai penggunaan rendah ke nilai penggunaan tinggi yang ditentukan oleh keinginan konsumen untuk membayar tenaga kerja dan kapital yang terwujud dalam bentuk barang.
 
 Yayasan merekrut dosen, berinvestasi milyaran rupiah untuk gedung-gedung, laboratorium, peralatan dan buku-buku, mendirikan universitas swasta, kemudian "menjual" jasa pendidikan ke mahasiswa. Yayasan ini prinsipnya juga perantara.
 
@@ -57,38 +59,42 @@ Di dalam ekonomi, kekayaaan diartikan sebagai akumulasi aset-aset yang dapat dig
 
 Orang-orang kaya, punya kekuatan finansial besar di masyarakat dan biasanya lebih berpeluang untuk sukses di dunia politik yang biaya investasinya sangat besar.
 
-Akan tetapi beberapa ekonom juga mengemukakan dan membuktikan bahwa kekayaan sejati tidak hanya berhubungan dengan modal finansial, lihat misalnya [Mark Anielski: The Economics of Happiness Building Genuine Wealth](https://www.goodreads.com/book/show/2087086.The_Economics_of_Happiness). Anelski mengemukakan bahwa kekayaan sejati ditentukan oleh kualitas dan kuantitas dari lima kapital, yaitu
+Akan tetapi beberapa ekonom juga mengemukakan dan membuktikan bahwa kekayaan sejati tidak hanya berhubungan dengan modal finansial[^2].
 
-1.  sumberdaya manusia (human capital) --- badan, pikiran, jiwa dan kemampuan;
-2.  modal sosial (social capital) --- mutu dan kekuatan hubungan manusia dengan sesama: tingkat kepercayaan, gotong royong, keperdulian, kejujuran, toleransi;
-3.  kekayaan alam (natural capital) --- segala hal di alam (tumbuhan, hewan, kontur) yang mendukung ekosistem kehidupan;
-4.  modal fisik (built capital) ---infrastruktur, gedung-gedung, jalan-jalan, mesin-mesin, peralatan, barang-barang tahan lama;
-5.  kekayaan finansial (financial capital) --- uang dan aset lancar lainnya yang berfungsi dan diterima sebagai alat pembayaran transaksi atau hutang.
+[^2]: lihat misalnya Mark Anielski: The Economics of Happiness Building Genuine Wealth.
+
+Anelski mengemukakan bahwa kekayaan sejati ditentukan oleh kualitas dan kuantitas dari lima kapital, yaitu
+
+1.  sumberdaya manusia (*human capital*) --- badan, pikiran, jiwa, kemampuan;
+2.  modal sosial (*social capital*) --- mutu dan kekuatan hubungan antar manusia: tingkat kepercayaan, gotong royong, keperdulian, kejujuran, toleransi;
+3.  kekayaan alam (*natural capital*) --- segala hal di alam (tumbuhan, hewan, kontur, iklim) yang mendukung ekosistem kehidupan;
+4.  modal fisik (*built capital*) ---infrastruktur, gedung-gedung, jalan-jalan, mesin-mesin, peralatan, barang-barang tahan lama;
+5.  kekayaan finansial (*financial capital*) --- uang dan aset lancar lainnya yang berfungsi dan diterima sebagai alat pembayaran transaksi atau hutang.
 
 Ketika pembangunan ekonomi suatu negara lebih berfokus pada no (5), memberi perhatian besar pada no (4), tetapi kurang meningkatkan nilai guna no (1), (2), dan (3), akan seperti apa hasilnya?
 
 Kita lihat, masih menurut Anelski, justru tiga kapital yang pertamalah yang paling utama perannya bagi terciptanya kekayaan sejati. Karena kelima kapital itu saling melengkapi/komplementer. Seperti hubungan kopi dengan gula atau motor dengan bensin, kekurangan pada salah satu unsur membatasi produktivitas unsur lainnya.
 
-Khususnya kekayaan finansial cepat menjadi tidak berharga ketika kekayaan alam terkuras habis-habisan. Rumah mewah menjadi tidak berharga ketika seluruh lingkungan, air, tanah atau udara sekitarnya sangat tercemar. Rendahnya tingkat kepercayaan (modal sosial) membatasi nilai dari pengetahuan (sumberdaya manusia), dst.
+Khususnya kekayaan finansial akan cepat menjadi tidak berharga ketika kekayaan alam terkuras habis-habisan. Rumah mewah menjadi tidak berharga ketika seluruh lingkungan, air, tanah atau udara sekitarnya sangat tercemar. Rendahnya tingkat kepercayaan (modal sosial) akan membatasi nilai dari pengetahuan (sumberdaya manusia), dst.
 
 Beberapa ahli ekonomi kemudian memperluas konsep kekayaaan dengan memasukkan juga kekayaan SDM, kekayaaan sosial, alam dan lingkungan. Dengan mengkombinasikan bentuk kekayaaan ini dengan kekayaaan finansial (5) dan kekayaan fisik (4) ekonomi menuju pada pemahaman yang otentik tentang semua yang berkontribusi pada kesejahteraan individu atau kolektif.
 
-Dan ini baru persoalan yang berhubungan dengan bagaimana menghasilkan output. Bagi yang tertarik dengan bagaimana distribusi output di dalam perekonomian bisa melihat misalnya [Thomas Piketty: Capital in the twenty- first century](https://www.jstor.org/stable/j.ctt6wpqbc).
+Dan ini baru persoalan yang berhubungan dengan bagaimana menghasilkan output, belum hal distribusinya. Bagi yang tertarik dengan bagaimana distribusi output di dalam perekonomian bisa melihat misalnya [Thomas Piketty: Capital in the twenty- first century](https://www.jstor.org/stable/j.ctt6wpqbc).
 
 Sekarang Anda bisa menilai kebijakan ekonomi atau aktivitas ekonomi mana yang menggerakkan kapital 1, 2, 3, 4 dan 5 dari nilai penggunaan tinggi ke nilai penggunaan rendah. Untuk menemukan yang nomer 4 dan 5 cukup mudah, banyak kekayaan yang diciptakan.
 
-Bagaimana dengan kapital nomor 1, 2 dan 3? Fakta bahwa kekayaaan finansial dan fisik adalah kategori yang paling dapat diukur dan dihitung membelokkan perhatian kita terlalu jauh pada arahnya.
+Bagaimana dengan kapital nomor 1, 2 dan 3? Fakta bahwa kekayaaan finansial dan fisik adalah kategori yang paling mudah diukur dan dihitung memang membelokkan perhatian kita terlalu jauh pada arahnya.
 
 # Interogasi babak akhir
 
 Pada dasarnya orang tidak suka ditanya-tanya apalagi diinterogasi. Pernahkah Anda menolak seseorang yang meminta waktu untuk mengisi kuesioner atau wawancara? Ya kita sering menolaknya dengan berbagai alasan: intinya kita tidak suka ditanya-tanya apalagi hal-hal yang sifatnya pribadi.
 
-Akan tetapi akan ada masanya ketika kita tidak bisa lagi menolak sebuah interogasi. Bahkan kita tidak perlu menjawab sendiri interogasi tersebut karena ada yang akan menjawabnya, sedangkan mulut kita ditutup rapat.
+Akan tetapi akan ada masanya ketika kita tidak bisa lagi menolak sebuah interogasi. Bahkan kita tidak perlu menjawab sendiri interogasi tersebut karena ada yang akan menjawabnya, padahal mulut kita ditutup rapat.
 
-Setiap diri kita akan ditanya sebagai individu, pimpinan perusahaan, universitas, kota/kabupaten propinsi dll sejauh mana kita ikut berkontribusi menciptakan kekayaan sejati?
+Setiap diri kita akan ditanya sebagai individu, pimpinan perusahaan, universitas, kota/kabupaten propinsi dll sejauh mana kita ikut berkontribusi menciptakan kekayaan sejati.
 
 > This Day, We shall seal up their mouths, and their hands will speak to Us, and their legs will bear witness to what they used to earn. *Surah Ya Sin 36:65 English - Mohsin Khan/Taqi-ud-Din al-Hilali*
 
-Kita semua memiliki waktu yang terbatas di dalam jam pasir kehidupan. Bagaimana dan dimana kita memilih untuk menginvestasikan setiap butir pasir waktu kita merefleksikan nilai-nilai kita.
+Kita semua memiliki waktu yang terbatas di dalam jam pasir kehidupan di dunia. Bagaimana dan dimana kita memilih untuk menginvestasikan setiap butir pasir waktu kita merefleksikan nilai-nilai kita.
 
 Bagaimana Anda menciptakan kekayaaan? Aset yang mana yang Anda pindahkan ke nilai penggunaan yang lebih tinggi?
