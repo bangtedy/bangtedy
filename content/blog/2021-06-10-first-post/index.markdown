@@ -1,8 +1,8 @@
 ---
-title: Interogasi Babak Akhir
+title: Interogasi Investasi
 author: Tedy Herlambang
 date: '2021-06-10'
-slug: interogasi-babak-akhir
+slug: interogasi-investasi
 categories:
   - bisnis
   - investasi
@@ -41,7 +41,7 @@ Contoh lain pemilik pabrik merekrut karyawan, meminjam modal dari investor, kemu
 
 Yayasan merekrut dosen, berinvestasi milyaran rupiah untuk gedung-gedung, laboratorium, peralatan dan buku-buku, mendirikan universitas swasta, kemudian "menjual" jasa pendidikan ke mahasiswa. Yayasan ini prinsipnya juga perantara.
 
-# Efisiensi
+### Efisiensi
 
 Efisiensi adalah salah satu konsep yang sangat sering dipakai di ekonomi. Para ekonom sering terobsesi dengan ide efisiensi ini.
 
@@ -51,7 +51,7 @@ Sebuah kebijakan yang baik memudahkan pergerakan aset-aset ke pemakaian yang leb
 
 Analisa baik dan buruk kebijakan harus komprehensif tentu saja: semua dampak yang diinginkan maupun dampak ikutan yang tidak diinginkan, jangka pendek maupun jangka panjang, tidak hanya pada satu kelompok tapi pada semua golongan.
 
-# Kekayaan sejati
+### Kekayaan sejati
 
 Di dalam ekonomi, kekayaaan diartikan sebagai akumulasi aset-aset yang dapat digunakan untuk menghasilkan pendapatan. Kekayaan sering dikaitkan dengan kekuasaan.
 
@@ -83,7 +83,7 @@ Sekarang Anda bisa menilai kebijakan ekonomi atau aktivitas ekonomi mana yang me
 
 Bagaimana dengan kapital nomor 1, 2 dan 3? Fakta bahwa kekayaaan finansial dan fisik adalah kategori yang paling mudah diukur dan dihitung memang membelokkan perhatian kita terlalu jauh pada arahnya.
 
-# Interogasi babak akhir
+### Interogasi Investasi
 
 Pada dasarnya orang tidak suka ditanya-tanya apalagi diinterogasi. Pernahkah Anda menolak seseorang yang meminta waktu untuk mengisi kuesioner atau wawancara? Ya kita sering menolaknya dengan berbagai alasan: intinya kita tidak suka ditanya-tanya apalagi hal-hal yang sifatnya pribadi.
 
