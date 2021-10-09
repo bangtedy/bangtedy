@@ -1,8 +1,8 @@
 ---
-title: Interogasi Investasi
+title: Mobilisasi Aset
 author: Tedy Herlambang
 date: '2021-06-10'
-slug: interogasi-investasi
+slug: mobilisasi-aset
 categories:
   - bisnis
   - investasi
@@ -21,7 +21,7 @@ image:
 projects: []
 ---
 
-
+### Bisnis itu simpel
 
 Kekayaan diciptakan ketika suatu aset berpindah dari nilai pemakaian rendah ke tinggi. Bisnis itu simpel: mengindentifikasi aset-aset dengan nilai penggunaan rendah, kemudian mencari cara untuk memindahkannya ke nilai penggunaan tinggi[^1].
 
