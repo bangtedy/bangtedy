@@ -2,7 +2,7 @@
 date: "2016-08-24 17:51:42"
 title: About me
 ---
-Saya mengampu beberapa mata kuliah yang berhubungan ekonomi dan manajemen terapan, keuangan dan ekonometrika. 
+Saya mengampu mata kuliah berhubungan dengan ekonomi dan manajemen terapan, keuangan dan ekonometrika. 
 
 Beberapa buku yang sedang saya tulis antara lain:
 

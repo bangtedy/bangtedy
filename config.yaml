@@ -15,7 +15,7 @@ menu:
     - name: Tags
       url: /tags
       weight: 3
-    - name: About
+    - name: Giat Akademik
       url: /about
       weight: 4
 markup:
