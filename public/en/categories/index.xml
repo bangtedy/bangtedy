@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on Merdeka Belajar</title>
-    <link>http://bangtedy.github.io/en/categories/</link>
+    <link>http://bangtedy.rbind.io/en/categories/</link>
     <description>Recent content in Categories on Merdeka Belajar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://bangtedy.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://bangtedy.rbind.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>bisnis</title>
-        <link>http://bangtedy.github.io/en/categories/bisnis/</link>
+        <link>http://bangtedy.rbind.io/en/categories/bisnis/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/bisnis/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/bisnis/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -38,11 +38,11 @@
       
       <item>
         <title>investasi</title>
-        <link>http://bangtedy.github.io/en/categories/investasi/</link>
+        <link>http://bangtedy.rbind.io/en/categories/investasi/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/investasi/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/investasi/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -56,11 +56,11 @@
       
       <item>
         <title>R</title>
-        <link>http://bangtedy.github.io/en/categories/r/</link>
+        <link>http://bangtedy.rbind.io/en/categories/r/</link>
         <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/r/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/r/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -74,11 +74,11 @@
       
       <item>
         <title>syntax</title>
-        <link>http://bangtedy.github.io/en/categories/syntax/</link>
+        <link>http://bangtedy.rbind.io/en/categories/syntax/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/syntax/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/syntax/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -92,11 +92,11 @@
       
       <item>
         <title>themes</title>
-        <link>http://bangtedy.github.io/en/categories/themes/</link>
+        <link>http://bangtedy.rbind.io/en/categories/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/themes/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/themes/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -110,11 +110,11 @@
       
       <item>
         <title>hugo</title>
-        <link>http://bangtedy.github.io/en/categories/hugo/</link>
+        <link>http://bangtedy.rbind.io/en/categories/hugo/</link>
         <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/hugo/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/hugo/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -128,11 +128,11 @@
       
       <item>
         <title>diagram</title>
-        <link>http://bangtedy.github.io/en/categories/diagram/</link>
+        <link>http://bangtedy.rbind.io/en/categories/diagram/</link>
         <pubDate>Mon, 18 Nov 2019 21:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/diagram/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/diagram/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -146,11 +146,11 @@
       
       <item>
         <title>math</title>
-        <link>http://bangtedy.github.io/en/categories/math/</link>
+        <link>http://bangtedy.rbind.io/en/categories/math/</link>
         <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/categories/math/</guid>
+        <guid>http://bangtedy.rbind.io/en/categories/math/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>

@@ -7,14 +7,14 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Hugo Zzo Theme</title>
-    <link>http://bangtedy.github.io/ko/</link>
+    <link>http://bangtedy.rbind.io/ko/</link>
     <description>Recent content on Hugo Zzo Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 19 Oct 2019 11:44:14 +0900</lastBuildDate>
     
-        <atom:link href="http://bangtedy.github.io/ko/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://bangtedy.rbind.io/ko/index.xml" rel="self" type="application/rss+xml" />
     
       
       

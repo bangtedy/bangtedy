@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>book on Merdeka Belajar</title>
-    <link>http://bangtedy.github.io/en/publication/book/</link>
+    <link>http://bangtedy.rbind.io/en/publication/book/</link>
     <description>Recent content in book on Merdeka Belajar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
-        <atom:link href="http://bangtedy.github.io/en/publication/book/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://bangtedy.rbind.io/en/publication/book/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Analisis Regresi Sebuah Referensi Singkat dengan R</title>
-        <link>http://bangtedy.github.io/en/publication/book/book_any_folder_name_1/</link>
+        <link>http://bangtedy.rbind.io/en/publication/book/book_any_folder_name_1/</link>
         <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
         
         <atom:modified>Sun, 02 Jan 2022 00:00:00 +0000</atom:modified>
-        <guid>http://bangtedy.github.io/en/publication/book/book_any_folder_name_1/</guid>
+        <guid>http://bangtedy.rbind.io/en/publication/book/book_any_folder_name_1/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>

@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Merdeka Belajar</title>
-    <link>http://bangtedy.github.io/en/tags/</link>
+    <link>http://bangtedy.rbind.io/en/tags/</link>
     <description>Recent content in Tags on Merdeka Belajar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://bangtedy.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://bangtedy.rbind.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>bisnis</title>
-        <link>http://bangtedy.github.io/en/tags/bisnis/</link>
+        <link>http://bangtedy.rbind.io/en/tags/bisnis/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/bisnis/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/bisnis/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -38,11 +38,11 @@
       
       <item>
         <title>investasi</title>
-        <link>http://bangtedy.github.io/en/tags/investasi/</link>
+        <link>http://bangtedy.rbind.io/en/tags/investasi/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/investasi/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/investasi/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -56,11 +56,11 @@
       
       <item>
         <title>plot</title>
-        <link>http://bangtedy.github.io/en/tags/plot/</link>
+        <link>http://bangtedy.rbind.io/en/tags/plot/</link>
         <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/plot/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/plot/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -74,11 +74,11 @@
       
       <item>
         <title>R Markdown</title>
-        <link>http://bangtedy.github.io/en/tags/r-markdown/</link>
+        <link>http://bangtedy.rbind.io/en/tags/r-markdown/</link>
         <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/r-markdown/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/r-markdown/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -92,11 +92,11 @@
       
       <item>
         <title>regression</title>
-        <link>http://bangtedy.github.io/en/tags/regression/</link>
+        <link>http://bangtedy.rbind.io/en/tags/regression/</link>
         <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/regression/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/regression/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -110,11 +110,11 @@
       
       <item>
         <title>shortcode</title>
-        <link>http://bangtedy.github.io/en/tags/shortcode/</link>
+        <link>http://bangtedy.rbind.io/en/tags/shortcode/</link>
         <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/shortcode/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/shortcode/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -128,11 +128,11 @@
       
       <item>
         <title>css</title>
-        <link>http://bangtedy.github.io/en/tags/css/</link>
+        <link>http://bangtedy.rbind.io/en/tags/css/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/css/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/css/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -146,11 +146,11 @@
       
       <item>
         <title>html</title>
-        <link>http://bangtedy.github.io/en/tags/html/</link>
+        <link>http://bangtedy.rbind.io/en/tags/html/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/html/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/html/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -164,11 +164,11 @@
       
       <item>
         <title>markdown</title>
-        <link>http://bangtedy.github.io/en/tags/markdown/</link>
+        <link>http://bangtedy.rbind.io/en/tags/markdown/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/markdown/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/markdown/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -182,11 +182,11 @@
       
       <item>
         <title>themes</title>
-        <link>http://bangtedy.github.io/en/tags/themes/</link>
+        <link>http://bangtedy.rbind.io/en/tags/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/themes/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/themes/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -200,11 +200,11 @@
       
       <item>
         <title>privacy</title>
-        <link>http://bangtedy.github.io/en/tags/privacy/</link>
+        <link>http://bangtedy.rbind.io/en/tags/privacy/</link>
         <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/privacy/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/privacy/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -218,11 +218,11 @@
       
       <item>
         <title>shortcodes</title>
-        <link>http://bangtedy.github.io/en/tags/shortcodes/</link>
+        <link>http://bangtedy.rbind.io/en/tags/shortcodes/</link>
         <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/shortcodes/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/shortcodes/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -236,11 +236,11 @@
       
       <item>
         <title>hugo</title>
-        <link>http://bangtedy.github.io/en/tags/hugo/</link>
+        <link>http://bangtedy.rbind.io/en/tags/hugo/</link>
         <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/hugo/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/hugo/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -254,11 +254,11 @@
       
       <item>
         <title>amoji</title>
-        <link>http://bangtedy.github.io/en/tags/amoji/</link>
+        <link>http://bangtedy.rbind.io/en/tags/amoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/amoji/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/amoji/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -272,11 +272,11 @@
       
       <item>
         <title>bamoji</title>
-        <link>http://bangtedy.github.io/en/tags/bamoji/</link>
+        <link>http://bangtedy.rbind.io/en/tags/bamoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/bamoji/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/bamoji/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -290,11 +290,11 @@
       
       <item>
         <title>emoji</title>
-        <link>http://bangtedy.github.io/en/tags/emoji/</link>
+        <link>http://bangtedy.rbind.io/en/tags/emoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/emoji/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/emoji/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -308,11 +308,11 @@
       
       <item>
         <title>gamoji</title>
-        <link>http://bangtedy.github.io/en/tags/gamoji/</link>
+        <link>http://bangtedy.rbind.io/en/tags/gamoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/gamoji/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/gamoji/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -326,11 +326,11 @@
       
       <item>
         <title>namoji</title>
-        <link>http://bangtedy.github.io/en/tags/namoji/</link>
+        <link>http://bangtedy.rbind.io/en/tags/namoji/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/namoji/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/namoji/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -344,11 +344,11 @@
       
       <item>
         <title>diagram</title>
-        <link>http://bangtedy.github.io/en/tags/diagram/</link>
+        <link>http://bangtedy.rbind.io/en/tags/diagram/</link>
         <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/diagram/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/diagram/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -362,11 +362,11 @@
       
       <item>
         <title>index</title>
-        <link>http://bangtedy.github.io/en/tags/index/</link>
+        <link>http://bangtedy.rbind.io/en/tags/index/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         
-        <guid>http://bangtedy.github.io/en/tags/index/</guid>
+        <guid>http://bangtedy.rbind.io/en/tags/index/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>

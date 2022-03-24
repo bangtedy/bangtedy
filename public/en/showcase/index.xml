@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Showcase overview on Merdeka Belajar</title>
-    <link>http://bangtedy.github.io/en/showcase/</link>
+    <link>http://bangtedy.rbind.io/en/showcase/</link>
     <description>Recent content in Showcase overview on Merdeka Belajar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 19 Jan 2020 15:43:38 +0900</lastBuildDate>
     
-        <atom:link href="http://bangtedy.github.io/en/showcase/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://bangtedy.rbind.io/en/showcase/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Teaching</title>
-        <link>http://bangtedy.github.io/en/showcase/teaching/</link>
+        <link>http://bangtedy.rbind.io/en/showcase/teaching/</link>
         <pubDate>Sun, 19 Jan 2020 21:04:11 +0900</pubDate>
         
         <atom:modified>Sun, 19 Jan 2020 21:04:11 +0900</atom:modified>
-        <guid>http://bangtedy.github.io/en/showcase/teaching/</guid>
+        <guid>http://bangtedy.rbind.io/en/showcase/teaching/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>

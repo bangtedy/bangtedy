@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Galleries on Hugo Zzo Theme</title>
-    <link>http://bangtedy.github.io/ko/gallery/</link>
+    <link>http://bangtedy.rbind.io/ko/gallery/</link>
     <description>Recent content in Galleries on Hugo Zzo Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 12 Oct 2018 10:20:16 +0900</lastBuildDate>
     
-        <atom:link href="http://bangtedy.github.io/ko/gallery/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://bangtedy.rbind.io/ko/gallery/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Photo</title>
-        <link>http://bangtedy.github.io/ko/gallery/photo/</link>
+        <link>http://bangtedy.rbind.io/ko/gallery/photo/</link>
         <pubDate>Fri, 12 Oct 2018 10:20:16 +0900</pubDate>
         
         <atom:modified>Fri, 12 Oct 2018 10:20:16 +0900</atom:modified>
-        <guid>http://bangtedy.github.io/ko/gallery/photo/</guid>
+        <guid>http://bangtedy.rbind.io/ko/gallery/photo/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -38,11 +38,11 @@
       
       <item>
         <title>Cartoon</title>
-        <link>http://bangtedy.github.io/ko/gallery/cartoon/</link>
+        <link>http://bangtedy.rbind.io/ko/gallery/cartoon/</link>
         <pubDate>Thu, 11 Oct 2018 10:20:16 +0900</pubDate>
         
         <atom:modified>Thu, 11 Oct 2018 10:20:16 +0900</atom:modified>
-        <guid>http://bangtedy.github.io/ko/gallery/cartoon/</guid>
+        <guid>http://bangtedy.rbind.io/ko/gallery/cartoon/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>

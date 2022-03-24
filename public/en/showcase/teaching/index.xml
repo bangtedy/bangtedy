@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Teaching on Merdeka Belajar</title>
-    <link>http://bangtedy.github.io/en/showcase/teaching/</link>
+    <link>http://bangtedy.rbind.io/en/showcase/teaching/</link>
     <description>Recent content in Teaching on Merdeka Belajar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 19 Jan 2020 21:04:11 +0900</lastBuildDate>
     
-        <atom:link href="http://bangtedy.github.io/en/showcase/teaching/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://bangtedy.rbind.io/en/showcase/teaching/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Keterampilan Kepemimpinan Agribisnis</title>
-        <link>http://bangtedy.github.io/en/showcase/teaching/pimagribisnis/</link>
+        <link>http://bangtedy.rbind.io/en/showcase/teaching/pimagribisnis/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>http://bangtedy.github.io/en/showcase/teaching/pimagribisnis/</guid>
+        <guid>http://bangtedy.rbind.io/en/showcase/teaching/pimagribisnis/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -38,11 +38,11 @@
       
       <item>
         <title>Wawasan Agribisnis</title>
-        <link>http://bangtedy.github.io/en/showcase/teaching/hugo-theme-zdoc/</link>
+        <link>http://bangtedy.rbind.io/en/showcase/teaching/hugo-theme-zdoc/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>http://bangtedy.github.io/en/showcase/teaching/hugo-theme-zdoc/</guid>
+        <guid>http://bangtedy.rbind.io/en/showcase/teaching/hugo-theme-zdoc/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
@@ -56,11 +56,11 @@
       
       <item>
         <title>Manajemen Keuangan</title>
-        <link>http://bangtedy.github.io/en/showcase/teaching/hugo-theme-zzo/</link>
+        <link>http://bangtedy.rbind.io/en/showcase/teaching/hugo-theme-zzo/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>http://bangtedy.github.io/en/showcase/teaching/hugo-theme-zzo/</guid>
+        <guid>http://bangtedy.rbind.io/en/showcase/teaching/hugo-theme-zzo/</guid>
         <description></description>
         
         <dc:creator>Tedy Herlambang</dc:creator>
