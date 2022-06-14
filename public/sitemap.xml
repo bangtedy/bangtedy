@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://bangtedy.rbind.io/en/sitemap.xml</loc>
-    
-      <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://bangtedy.rbind.io/ko/sitemap.xml</loc>
-    
-      <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/2020-12-01-r-rmarkdown/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/plot/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/r/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/r-markdown/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/regression/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/property/</loc>
+    <lastmod>2020-11-11T00:00:00+13:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/real-estate-flipping/</loc>
+    <lastmod>2020-11-11T00:00:00+13:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/business/</loc>
+    <lastmod>2020-08-10T00:00:00+13:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/business-mergers/</loc>
+    <lastmod>2020-08-10T00:00:00+13:00</lastmod>
+  </url><url>
+    <loc>http://example.org/about/</loc>
+  </url><url>
+    <loc>http://example.org/contact/</loc>
+  </url><url>
+    <loc>http://example.org/contact-success/</loc>
+  </url><url>
+    <loc>http://example.org/services/</loc>
+  </url><url>
+    <loc>http://example.org/terms/</loc>
+  </url>
+</urlset>
