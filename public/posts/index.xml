@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
+    <link>https://bangtedy.rbind.io/posts/</link>
     <description>Recent content in Blog on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://bangtedy.rbind.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello R Markdown</title>
-      <link>http://example.org/posts/2020-12-01-r-rmarkdown/</link>
+      <link>https://bangtedy.rbind.io/posts/2020-12-01-r-rmarkdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>http://example.org/posts/2020-12-01-r-rmarkdown/</guid>
+      <guid>https://bangtedy.rbind.io/posts/2020-12-01-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -20,20 +20,20 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>Real Estate Flipping</title>
-      <link>http://example.org/posts/real-estate-flipping/</link>
+      <link>https://bangtedy.rbind.io/posts/real-estate-flipping/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +1300</pubDate>
       
-      <guid>http://example.org/posts/real-estate-flipping/</guid>
+      <guid>https://bangtedy.rbind.io/posts/real-estate-flipping/</guid>
       <description>Flipping is a term used primarily in the US to describe purchasing a revenue-generating asset and quickly reselling it for profit.
 The term &amp;ldquo;flipping&amp;rdquo; is used by real estate investors to describe &amp;ldquo;residential redevelopment&amp;rdquo;. Redevelopment of distressed or abandoned properties or neighborhoods has sometimes been linked to malicious and unscrupulous acts in the post housing bubble era. The term &amp;ldquo;flipping&amp;rdquo; is frequently used both as a descriptive term for schemes involving market manipulation and other illegal conduct and as a derogatory term for legal real estate investing strategies that are perceived by some to be unethical or socially destructive.</description>
     </item>
     
     <item>
       <title>Business Mergers</title>
-      <link>http://example.org/posts/business-mergers/</link>
+      <link>https://bangtedy.rbind.io/posts/business-mergers/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +1300</pubDate>
       
-      <guid>http://example.org/posts/business-mergers/</guid>
+      <guid>https://bangtedy.rbind.io/posts/business-mergers/</guid>
       <description>Mergers and acquisitions are transactions in which the ownership of companies, other business organizations or their operating units are transferred or combined.
 From a legal point of view, a merger is a legal consolidation of two entities into one entity, whereas an acquisition occurs when one entity takes ownership of another entity&amp;rsquo;s stock, equity interests or assets. From a commercial and economic point of view, both types of transactions generally result in the consolidation of assets and liabilities under one entity, and the distinction between a &amp;ldquo;merger&amp;rdquo; and an &amp;ldquo;acquisition&amp;rdquo; is less clear.</description>
     </item>

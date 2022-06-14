@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://bangtedy.rbind.io/posts/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://bangtedy.rbind.io/categories/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2020-12-01-r-rmarkdown/</loc>
+    <loc>https://bangtedy.rbind.io/posts/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://bangtedy.rbind.io/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/plot/</loc>
+    <loc>https://bangtedy.rbind.io/tags/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/r/</loc>
+    <loc>https://bangtedy.rbind.io/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/r-markdown/</loc>
+    <loc>https://bangtedy.rbind.io/tags/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/regression/</loc>
+    <loc>https://bangtedy.rbind.io/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://bangtedy.rbind.io/tags/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/property/</loc>
+    <loc>https://bangtedy.rbind.io/categories/property/</loc>
     <lastmod>2020-11-11T00:00:00+13:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/real-estate-flipping/</loc>
+    <loc>https://bangtedy.rbind.io/posts/real-estate-flipping/</loc>
     <lastmod>2020-11-11T00:00:00+13:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/business/</loc>
+    <loc>https://bangtedy.rbind.io/categories/business/</loc>
     <lastmod>2020-08-10T00:00:00+13:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/business-mergers/</loc>
+    <loc>https://bangtedy.rbind.io/posts/business-mergers/</loc>
     <lastmod>2020-08-10T00:00:00+13:00</lastmod>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://bangtedy.rbind.io/about/</loc>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://bangtedy.rbind.io/contact/</loc>
   </url><url>
-    <loc>http://example.org/contact-success/</loc>
+    <loc>https://bangtedy.rbind.io/contact-success/</loc>
   </url><url>
-    <loc>http://example.org/services/</loc>
+    <loc>https://bangtedy.rbind.io/services/</loc>
   </url><url>
-    <loc>http://example.org/terms/</loc>
+    <loc>https://bangtedy.rbind.io/terms/</loc>
   </url>
 </urlset>
