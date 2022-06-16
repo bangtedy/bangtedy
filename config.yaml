@@ -1,3 +1,42 @@
 baseURL: https://bangtedy.rbind.io/
-languageCode: en-us
-title: My New Hugo Site
+buildDrafts: no
+buildFuture: no
+buildExpired: no
+relativeURLs: yes
+disableRSS: yes
+enableRobotsTXT: yes
+editor: nano
+languageCode: en
+language: en
+theme: vncnt-hugo
+title: Tedy · Landing Page
+_merge: none
+permalinks:
+  fixed: :title/
+  posts: posts/:slug/
+params:
+  author: Tedy Herlambang
+  avatar: img/avatar.png
+  bio: "Finance.  \nR."
+  contact:
+    '0':
+      icon: pen
+      link: https://bangtedy.github.io
+      name: blog
+      style: fas
+    # '1':
+    #  icon: hiking
+    #  link: https://local-hiking.club
+    #  name: hiking club
+    #  style: fas
+    email:
+      icon: envelope
+      link: mailto:bangtedy@gmail.com
+      name: email
+      style: fas
+    github: https://github.com/bangtedy
+    # instagram: https://instagram.com/bangtedy
+    twitter: https://twitter.com/t_hlb
+  description: Landing Page
+  error404: There is no such page.
+  favicon: img/favicon.ico

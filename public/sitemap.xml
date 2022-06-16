@@ -2,53 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bangtedy.rbind.io/posts/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/categories/</loc>
+    <loc>/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/posts/2020-12-01-r-rmarkdown/</loc>
+    <loc>/tags/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/tags/plot/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/categories/r/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/tags/r-markdown/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/tags/regression/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.rbind.io/tags/</loc>
+    <loc>/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/categories/property/</loc>
-    <lastmod>2020-11-11T00:00:00+13:00</lastmod>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/posts/real-estate-flipping/</loc>
-    <lastmod>2020-11-11T00:00:00+13:00</lastmod>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/categories/business/</loc>
-    <lastmod>2020-08-10T00:00:00+13:00</lastmod>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/posts/business-mergers/</loc>
-    <lastmod>2020-08-10T00:00:00+13:00</lastmod>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/about/</loc>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/contact/</loc>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/contact-success/</loc>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/services/</loc>
-  </url><url>
-    <loc>https://bangtedy.rbind.io/terms/</loc>
   </url>
 </urlset>
