@@ -16,7 +16,7 @@ permalinks:
   posts: posts/:slug/
 params:
   author: Tedy Herlambang
-  avatar: img/avatar.png
+  avatar: img/avatar.jpg
   bio: "Finance.  \nR."
   contact:
     '0':
