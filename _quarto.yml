@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Tedy Herlambang"
+  twitter-card:
+    creator: "@t_hlb"
+    card-style: summary_large_image
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/bangtedy
+      - icon: twitter
+        href: https://twitter.com/t_hlb
+format:
+  html:
+    toc: true
+    toc-location: "left"
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    mainfont: "Lato"
+    monofont: "Fira Mono"
+    footnotes-hover: true
+    fontsize: 1em
+    theme: my-litera.scss
+    css: styles.css
+
+
+

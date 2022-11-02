@@ -1,4 +1,5 @@
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2F.Rprofile="95F74E85"
+~%2FBLOG-SOURCES%2Fbangtedy-io-site%2F_quarto.yml="310E3917"
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Fconfig%2F_default%2Fconfig.yaml="226B0CBD"
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Fconfig%2F_default%2Flanguages.toml="352B4750"
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Fconfig%2F_default%2Fmenus.en.toml="3735EBC7"
@@ -6,6 +7,7 @@
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Fconfig.yaml="0B0F98C8"
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Fcontent%2Fabout%2Findex.md="8CA99E46"
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Findex.Rmd="9CB77A60"
+~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Findex.qmd="FE8DFEF4"
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Fnetlify.toml="47177D46"
 ~%2FBLOG-SOURCES%2Fbangtedy-io-site%2Fthemes%2Fjustice-hugo-template%2Fconfig.toml="E436657C"
 ~%2FBLOG-SOURCES%2Fconsole%2Fcontent%2Fabout%2Findex.md="FDB3598F"
